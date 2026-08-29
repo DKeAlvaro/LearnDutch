@@ -10,13 +10,17 @@ Stukje was a book cut into pieces. This is not a book.
 
 The product is the dataset. The app is a dumb player.
 
-One phrase on screen. English is the prompt, Dutch has a hole, chips are the answer. After a hit, swap the slot to hear variants. Next. Frequency order, not chapters.
+First open: **What do you do?** Type. Matches from a **fixed occupation list** (EN/ES aliases). You pick one. No four buttons. No “what level are you?”.
 
-No restaurant scene. No “this is the accusative”. No can-do list. If it needs an explanation, it is not in the dataset.
+Drill: English prompt. Dutch is empty slots. You build it in order from word chips (legos). Wrong chip dies. Right chip snaps in. Next.
+
+Phrases are frames × bricks. Each phrase has a **level id** (A0/A1/…). The app starts at A0 and climbs if you keep hitting; it does not ask.
+
+No restaurant scene. No grammar note. If it needs an explanation, it is not in the dataset.
 
 ## Dataset
 
-Frames with slots, filled from a frequency list (wordfreq / OpenTaal), attested against real Dutch (Tatoeba as raw material, not as the deck). Combinations generated at **build** time. Only grammatical, frequent, short. See `sources.md`.
+Lego: small frames with slots, bricks from a frequency list, cartesian product at **build** time. Only grammatical snaps. Occupation list is part of the dataset. See `sources.md` and `product.md`.
 
 Shipped as JSON + baked TTS. The phone does not call an API and does not run a model.
 

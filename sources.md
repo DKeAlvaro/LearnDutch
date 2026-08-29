@@ -22,7 +22,9 @@ https://tatoeba.org
 1. Take top-N lemmas by frequency, tagged (noun / verb / place / drink / …) plus `de`/`het`.
 2. Keep a small set of frames with one slot.
 3. Fill only matching types. Drop junk (`Ik wil de democratie` at the start).
-4. TTS every shipped sentence once. JSON + mp3 in the app.
+4. Stamp each snap with a level (`A0` / `A1` / …). Never ask the user their level; start at A0.
+5. Keep a closed **occupation list** (labels + EN/ES aliases + tags) for the typeahead.
+6. TTS every shipped sentence once. JSON + mp3 in the app.
 
 A model may propose frames or rank “sounds natural” **at build**. The APK stays a box of files.
 

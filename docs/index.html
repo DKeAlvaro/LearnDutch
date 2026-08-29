@@ -17,7 +17,7 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: "Georgia", "Times New Roman", serif;
+      font-family: Georgia, "Times New Roman", serif;
       background: #2b2924;
       color: var(--ink);
       min-height: 100dvh;
@@ -31,7 +31,7 @@
       background: var(--paper);
       display: flex;
       flex-direction: column;
-      padding: calc(16px + var(--sat)) 20px calc(16px + var(--sab));
+      padding: calc(16px + var(--sat)) 20px calc(20px + var(--sab));
     }
     .top {
       display: flex;
@@ -42,47 +42,35 @@
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 28px;
+      margin-bottom: 22px;
     }
-    .top button { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; }
-    h1 { font-size: 15px; font-weight: 600; letter-spacing: .04em; }
-    .stage { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 18px; }
-    .nl {
-      font-size: 34px;
-      line-height: 1.25;
-      font-weight: 400;
-    }
-    .nl .slot {
+    .top button { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; text-align: left; max-width: 70%; }
+    h1 { font-size: 15px; font-weight: 600; }
+    .stage { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+    .nl { font-size: 30px; line-height: 1.3; }
+    .nl .hole {
       display: inline-block;
-      min-width: 4.5ch;
+      min-width: 2.2ch;
       border-bottom: 3px solid var(--accent);
-      font-style: italic;
-      line-height: 1;
+      margin: 0 2px;
     }
-    .nl .slot.empty { color: transparent; min-width: 6ch; }
-    .alts button.no { background: transparent; color: var(--muted); border-style: dashed; }
+    .nl .hole.on { border-color: var(--ink); font-style: italic; }
     .en { font-family: system-ui, sans-serif; font-size: 16px; color: var(--muted); }
-    .alts {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      min-height: 40px;
+    .alts, .hits {
+      display: flex; flex-wrap: wrap; gap: 8px;
     }
-    .alts button, .who button, .adapt button {
+    .alts button, .hits button, .who button {
       font-family: system-ui, sans-serif;
-      font-size: 14px;
+      font-size: 15px;
       background: var(--chip);
       border: 1.5px solid var(--line);
-      padding: 8px 12px;
+      padding: 9px 12px;
       cursor: pointer;
       color: var(--ink);
     }
-    .alts button.on { background: var(--ink); color: var(--paper); }
-    .bar {
-      display: flex;
-      gap: 10px;
-      margin-top: 24px;
-    }
+    .alts button.no { color: var(--muted); border-style: dashed; background: transparent; }
+    .alts button.used { visibility: hidden; }
+    .bar { display: flex; gap: 10px; margin-top: 20px; }
     .bar button {
       font-family: system-ui, sans-serif;
       font-size: 15px;
@@ -91,209 +79,359 @@
       padding: 14px 16px;
       cursor: pointer;
     }
-    #play { background: var(--paper); width: 56px; }
-    #play.locked { color: var(--muted); }
+    #play { background: var(--paper); width: 56px; color: var(--muted); }
+    #play.ready { color: var(--ink); }
     #next { flex: 1; background: var(--ink); color: var(--paper); }
-    .who h2, .adapt p {
-      font-size: 28px;
-      line-height: 1.2;
-      margin-bottom: 20px;
+    #next:disabled { opacity: .35; }
+    .who h2 { font-size: 28px; line-height: 1.2; margin-bottom: 8px; }
+    .who input {
+      font-family: system-ui, sans-serif;
+      font-size: 18px;
+      width: 100%;
+      padding: 12px 0;
+      border: 0;
+      border-bottom: 2px solid var(--ink);
+      background: transparent;
+      color: var(--ink);
+      outline: none;
     }
-    .who .grid, .adapt .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-    }
-    .who button, .adapt button { padding: 18px 12px; font-size: 16px; text-align: left; }
-    .hint { font-family: system-ui, sans-serif; font-size: 13px; color: var(--muted); margin-top: 16px; }
-    .adapt { display: none; }
-    .adapt.on { display: block; }
-    #drill, #who { display: none; }
-    #drill.on, #who.on { display: flex; flex-direction: column; flex: 1; }
-    .count { font-variant-numeric: tabular-nums; }
+    .who input::placeholder { color: #b0a898; }
+    .hits { margin-top: 8px; max-height: 46vh; overflow: auto; }
+    .hits button { width: 100%; text-align: left; }
+    .hint { font-family: system-ui, sans-serif; font-size: 13px; color: var(--muted); margin-top: 12px; }
+    .meta { font-family: system-ui, sans-serif; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    #who, #drill { display: none; flex-direction: column; flex: 1; }
+    #who.on, #drill.on { display: flex; }
   </style>
 </head>
 <body>
   <div class="phone">
     <div id="who" class="who on">
-      <div class="top"><h1>Learn Dutch</h1><span></span></div>
+      <div class="top"><h1>Learn Dutch</h1><span class="meta" id="comboHint"></span></div>
       <div class="stage">
-        <h2>Where do you need Dutch?</h2>
-        <div class="grid">
-          <button data-who="student">Student</button>
-          <button data-who="work">Work</button>
-          <button data-who="home">Home</button>
-          <button data-who="out">Out</button>
-        </div>
-        <p class="hint">Then you fill the hole. That’s the whole app.</p>
+        <h2>What do you do?</h2>
+        <input id="jobQ" type="text" autocomplete="off" autocapitalize="off" placeholder="Type it">
+        <div class="hits" id="hits"></div>
+        <p class="hint">Type. Pick one. Everything is already in the list.</p>
       </div>
     </div>
 
     <div id="drill">
       <div class="top">
-        <button type="button" id="whoBtn">Student</button>
-        <span class="count" id="count">1 / 8</span>
+        <button type="button" id="whoBtn"></button>
+        <span id="lvl"></span>
       </div>
       <div class="stage">
-        <p class="nl" id="nl"></p>
         <p class="en" id="en"></p>
+        <p class="nl" id="nl"></p>
         <div class="alts" id="alts"></div>
       </div>
       <div class="bar">
-        <button type="button" id="play" class="locked" title="Paid">▶</button>
-        <button type="button" id="next">Next</button>
-      </div>
-    </div>
-
-    <div id="adapt" class="adapt">
-      <div class="top"><h1>Learn Dutch</h1><span></span></div>
-      <div class="stage">
-        <p>More of this?</p>
-        <div class="grid">
-          <button type="button" id="moreYes">Yes, keep this</button>
-          <button type="button" id="moreElse">Something else</button>
-        </div>
-        <p class="hint"><button type="button" id="moreSkip" style="all:unset;cursor:pointer;color:inherit;font:inherit">Skip</button></p>
+        <button type="button" id="play" title="Hear">▶</button>
+        <button type="button" id="next" disabled>Next</button>
       </div>
     </div>
   </div>
   <script>
-    const DECK = {
-      student: [
-        { nl: "Ik heb college om {slot}.", en: "I have class at {slot}.", slot: "tien", alts: ["tien","elf","twee","negen"] },
-        { nl: "Waar is de {slot}?", en: "Where is the {slot}?", slot: "bibliotheek", alts: ["bibliotheek","kantine","aula","campus"] },
-        { nl: "Ik studeer {slot}.", en: "I study {slot}.", slot: "informatica", alts: ["informatica","wiskunde","biologie","geschiedenis"] },
-        { nl: "Kun je de {slot} lenen?", en: "Can you lend me the {slot}?", slot: "reader", alts: ["reader","laptop","pen","syllabus"] },
+    const JOBS = [
+      { id: "student", label: "Student", aliases: "student estudiante uni universidad college studying estudio studie", tags: ["student"] },
+      { id: "phd", label: "PhD / researcher", aliases: "phd doctorado research investigador researcher wetenschapper", tags: ["student", "work"] },
+      { id: "intern", label: "Intern", aliases: "intern becario stage stagiair", tags: ["student", "work"] },
+      { id: "teacher", label: "Teacher", aliases: "teacher profesor profe docent leraar teacher", tags: ["work", "student"] },
+      { id: "software", label: "Software developer", aliases: "software developer programmer programador coder informatico informatica it engineer", tags: ["work"] },
+      { id: "engineer", label: "Engineer", aliases: "engineer ingeniero ingenieria werktuigbouwkunde", tags: ["work"] },
+      { id: "nurse", label: "Nurse", aliases: "nurse enfermer verpleegkundige zorg", tags: ["work", "health"] },
+      { id: "doctor", label: "Doctor", aliases: "doctor medico médico huisarts arts", tags: ["work", "health"] },
+      { id: "waiter", label: "Waiter / horeca", aliases: "waiter camarero horeca barista restaurant hosteleria", tags: ["work", "out"] },
+      { id: "chef", label: "Cook", aliases: "chef cook cocinero kok keuken", tags: ["work"] },
+      { id: "driver", label: "Driver", aliases: "driver conductor chauffeur truck", tags: ["work"] },
+      { id: "warehouse", label: "Warehouse", aliases: "warehouse almacen magazijn picker logistics logistica", tags: ["work"] },
+      { id: "cleaner", label: "Cleaner", aliases: "cleaner limpia schoonmaker", tags: ["work"] },
+      { id: "shop", label: "Shop assistant", aliases: "shop tienda cashier cajero winkel verkoper", tags: ["work", "out"] },
+      { id: "manager", label: "Manager", aliases: "manager jefe teamlead leiding", tags: ["work"] },
+      { id: "designer", label: "Designer", aliases: "designer diseñador diseño ux graphic", tags: ["work"] },
+      { id: "admin", label: "Office / admin", aliases: "admin office oficina secretaria administratie", tags: ["work"] },
+      { id: "builder", label: "Construction", aliases: "builder construction obra bouw timmerman", tags: ["work"] },
+      { id: "parent", label: "Parent / at home", aliases: "parent padre madre mama papa casa home stay", tags: ["home"] },
+      { id: "unemployed", label: "Looking for work", aliases: "unemployed paro werkloos job busco trabajo", tags: ["work", "out"] },
+      { id: "inburgering", label: "Inburgering", aliases: "inburgering nt2 examen integracion civic", tags: ["out", "home"] },
+      { id: "retired", label: "Retired", aliases: "retired jubilado pensioen", tags: ["home", "out"] },
+      { id: "au_pair", label: "Au pair", aliases: "au pair aupair nanny canguro", tags: ["home"] },
+      { id: "expat", label: "Just moved here", aliases: "expat moved mudanza nieuw arriver", tags: ["out", "home"] },
+    ];
+
+    const BRICKS = {
+      drink: [
+        { nl: "koffie", en: "coffee", tags: ["home", "out", "work"], level: "A0" },
+        { nl: "thee", en: "tea", tags: ["home", "work"], level: "A0" },
+        { nl: "water", en: "water", tags: ["home", "out"], level: "A0" },
+        { nl: "bier", en: "beer", tags: ["out"], level: "A0" },
       ],
-      work: [
-        { nl: "Ik werk tot {slot}.", en: "I work until {slot}.", slot: "vijf", alts: ["vijf","zes","vier","acht"] },
-        { nl: "Waar is de {slot}?", en: "Where is the {slot}?", slot: "vergadering", alts: ["vergadering","kantine","lift","printer"] },
-        { nl: "Ik stuur de {slot}.", en: "I am sending the {slot}.", slot: "mail", alts: ["mail","factuur","agenda","link"] },
+      food: [
+        { nl: "brood", en: "bread", tags: ["home", "out"], level: "A0" },
+        { nl: "kaas", en: "cheese", tags: ["home"], level: "A0" },
+        { nl: "een broodje", en: "a sandwich", tags: ["out", "work", "student"], level: "A0" },
       ],
-      home: [
-        { nl: "Ik wil {slot}.", en: "I want {slot}.", slot: "koffie", alts: ["koffie","thee","water","brood"] },
-        { nl: "De {slot} is open.", en: "The {slot} is open.", slot: "winkel", alts: ["winkel","keuken","deur","koelkast"] },
-        { nl: "Ik ga naar {slot}.", en: "I am going to {slot}.", slot: "huis", alts: ["huis","bed","keuken","buiten"] },
+      place: [
+        { nl: "huis", en: "home", article: null, tags: ["home"], level: "A0" },
+        { nl: "werk", en: "work", article: null, tags: ["work"], level: "A0" },
+        { nl: "kantine", en: "canteen", article: "de", tags: ["work", "student"], level: "A0" },
+        { nl: "bibliotheek", en: "library", article: "de", tags: ["student"], level: "A0" },
+        { nl: "winkel", en: "shop", article: "de", tags: ["out", "home"], level: "A0" },
+        { nl: "station", en: "station", article: "het", tags: ["out"], level: "A0" },
+        { nl: "campus", en: "campus", article: "de", tags: ["student"], level: "A1" },
+        { nl: "vergadering", en: "meeting", article: "de", tags: ["work"], level: "A1" },
       ],
-      out: [
-        { nl: "Ik wil {slot}.", en: "I want {slot}.", slot: "koffie", alts: ["koffie","thee","water","bier"] },
-        { nl: "Een {slot}, alstublieft.", en: "A {slot}, please.", slot: "kaartje", alts: ["kaartje","broodje","biertje","koffie"] },
-        { nl: "Hoe laat gaat de {slot}?", en: "What time does the {slot} leave?", slot: "bus", alts: ["bus","trein","tram","veerboot"] },
+      time: [
+        { nl: "tien", en: "ten", tags: ["student", "work"], level: "A0" },
+        { nl: "twee", en: "two", tags: ["student", "work"], level: "A0" },
+        { nl: "vijf", en: "five", tags: ["work"], level: "A0" },
+        { nl: "acht", en: "eight", tags: ["work", "home"], level: "A0" },
+      ],
+      subject: [
+        { nl: "informatica", en: "computer science", tags: ["student"], level: "A1" },
+        { nl: "wiskunde", en: "maths", tags: ["student"], level: "A1" },
+        { nl: "Nederlands", en: "Dutch", tags: ["student", "inburgering"], level: "A0" },
+      ],
+      thing: [
+        { nl: "laptop", en: "laptop", article: "de", tags: ["student", "work"], level: "A0" },
+        { nl: "mail", en: "email", article: "de", tags: ["work"], level: "A0" },
+        { nl: "sleutel", en: "key", article: "de", tags: ["home"], level: "A0" },
+        { nl: "pas", en: "pass", article: "de", tags: ["student", "work", "out"], level: "A1" },
       ],
     };
+
+    const FRAMES = [
+      { id: "wil", level: "A0", tags: ["home", "out", "work", "student"],
+        parts: ["Ik", "wil", "{drink}"], en: "I want {drink}." },
+      { id: "ga_naar", level: "A0", tags: ["home", "out", "work", "student"],
+        parts: ["Ik", "ga", "naar", "{place}"], en: "I am going to {place}." },
+      { id: "waar_is", level: "A0", tags: ["out", "work", "student", "home"],
+        parts: ["Waar", "is", "{place}"], en: "Where is {place}?" },
+      { id: "heb_om", level: "A1", tags: ["student", "work"],
+        parts: ["Ik", "heb", "het", "om", "{time}"], en: "I have it at {time}." },
+      { id: "werk_tot", level: "A1", tags: ["work"],
+        parts: ["Ik", "werk", "tot", "{time}"], en: "I work until {time}." },
+      { id: "studeer", level: "A1", tags: ["student"],
+        parts: ["Ik", "studeer", "{subject}"], en: "I study {subject}." },
+      { id: "dit_is", level: "A0", tags: ["home", "work", "student"],
+        parts: ["Dit", "is", "mijn", "{thing}"], en: "This is my {thing}." },
+      { id: "wil_eten", level: "A0", tags: ["home", "out"],
+        parts: ["Ik", "wil", "{food}"], en: "I want {food}." },
+    ];
+
+    const RANK = { A0: 0, A1: 1, A2: 2 };
+
+    function slotName(tok) {
+      const m = /^\{(\w+)\}[.?]?$/.exec(tok);
+      return m ? m[1] : null;
+    }
+    function withArticle(brick, frameId) {
+      if (!brick.article) return brick.nl;
+      if (frameId === "ga_naar" || frameId === "waar_is") return brick.article + " " + brick.nl;
+      return brick.nl;
+    }
+    function explode() {
+      const out = [];
+      for (const f of FRAMES) {
+        const slots = f.parts.map(slotName);
+        const keys = [...new Set(slots.filter(Boolean))];
+        if (!keys.length) continue;
+        function rec(i, picked, tags, level) {
+          if (i === keys.length) {
+            const parts = f.parts.map((tok) => {
+              const k = slotName(tok);
+              if (!k) return tok.replace("?", "");
+              const br = picked[k];
+              const word = withArticle(br, f.id);
+              return tok.includes("?") ? word + "?" : word;
+            });
+            let en = f.en;
+            keys.forEach((k) => { en = en.replace("{" + k + "}", picked[k].en); });
+            let words = parts.flatMap((p) => p.split(" "));
+            if (f.id === "waar_is") words[words.length - 1] += "?";
+            out.push({
+              id: f.id + "__" + keys.map((k) => picked[k].nl).join("_"),
+              frame: f.id,
+              level: level,
+              tags: [...new Set(tags)],
+              en,
+              parts: words,
+            });
+            return;
+          }
+          const k = keys[i];
+          for (const br of BRICKS[k]) {
+            rec(i + 1, { ...picked, [k]: br }, tags.concat(br.tags, f.tags),
+              RANK[br.level] > RANK[f.level] ? br.level : f.level);
+          }
+        }
+        rec(0, {}, f.tags.slice(), f.level);
+      }
+      return out;
+    }
+
+    const ALL = explode();
+    document.getElementById("comboHint").textContent = ALL.length + " phrases";
 
     const whoEl = document.getElementById("who");
     const drillEl = document.getElementById("drill");
-    const adaptEl = document.getElementById("adapt");
+    const hitsEl = document.getElementById("hits");
+    const jobQ = document.getElementById("jobQ");
     const nlEl = document.getElementById("nl");
     const enEl = document.getElementById("en");
     const altsEl = document.getElementById("alts");
-    const countEl = document.getElementById("count");
     const whoBtn = document.getElementById("whoBtn");
+    const lvlEl = document.getElementById("lvl");
     const playBtn = document.getElementById("play");
     const nextBtn = document.getElementById("next");
-    let who = "student";
-    let i = 0;
-    let seen = 0;
-    let paid = false;
-    let answered = false;
-    let picked = null;
-    let order = [];
 
-    function card() {
-      const pack = DECK[who];
-      return pack[i % pack.length];
+    let job = null;
+    let cap = "A0";
+    let streak = 0;
+    let pool = [];
+    let ix = 0;
+    let built = [];
+    let bag = [];
+    let paid = false;
+
+    function norm(s) { return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+    function filterJobs(q) {
+      q = norm(q.trim());
+      const scored = JOBS.map((j) => {
+        const blob = norm(j.label + " " + j.aliases);
+        let s = 0;
+        if (!q) s = 1;
+        else if (norm(j.label).startsWith(q)) s = 3;
+        else if (blob.split(" ").some((w) => w.startsWith(q))) s = 2;
+        else if (blob.includes(q)) s = 1;
+        return { j, s };
+      }).filter((x) => x.s);
+      scored.sort((a, b) => b.s - a.s);
+      return scored.slice(0, 8).map((x) => x.j);
     }
-    function shuffle(arr) {
-      const a = arr.slice();
-      for (let k = a.length - 1; k > 0; k--) {
-        const j = Math.floor(Math.random() * (k + 1));
-        [a[k], a[j]] = [a[j], a[k]];
+    function renderHits() {
+      const list = filterJobs(jobQ.value);
+      hitsEl.innerHTML = "";
+      list.forEach((j) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.textContent = j.label;
+        b.onclick = () => pickJob(j);
+        hitsEl.appendChild(b);
+      });
+    }
+    function pickJob(j) {
+      job = j;
+      cap = "A0";
+      streak = 0;
+      rebuildPool();
+      ix = 0;
+      whoEl.classList.remove("on");
+      drillEl.classList.add("on");
+      whoBtn.textContent = j.label;
+      deal();
+    }
+    function rebuildPool() {
+      const tags = new Set(job.tags);
+      const ranked = ALL.filter((s) => RANK[s.level] <= RANK[cap]);
+      const hit = ranked.filter((s) => s.tags.some((t) => tags.has(t)));
+      pool = (hit.length ? hit : ranked).slice();
+      for (let i = pool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pool[i], pool[j]] = [pool[j], pool[i]];
       }
-      return a;
+    }
+    function card() { return pool[ix % pool.length]; }
+    function distractors(parts) {
+      const have = new Set(parts);
+      const extra = [];
+      const words = ALL.flatMap((s) => s.parts);
+      let guard = 0;
+      while (extra.length < 3 && guard < 80) {
+        const w = words[Math.floor(Math.random() * words.length)];
+        if (!have.has(w) && !extra.includes(w)) extra.push(w);
+        guard++;
+      }
+      return extra;
+    }
+    function shuffle(a) {
+      const x = a.slice();
+      for (let i = x.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [x[i], x[j]] = [x[j], x[i]];
+      }
+      return x;
     }
     function deal() {
-      answered = false;
-      picked = null;
-      order = shuffle(card().alts);
-      nextBtn.disabled = true;
-      nextBtn.style.opacity = ".35";
-    }
-    function render() {
       const c = card();
-      const pack = DECK[who];
-      const show = answered ? (picked || c.slot) : "";
-      const slotClass = show ? "slot" : "slot empty";
-      nlEl.innerHTML = c.nl.replace("{slot}", `<span class="${slotClass}">${show || "xx"}</span>`);
-      enEl.textContent = c.en.replace("{slot}", c.slot);
+      built = [];
+      bag = shuffle(c.parts.concat(distractors(c.parts)));
+      nextBtn.disabled = true;
+      playBtn.classList.remove("ready");
+      draw();
+    }
+    function draw() {
+      const c = card();
+      enEl.textContent = c.en;
+      lvlEl.textContent = c.level + " · " + (ix % pool.length + 1) + "/" + pool.length;
+      const holes = c.parts.map((w, n) => {
+        if (n < built.length) return `<span class="hole on">${built[n]}</span>`;
+        return `<span class="hole">&nbsp;</span>`;
+      }).join(" ");
+      nlEl.innerHTML = holes;
       altsEl.innerHTML = "";
-      order.forEach((w) => {
+      bag.forEach((w, n) => {
         const b = document.createElement("button");
+        b.type = "button";
         b.textContent = w;
-        if (answered && w === picked) b.className = "on";
-        if (answered && w !== c.slot && w !== picked) b.className = "no";
-        b.onclick = () => {
-          if (!answered) {
-            picked = w;
-            answered = w === c.slot;
-            if (!answered) {
-              b.className = "no";
-              picked = null;
-              return;
-            }
-            nextBtn.disabled = false;
-            nextBtn.style.opacity = "1";
-            render();
-            return;
-          }
-          picked = w;
-          render();
-        };
+        if (w === "") { b.className = "used"; b.disabled = true; }
+        b.onclick = () => tap(n);
         altsEl.appendChild(b);
       });
-      countEl.textContent = `${(i % pack.length) + 1} / ${pack.length}`;
-      whoBtn.textContent = who;
     }
-    function showDrill() {
-      whoEl.classList.remove("on");
-      adaptEl.classList.remove("on");
-      drillEl.classList.add("on");
-      deal();
-      render();
+    function tap(n) {
+      const c = card();
+      const w = bag[n];
+      if (!w) return;
+      const need = c.parts[built.length];
+      if (w !== need) {
+        altsEl.children[n].classList.add("no");
+        streak = 0;
+        return;
+      }
+      built.push(w);
+      bag[n] = "";
+      if (built.length === c.parts.length) {
+        nextBtn.disabled = false;
+        playBtn.classList.add("ready");
+        streak += 1;
+        if (streak >= 4 && cap === "A0") {
+          cap = "A1";
+          rebuildPool();
+        }
+      }
+      draw();
     }
-    document.querySelectorAll("[data-who]").forEach((b) => {
-      b.onclick = () => { who = b.dataset.who; i = 0; seen = 0; showDrill(); };
-    });
+    jobQ.addEventListener("input", renderHits);
+    jobQ.addEventListener("focus", renderHits);
     whoBtn.onclick = () => {
       drillEl.classList.remove("on");
       whoEl.classList.add("on");
+      jobQ.value = "";
+      renderHits();
+      jobQ.focus();
     };
     nextBtn.onclick = () => {
-      if (!answered) return;
-      i += 1;
-      seen += 1;
-      if (seen > 0 && seen % 4 === 0) {
-        drillEl.classList.remove("on");
-        adaptEl.classList.add("on");
-        return;
-      }
+      if (built.length !== card().parts.length) return;
+      ix += 1;
       deal();
-      render();
     };
     playBtn.onclick = () => {
-      if (!answered) return;
-      if (!paid) {
-        paid = true;
-        playBtn.classList.remove("locked");
-        playBtn.title = "Unlocked (mock)";
-      }
+      if (built.length !== card().parts.length) return;
+      if (!paid) paid = true;
     };
-    document.getElementById("moreYes").onclick = showDrill;
-    document.getElementById("moreElse").onclick = () => {
-      adaptEl.classList.remove("on");
-      whoEl.classList.add("on");
-    };
-    document.getElementById("moreSkip").onclick = showDrill;
+    renderHits();
   </script>
 </body>
 </html>
