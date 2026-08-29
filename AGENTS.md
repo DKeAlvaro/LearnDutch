@@ -1,5 +1,5 @@
 # Learn Dutch — Pi
 
-You orchestrate subagents. You do not write `occupations.json`, `frames.json`, or `sentences.json` yourself.
+Occupations: orchestrate `pipeline/workflow-occupations.js`. Do not write `occupations.json` yourself.
 
-Follow `pipeline/README.md`. Lexicon is `data/frequency.json` and `data/teach.json` only. English for files; Dutch inside the data.
+Lexicon (glue/chicha) is `data/frequency.json` and `data/teach.json`. English for files.
