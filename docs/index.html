@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Learn Dutch — mock</title>
+  <style>
+    :root {
+      --paper: #f4efe6;
+      --ink: #1a1814;
+      --muted: #6f685c;
+      --line: #1a1814;
+      --chip: #fff;
+      --accent: #c43c2c;
+      --sat: env(safe-area-inset-top, 0px);
+      --sab: env(safe-area-inset-bottom, 0px);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Georgia", "Times New Roman", serif;
+      background: #2b2924;
+      color: var(--ink);
+      min-height: 100dvh;
+      display: flex;
+      justify-content: center;
+    }
+    .phone {
+      width: 100%;
+      max-width: 390px;
+      min-height: 100dvh;
+      background: var(--paper);
+      display: flex;
+      flex-direction: column;
+      padding: calc(16px + var(--sat)) 20px calc(16px + var(--sab));
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-family: system-ui, sans-serif;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .top button { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; letter-spacing: inherit; text-transform: inherit; }
+    h1 { font-size: 15px; font-weight: 600; letter-spacing: .04em; }
+    .stage { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 18px; }
+    .nl {
+      font-size: 34px;
+      line-height: 1.25;
+      font-weight: 400;
+    }
+    .nl .slot {
+      display: inline;
+      border-bottom: 3px solid var(--accent);
+      cursor: pointer;
+      font-style: italic;
+    }
+    .en { font-family: system-ui, sans-serif; font-size: 16px; color: var(--muted); }
+    .alts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      min-height: 40px;
+    }
+    .alts button, .who button, .adapt button {
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      background: var(--chip);
+      border: 1.5px solid var(--line);
+      padding: 8px 12px;
+      cursor: pointer;
+      color: var(--ink);
+    }
+    .alts button.on { background: var(--ink); color: var(--paper); }
+    .bar {
+      display: flex;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .bar button {
+      font-family: system-ui, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      border: 1.5px solid var(--line);
+      padding: 14px 16px;
+      cursor: pointer;
+    }
+    #play { background: var(--paper); width: 56px; }
+    #play.locked { color: var(--muted); }
+    #next { flex: 1; background: var(--ink); color: var(--paper); }
+    .who h2, .adapt p {
+      font-size: 28px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .who .grid, .adapt .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .who button, .adapt button { padding: 18px 12px; font-size: 16px; text-align: left; }
+    .hint { font-family: system-ui, sans-serif; font-size: 13px; color: var(--muted); margin-top: 16px; }
+    .adapt { display: none; }
+    .adapt.on { display: block; }
+    #drill, #who { display: none; }
+    #drill.on, #who.on { display: flex; flex-direction: column; flex: 1; }
+    .count { font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div id="who" class="who on">
+      <div class="top"><h1>Learn Dutch</h1><span></span></div>
+      <div class="stage">
+        <h2>Where do you need Dutch?</h2>
+        <div class="grid">
+          <button data-who="student">Student</button>
+          <button data-who="work">Work</button>
+          <button data-who="home">Home</button>
+          <button data-who="out">Out</button>
+        </div>
+        <p class="hint">Three taps. Then you just drill. Change it later.</p>
+      </div>
+    </div>
+
+    <div id="drill">
+      <div class="top">
+        <button type="button" id="whoBtn">Student</button>
+        <span class="count" id="count">1 / 8</span>
+      </div>
+      <div class="stage">
+        <p class="nl" id="nl"></p>
+        <p class="en" id="en"></p>
+        <div class="alts" id="alts"></div>
+      </div>
+      <div class="bar">
+        <button type="button" id="play" class="locked" title="Paid">▶</button>
+        <button type="button" id="next">Next</button>
+      </div>
+    </div>
+
+    <div id="adapt" class="adapt">
+      <div class="top"><h1>Learn Dutch</h1><span></span></div>
+      <div class="stage">
+        <p>More of this?</p>
+        <div class="grid">
+          <button type="button" id="moreYes">Yes, keep this</button>
+          <button type="button" id="moreElse">Something else</button>
+        </div>
+        <p class="hint"><button type="button" id="moreSkip" style="all:unset;cursor:pointer;color:inherit;font:inherit">Skip</button></p>
+      </div>
+    </div>
+  </div>
+  <script>
+    const DECK = {
+      student: [
+        { nl: "Ik heb college om {slot}.", en: "I have class at {slot}.", slot: "tien", alts: ["tien","elf","twee","negen"] },
+        { nl: "Waar is de {slot}?", en: "Where is the {slot}?", slot: "bibliotheek", alts: ["bibliotheek","kantine","aula","campus"] },
+        { nl: "Ik studeer {slot}.", en: "I study {slot}.", slot: "informatica", alts: ["informatica","wiskunde","biologie","geschiedenis"] },
+        { nl: "Kun je de {slot} lenen?", en: "Can you lend me the {slot}?", slot: "reader", alts: ["reader","laptop","pen","syllabus"] },
+      ],
+      work: [
+        { nl: "Ik werk tot {slot}.", en: "I work until {slot}.", slot: "vijf", alts: ["vijf","zes","vier","acht"] },
+        { nl: "Waar is de {slot}?", en: "Where is the {slot}?", slot: "vergadering", alts: ["vergadering","kantine","lift","printer"] },
+        { nl: "Ik stuur de {slot}.", en: "I am sending the {slot}.", slot: "mail", alts: ["mail","factuur","agenda","link"] },
+      ],
+      home: [
+        { nl: "Ik wil {slot}.", en: "I want {slot}.", slot: "koffie", alts: ["koffie","thee","water","brood"] },
+        { nl: "De {slot} is open.", en: "The {slot} is open.", slot: "winkel", alts: ["winkel","keuken","deur","koelkast"] },
+        { nl: "Ik ga naar {slot}.", en: "I am going to {slot}.", slot: "huis", alts: ["huis","bed","keuken","buiten"] },
+      ],
+      out: [
+        { nl: "Ik wil {slot}.", en: "I want {slot}.", slot: "koffie", alts: ["koffie","thee","water","bier"] },
+        { nl: "Een {slot}, alstublieft.", en: "A {slot}, please.", slot: "kaartje", alts: ["kaartje","broodje","biertje","koffie"] },
+        { nl: "Hoe laat gaat de {slot}?", en: "What time does the {slot} leave?", slot: "bus", alts: ["bus","trein","tram","veerboot"] },
+      ],
+    };
+
+    const whoEl = document.getElementById("who");
+    const drillEl = document.getElementById("drill");
+    const adaptEl = document.getElementById("adapt");
+    const nlEl = document.getElementById("nl");
+    const enEl = document.getElementById("en");
+    const altsEl = document.getElementById("alts");
+    const countEl = document.getElementById("count");
+    const whoBtn = document.getElementById("whoBtn");
+    const playBtn = document.getElementById("play");
+    let who = "student";
+    let i = 0;
+    let seen = 0;
+    let paid = false;
+
+    function card() {
+      const pack = DECK[who];
+      return pack[i % pack.length];
+    }
+    function render() {
+      const c = card();
+      const pack = DECK[who];
+      nlEl.innerHTML = c.nl.replace("{slot}", `<span class="slot" id="slot">${c.slot}</span>`);
+      enEl.textContent = c.en.replace("{slot}", c.slot);
+      altsEl.innerHTML = "";
+      c.alts.forEach((w) => {
+        const b = document.createElement("button");
+        b.textContent = w;
+        if (w === c.slot) b.className = "on";
+        b.onclick = () => {
+          c.slot = w;
+          render();
+        };
+        altsEl.appendChild(b);
+      });
+      countEl.textContent = `${(i % pack.length) + 1} / ${pack.length}`;
+      whoBtn.textContent = who;
+    }
+    function showDrill() {
+      whoEl.classList.remove("on");
+      adaptEl.classList.remove("on");
+      drillEl.classList.add("on");
+      render();
+    }
+    document.querySelectorAll("[data-who]").forEach((b) => {
+      b.onclick = () => { who = b.dataset.who; i = 0; showDrill(); };
+    });
+    whoBtn.onclick = () => {
+      drillEl.classList.remove("on");
+      whoEl.classList.add("on");
+    };
+    document.getElementById("next").onclick = () => {
+      i += 1;
+      seen += 1;
+      if (seen > 0 && seen % 4 === 0) {
+        drillEl.classList.remove("on");
+        adaptEl.classList.add("on");
+        return;
+      }
+      render();
+    };
+    playBtn.onclick = () => {
+      if (!paid) {
+        paid = true;
+        playBtn.classList.remove("locked");
+        playBtn.textContent = "▶";
+        playBtn.title = "Unlocked (mock)";
+        return;
+      }
+    };
+    document.getElementById("moreYes").onclick = showDrill;
+    document.getElementById("moreElse").onclick = () => {
+      adaptEl.classList.remove("on");
+      whoEl.classList.add("on");
+    };
+    document.getElementById("moreSkip").onclick = showDrill;
+  </script>
+</body>
+</html>

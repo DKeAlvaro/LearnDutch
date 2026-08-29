@@ -36,6 +36,9 @@ Shipped as JSON + baked TTS. The phone does not call an API and does not run a m
 
 If another language later: another app, another name.
 
+How it looks, the loop, JSON, Android stack: `product.md`.
+Mock (tap it): https://dkealvaro.github.io/LearnDutch/
+
 ## Where
 
 `/root/LearnDutch` · `DKeAlvaro/LearnDutch`. Stukje stays a format prototype, not this product.
