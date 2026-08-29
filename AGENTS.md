@@ -1,5 +1,3 @@
-# Learn Dutch — Pi
+# Learn Dutch
 
-Occupations: orchestrate `pipeline/workflow-occupations.js`. Do not write `occupations.json` yourself.
-
-Lexicon (glue/chicha) is `data/frequency.json` and `data/teach.json`. English for files.
+Web mock: `docs/`. No dataset pipeline in this repo.
