@@ -138,6 +138,115 @@
 
     const RANK = { A0: 0, A1: 1, A2: 2 };
 
+    const BRICKS = {
+      drink: [
+        { nl: "koffie", en: "coffee", tags: ["home", "out", "work"], level: "A0" },
+        { nl: "thee", en: "tea", tags: ["home", "work"], level: "A0" },
+        { nl: "water", en: "water", tags: ["home", "out"], level: "A0" },
+        { nl: "bier", en: "beer", tags: ["out"], level: "A0" },
+      ],
+      food: [
+        { nl: "brood", en: "bread", tags: ["home", "out"], level: "A0" },
+        { nl: "kaas", en: "cheese", tags: ["home"], level: "A0" },
+        { nl: "een broodje", en: "a sandwich", tags: ["out", "work", "student"], level: "A0" },
+      ],
+      place: [
+        { nl: "huis", en: "home", article: null, tags: ["home"], level: "A0" },
+        { nl: "werk", en: "work", article: null, tags: ["work"], level: "A0" },
+        { nl: "kantine", en: "canteen", article: "de", tags: ["work", "student"], level: "A0" },
+        { nl: "bibliotheek", en: "library", article: "de", tags: ["student"], level: "A0" },
+        { nl: "winkel", en: "shop", article: "de", tags: ["out", "home"], level: "A0" },
+        { nl: "station", en: "station", article: "het", tags: ["out"], level: "A0" },
+        { nl: "campus", en: "campus", article: "de", tags: ["student"], level: "A1" },
+        { nl: "vergadering", en: "meeting", article: "de", tags: ["work"], level: "A1" },
+      ],
+      time: [
+        { nl: "tien", en: "ten", tags: ["student", "work"], level: "A0" },
+        { nl: "twee", en: "two", tags: ["student", "work"], level: "A0" },
+        { nl: "vijf", en: "five", tags: ["work"], level: "A0" },
+        { nl: "acht", en: "eight", tags: ["work", "home"], level: "A0" },
+      ],
+      subject: [
+        { nl: "informatica", en: "computer science", tags: ["student"], level: "A1" },
+        { nl: "wiskunde", en: "maths", tags: ["student"], level: "A1" },
+        { nl: "Nederlands", en: "Dutch", tags: ["student", "inburgering"], level: "A0" },
+      ],
+      thing: [
+        { nl: "laptop", en: "laptop", article: "de", tags: ["student", "work"], level: "A0" },
+        { nl: "mail", en: "email", article: "de", tags: ["work"], level: "A0" },
+        { nl: "sleutel", en: "key", article: "de", tags: ["home"], level: "A0" },
+        { nl: "pas", en: "pass", article: "de", tags: ["student", "work", "out"], level: "A1" },
+      ],
+    };
+
+    const FRAMES = [
+      { id: "wil", level: "A0", tags: ["home", "out", "work", "student"],
+        parts: ["Ik", "wil", "{drink}"], en: "I want {drink}." },
+      { id: "ga_naar", level: "A0", tags: ["home", "out", "work", "student"],
+        parts: ["Ik", "ga", "naar", "{place}"], en: "I am going to {place}." },
+      { id: "waar_is", level: "A0", tags: ["out", "work", "student", "home"],
+        parts: ["Waar", "is", "{place}"], en: "Where is {place}?" },
+      { id: "heb_om", level: "A1", tags: ["student", "work"],
+        parts: ["Ik", "heb", "het", "om", "{time}"], en: "I have it at {time}." },
+      { id: "werk_tot", level: "A1", tags: ["work"],
+        parts: ["Ik", "werk", "tot", "{time}"], en: "I work until {time}." },
+      { id: "studeer", level: "A1", tags: ["student"],
+        parts: ["Ik", "studeer", "{subject}"], en: "I study {subject}." },
+      { id: "dit_is", level: "A0", tags: ["home", "work", "student"],
+        parts: ["Dit", "is", "mijn", "{thing}"], en: "This is my {thing}." },
+      { id: "wil_eten", level: "A0", tags: ["home", "out"],
+        parts: ["Ik", "wil", "{food}"], en: "I want {food}." },
+    ];
+
+    function slotName(tok) {
+      const m = /^\{(\w+)\}[.?]?$/.exec(tok);
+      return m ? m[1] : null;
+    }
+    function withArticle(brick, frameId) {
+      if (!brick.article) return brick.nl;
+      if (frameId === "ga_naar" || frameId === "waar_is") return brick.article + " " + brick.nl;
+      return brick.nl;
+    }
+    function explode() {
+      const out = [];
+      for (const f of FRAMES) {
+        const slots = f.parts.map(slotName);
+        const keys = [...new Set(slots.filter(Boolean))];
+        if (!keys.length) continue;
+        function rec(i, picked, tags, level) {
+          if (i === keys.length) {
+            const parts = f.parts.map((tok) => {
+              const k = slotName(tok);
+              if (!k) return tok.replace("?", "");
+              const br = picked[k];
+              const word = withArticle(br, f.id);
+              return tok.includes("?") ? word + "?" : word;
+            });
+            let en = f.en;
+            keys.forEach((k) => { en = en.replace("{" + k + "}", picked[k].en); });
+            let words = parts.flatMap((p) => p.split(" "));
+            if (f.id === "waar_is") words[words.length - 1] += "?";
+            out.push({
+              id: f.id + "__" + keys.map((k) => picked[k].nl).join("_"),
+              frame: f.id,
+              level: level,
+              tags: [...new Set(tags)],
+              en,
+              parts: words,
+            });
+            return;
+          }
+          const k = keys[i];
+          for (const br of BRICKS[k]) {
+            rec(i + 1, { ...picked, [k]: br }, tags.concat(br.tags, f.tags),
+              RANK[br.level] > RANK[f.level] ? br.level : f.level);
+          }
+        }
+        rec(0, {}, f.tags.slice(), f.level);
+      }
+      return out;
+    }
+
     function bootHint() {
       document.getElementById("comboHint").textContent = JOBS.length + " jobs · " + ALL.length + " phrases";
       const h = document.getElementById("jobHint");
@@ -304,15 +413,12 @@
       if (!paid) paid = true;
     };
     async function boot() {
-      const [jobs, sents] = await Promise.all([
-        fetch("occupations.json").then((r) => r.json()),
-        fetch("sentences.json").then((r) => r.json()),
-      ]);
+      const jobs = await fetch("occupations.json").then((r) => r.json());
       JOBS = (Array.isArray(jobs) ? jobs : []).map((j) => ({
         ...j,
         aliases: Array.isArray(j.aliases) ? j.aliases.join(" ") : (j.aliases || ""),
       }));
-      ALL = Array.isArray(sents) ? sents : [];
+      ALL = explode();
       bootHint();
       renderHits();
     }
