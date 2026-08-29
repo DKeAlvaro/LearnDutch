@@ -1,0 +1,13 @@
+{
+  "id": "f11",
+  "n": 30,
+  "level": "A0",
+  "tags": [
+    "student",
+    "home"
+  ],
+  "slots": [
+    "{noun}",
+    "{adj}"
+  ]
+}

@@ -3,15 +3,15 @@
   "n": 42,
   "level": "A0",
   "tags": [
-    "home"
+    "home",
+    "work"
   ],
-  "theme": "home: food drink kitchen",
   "frames": [
     "ik_wil",
     "ik_heb",
-    "ik_koop",
-    "er_is",
-    "een_alsjeblieft"
+    "ik_zie",
+    "waar_is",
+    "dit_is_mijn"
   ],
   "nouns": [
     {
@@ -277,6 +277,14 @@
       "freq_rank": 284,
       "ud_count": 66,
       "article": "het"
+    },
+    {
+      "nl": "gebruik",
+      "pos": "noun",
+      "zipf": 5.5,
+      "freq_rank": 297,
+      "ud_count": 74,
+      "article": "het"
     }
   ],
   "verbs": [
@@ -363,6 +371,20 @@
       "zipf": 5.71,
       "freq_rank": 190,
       "ud_count": 393
+    },
+    {
+      "nl": "zeggen",
+      "pos": "verb",
+      "zipf": 5.71,
+      "freq_rank": 191,
+      "ud_count": 419
+    },
+    {
+      "nl": "houden",
+      "pos": "verb",
+      "zipf": 5.67,
+      "freq_rank": 206,
+      "ud_count": 288
     }
   ],
   "adjs": [
@@ -421,6 +443,13 @@
       "zipf": 5.74,
       "freq_rank": 170,
       "ud_count": 198
+    },
+    {
+      "nl": "nodig",
+      "pos": "adj",
+      "zipf": 5.73,
+      "freq_rank": 178,
+      "ud_count": 82
     }
   ]
 }

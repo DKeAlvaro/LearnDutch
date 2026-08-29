@@ -1,35 +1,19 @@
 {
   "id": "s03",
   "n": 42,
-  "level": "A0",
+  "level": "A1",
   "tags": [
-    "out"
+    "out",
+    "work"
   ],
-  "theme": "out: cafe shop street",
   "frames": [
-    "ik_wil",
-    "een_alsjeblieft",
-    "ik_koop",
-    "ik_neem",
-    "waar_is"
+    "ik_woon_in",
+    "ik_werk_tot",
+    "ik_studeer",
+    "kun_je",
+    "ik_moet_naar"
   ],
   "nouns": [
-    {
-      "nl": "miljoen",
-      "pos": "noun",
-      "zipf": 5.33,
-      "freq_rank": 436,
-      "ud_count": 132,
-      "article": "het"
-    },
-    {
-      "nl": "nummer",
-      "pos": "noun",
-      "zipf": 5.32,
-      "freq_rank": 446,
-      "ud_count": 108,
-      "article": "het"
-    },
     {
       "nl": "partij",
       "pos": "noun",
@@ -277,150 +261,195 @@
       "freq_rank": 549,
       "ud_count": 88,
       "article": "de"
+    },
+    {
+      "nl": "vorm",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 551,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "woord",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 552,
+      "ud_count": 112,
+      "article": "het"
+    },
+    {
+      "nl": "buurt",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 555,
+      "ud_count": 27,
+      "article": "de"
     }
   ],
   "verbs": [
     {
-      "nl": "willen",
+      "nl": "horen",
       "pos": "verb",
-      "zipf": 5.81,
-      "freq_rank": 146,
-      "ud_count": 539
+      "zipf": 5.38,
+      "freq_rank": 384,
+      "ud_count": 110
     },
     {
-      "nl": "geven",
+      "nl": "zetten",
       "pos": "verb",
-      "zipf": 5.75,
-      "freq_rank": 163,
-      "ud_count": 348
+      "zipf": 5.37,
+      "freq_rank": 396,
+      "ud_count": 79
     },
     {
-      "nl": "vinden",
+      "nl": "wachten",
       "pos": "verb",
-      "zipf": 5.75,
-      "freq_rank": 167,
-      "ud_count": 314
+      "zipf": 5.36,
+      "freq_rank": 404,
+      "ud_count": 49
     },
     {
-      "nl": "weten",
+      "nl": "lopen",
       "pos": "verb",
-      "zipf": 5.73,
-      "freq_rank": 182,
-      "ud_count": 255
-    },
-    {
-      "nl": "krijgen",
-      "pos": "verb",
-      "zipf": 5.72,
-      "freq_rank": 184,
-      "ud_count": 429
-    },
-    {
-      "nl": "staan",
-      "pos": "verb",
-      "zipf": 5.71,
-      "freq_rank": 190,
-      "ud_count": 393
-    },
-    {
-      "nl": "zeggen",
-      "pos": "verb",
-      "zipf": 5.71,
-      "freq_rank": 191,
-      "ud_count": 419
-    },
-    {
-      "nl": "houden",
-      "pos": "verb",
-      "zipf": 5.67,
-      "freq_rank": 206,
-      "ud_count": 288
-    },
-    {
-      "nl": "blijven",
-      "pos": "verb",
-      "zipf": 5.66,
-      "freq_rank": 208,
-      "ud_count": 346
-    },
-    {
-      "nl": "vragen",
-      "pos": "verb",
-      "zipf": 5.65,
-      "freq_rank": 219,
-      "ud_count": 156
-    },
-    {
-      "nl": "werken",
-      "pos": "verb",
-      "zipf": 5.65,
-      "freq_rank": 220,
+      "zipf": 5.34,
+      "freq_rank": 425,
       "ud_count": 147
     },
     {
-      "nl": "nemen",
+      "nl": "beginnen",
       "pos": "verb",
-      "zipf": 5.6,
-      "freq_rank": 244,
-      "ud_count": 254
+      "zipf": 5.33,
+      "freq_rank": 431,
+      "ud_count": 292
+    },
+    {
+      "nl": "zoeken",
+      "pos": "verb",
+      "zipf": 5.33,
+      "freq_rank": 439,
+      "ud_count": 68
+    },
+    {
+      "nl": "halen",
+      "pos": "verb",
+      "zipf": 5.32,
+      "freq_rank": 441,
+      "ud_count": 98
+    },
+    {
+      "nl": "lezen",
+      "pos": "verb",
+      "zipf": 5.32,
+      "freq_rank": 443,
+      "ud_count": 76
+    },
+    {
+      "nl": "delen",
+      "pos": "verb",
+      "zipf": 5.29,
+      "freq_rank": 465,
+      "ud_count": 26
+    },
+    {
+      "nl": "praten",
+      "pos": "verb",
+      "zipf": 5.29,
+      "freq_rank": 470,
+      "ud_count": 50
+    },
+    {
+      "nl": "plaatsen",
+      "pos": "verb",
+      "zipf": 5.28,
+      "freq_rank": 480,
+      "ud_count": 66
+    },
+    {
+      "nl": "liggen",
+      "pos": "verb",
+      "zipf": 5.27,
+      "freq_rank": 489,
+      "ud_count": 327
+    },
+    {
+      "nl": "volgen",
+      "pos": "verb",
+      "zipf": 5.27,
+      "freq_rank": 493,
+      "ud_count": 273
+    },
+    {
+      "nl": "landen",
+      "pos": "verb",
+      "zipf": 5.26,
+      "freq_rank": 499,
+      "ud_count": 15
     }
   ],
   "adjs": [
     {
-      "nl": "laat",
+      "nl": "klaar",
       "pos": "adj",
-      "zipf": 5.84,
-      "freq_rank": 137,
-      "ud_count": 617
+      "zipf": 5.51,
+      "freq_rank": 288,
+      "ud_count": 28
     },
     {
-      "nl": "eigen",
+      "nl": "nieuw",
       "pos": "adj",
-      "zipf": 5.81,
-      "freq_rank": 143,
-      "ud_count": 222
+      "zipf": 5.51,
+      "freq_rank": 290,
+      "ud_count": 494
     },
     {
-      "nl": "één",
+      "nl": "open",
       "pos": "adj",
-      "zipf": 5.77,
-      "freq_rank": 157,
-      "ud_count": 712
+      "zipf": 5.5,
+      "freq_rank": 303,
+      "ud_count": 48
     },
     {
-      "nl": "snel",
+      "nl": "bekend",
       "pos": "adj",
-      "zipf": 5.74,
-      "freq_rank": 170,
-      "ud_count": 198
+      "zipf": 5.49,
+      "freq_rank": 305,
+      "ud_count": 214
     },
     {
-      "nl": "nodig",
+      "nl": "mogelijk",
       "pos": "adj",
-      "zipf": 5.73,
-      "freq_rank": 178,
-      "ud_count": 82
+      "zipf": 5.49,
+      "freq_rank": 311,
+      "ud_count": 146
     },
     {
-      "nl": "erg",
+      "nl": "zoek",
       "pos": "adj",
-      "zipf": 5.71,
-      "freq_rank": 189,
-      "ud_count": 125
+      "zipf": 5.47,
+      "freq_rank": 324,
+      "ud_count": 19
     },
     {
-      "nl": "zeker",
+      "nl": "eigenlijk",
       "pos": "adj",
-      "zipf": 5.69,
-      "freq_rank": 198,
-      "ud_count": 134
+      "zipf": 5.45,
+      "freq_rank": 332,
+      "ud_count": 88
     },
     {
-      "nl": "lang",
+      "nl": "vast",
       "pos": "adj",
-      "zipf": 5.65,
-      "freq_rank": 215,
-      "ud_count": 284
+      "zipf": 5.43,
+      "freq_rank": 349,
+      "ud_count": 96
+    },
+    {
+      "nl": "zuid",
+      "pos": "adj",
+      "zipf": 5.43,
+      "freq_rank": 352,
+      "ud_count": 7
     }
   ]
 }

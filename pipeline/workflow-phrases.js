@@ -1,31 +1,24 @@
-const shards = await runs.all([
-  { key: 's01', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s01.json. Write /root/LearnDutch/dataset/shards/s01.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's02', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s02.json. Write /root/LearnDutch/dataset/shards/s02.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's03', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s03.json. Write /root/LearnDutch/dataset/shards/s03.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's04', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s04.json. Write /root/LearnDutch/dataset/shards/s04.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's05', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s05.json. Write /root/LearnDutch/dataset/shards/s05.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's06', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s06.json. Write /root/LearnDutch/dataset/shards/s06.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's07', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s07.json. Write /root/LearnDutch/dataset/shards/s07.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's08', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s08.json. Write /root/LearnDutch/dataset/shards/s08.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's09', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s09.json. Write /root/LearnDutch/dataset/shards/s09.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's10', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s10.json. Write /root/LearnDutch/dataset/shards/s10.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's11', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s11.json. Write /root/LearnDutch/dataset/shards/s11.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's12', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s12.json. Write /root/LearnDutch/dataset/shards/s12.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's13', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s13.json. Write /root/LearnDutch/dataset/shards/s13.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's14', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s14.json. Write /root/LearnDutch/dataset/shards/s14.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's15', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s15.json. Write /root/LearnDutch/dataset/shards/s15.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's16', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s16.json. Write /root/LearnDutch/dataset/shards/s16.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's17', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s17.json. Write /root/LearnDutch/dataset/shards/s17.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's18', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s18.json. Write /root/LearnDutch/dataset/shards/s18.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's19', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s19.json. Write /root/LearnDutch/dataset/shards/s19.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's20', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s20.json. Write /root/LearnDutch/dataset/shards/s20.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's21', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s21.json. Write /root/LearnDutch/dataset/shards/s21.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's22', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s22.json. Write /root/LearnDutch/dataset/shards/s22.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's23', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s23.json. Write /root/LearnDutch/dataset/shards/s23.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' },
-  { key: 's24', agent: 'phraser', task: 'Read /root/LearnDutch/dataset/packs/s24.json. Write /root/LearnDutch/dataset/shards/s24.json with exactly pack.n sentences. Use only nouns/verbs/adjs in that pack plus function words from the phraser agent prompt. Theme and tags and level are in the pack. Honour de/het. Spoken Dutch. JSON array. audio null. Do not touch other shards.' }
-]);
+function taskFor(id) {
+  return "Read /root/LearnDutch/dataset/packs/" + id + ".json and /root/LearnDutch/dataset/frames.json. Write /root/LearnDutch/dataset/shards/" + id + ".json with exactly pack.n spoken sentences as a JSON array. Use only pack nouns/verbs/adjs plus function words from the phraser prompt. Honour pack tags, level, and noun article. audio null. Do not touch other shards. Write the file as soon as the sentences are ready.";
+}
+
+const ids = ["s01","s02","s03","s04","s05","s06","s07","s08","s09","s10","s11","s12","s13","s14","s15","s16","s17","s18","s19","s20","s21","s22","s23","s24"];
+const all = [];
+let i = 0;
+while (i < ids.length) {
+  const id = ids[i];
+  const result = await runs.run(id, {
+    agent: "phraser",
+    task: taskFor(id),
+    acceptance: false
+  });
+  all.push(result);
+  i = i + 1;
+}
+
 const merge = await runs.run("merge", {
-  agent: 'worker',
-  task: 'Run: python3 /root/LearnDutch/pipeline/merge.py && python3 /root/LearnDutch/pipeline/validate.py in /root/LearnDutch. If validate fails, fix sentences.json or the bad shard, rerun. Do not write 1000 sentences yourself. Report counts.'
+  agent: "worker",
+  task: "In /root/LearnDutch run: python3 pipeline/merge.py && python3 pipeline/validate.py. If validate fails, fix the bad shard (not by inventing lemmas), rerun merge+validate. Do not write 1000 sentences yourself. Report counts.",
+  acceptance: false
 });
-return { ok: merge.ok, n: shards.length, output: merge.output };
+return { ok: merge.ok, n: all.length, output: merge.output };

@@ -1,20 +1,20 @@
 # 01 Occupations
 
-Write `dataset/occupations.json`.
+Do **not** write `occupations.json` yourself. One agent listing jobs is a short handwritten list.
 
-Array of 50–80 jobs/roles a newcomer in NL/BE might type. Each:
+Packs: `python3 pipeline/make_occ_packs.py` (tags + `n` only).
+Then `pipeline/workflow-occupations.js`: 10 `jobs` children, each writes `dataset/occ_shards/oXX.json`.
+Merge: `python3 pipeline/merge_occupations.py` → `dataset/occupations.json` (≥400).
+
+Schema of each row:
 
 ```json
 {
   "id": "student",
   "label": "Student",
-  "aliases": ["student", "estudiante", "uni", "universidad", "studie"],
+  "aliases": ["student", "estudiante", "uni", "universidad"],
   "tags": ["student"]
 }
 ```
 
-- `label` English (what the UI shows).
-- `aliases` lowercase EN + ES (and common Dutch if it helps typeahead).
-- `tags` small closed set: `student`, `work`, `home`, `out`, `health`. One or two per row.
-- Cover: student, intern, teacher, software, nurse, doctor, horeca, warehouse, driver, shop, parent, unemployed, inburgering, retired, engineer, cleaner, office, builder, au pair, just-moved.
-- Do not invent Dutch content words for later sentences here; this file is only the typeahead list.
+Tags closed: `student`, `work`, `home`, `out`, `health`. Typeahead is EN/ES. This file is not the Dutch phrase lexicon.

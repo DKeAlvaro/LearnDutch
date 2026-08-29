@@ -1,0 +1,13 @@
+{
+  "id": "f05",
+  "n": 30,
+  "level": "A0",
+  "tags": [
+    "health",
+    "work"
+  ],
+  "slots": [
+    "{noun}",
+    "{adj}"
+  ]
+}

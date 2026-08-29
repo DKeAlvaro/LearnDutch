@@ -1,0 +1,1006 @@
+{
+  "source": "frequency.json",
+  "rank_max": 200,
+  "words": [
+    {
+      "rank": 1,
+      "nl": "de",
+      "zipf": 7.73
+    },
+    {
+      "rank": 2,
+      "nl": "van",
+      "zipf": 7.51
+    },
+    {
+      "rank": 3,
+      "nl": "het",
+      "zipf": 7.49
+    },
+    {
+      "rank": 4,
+      "nl": "een",
+      "zipf": 7.41
+    },
+    {
+      "rank": 5,
+      "nl": "en",
+      "zipf": 7.4
+    },
+    {
+      "rank": 6,
+      "nl": "in",
+      "zipf": 7.36
+    },
+    {
+      "rank": 7,
+      "nl": "is",
+      "zipf": 7.2
+    },
+    {
+      "rank": 8,
+      "nl": "op",
+      "zipf": 7.12
+    },
+    {
+      "rank": 9,
+      "nl": "ik",
+      "zipf": 7.11
+    },
+    {
+      "rank": 10,
+      "nl": "dat",
+      "zipf": 7.1
+    },
+    {
+      "rank": 11,
+      "nl": "voor",
+      "zipf": 7.05
+    },
+    {
+      "rank": 12,
+      "nl": "je",
+      "zipf": 7.04
+    },
+    {
+      "rank": 13,
+      "nl": "te",
+      "zipf": 7.02
+    },
+    {
+      "rank": 14,
+      "nl": "met",
+      "zipf": 7.0
+    },
+    {
+      "rank": 15,
+      "nl": "niet",
+      "zipf": 6.96
+    },
+    {
+      "rank": 16,
+      "nl": "zijn",
+      "zipf": 6.96
+    },
+    {
+      "rank": 17,
+      "nl": "die",
+      "zipf": 6.9
+    },
+    {
+      "rank": 18,
+      "nl": "als",
+      "zipf": 6.8
+    },
+    {
+      "rank": 19,
+      "nl": "er",
+      "zipf": 6.78
+    },
+    {
+      "rank": 20,
+      "nl": "maar",
+      "zipf": 6.77
+    },
+    {
+      "rank": 21,
+      "nl": "om",
+      "zipf": 6.77
+    },
+    {
+      "rank": 22,
+      "nl": "aan",
+      "zipf": 6.76
+    },
+    {
+      "rank": 23,
+      "nl": "hij",
+      "zipf": 6.7
+    },
+    {
+      "rank": 24,
+      "nl": "ook",
+      "zipf": 6.69
+    },
+    {
+      "rank": 25,
+      "nl": "ze",
+      "zipf": 6.69
+    },
+    {
+      "rank": 26,
+      "nl": "door",
+      "zipf": 6.66
+    },
+    {
+      "rank": 27,
+      "nl": "naar",
+      "zipf": 6.65
+    },
+    {
+      "rank": 28,
+      "nl": "uit",
+      "zipf": 6.65
+    },
+    {
+      "rank": 29,
+      "nl": "bij",
+      "zipf": 6.62
+    },
+    {
+      "rank": 30,
+      "nl": "dan",
+      "zipf": 6.62
+    },
+    {
+      "rank": 31,
+      "nl": "dit",
+      "zipf": 6.61
+    },
+    {
+      "rank": 32,
+      "nl": "was",
+      "zipf": 6.61
+    },
+    {
+      "rank": 33,
+      "nl": "we",
+      "zipf": 6.6
+    },
+    {
+      "rank": 34,
+      "nl": "wat",
+      "zipf": 6.58
+    },
+    {
+      "rank": 35,
+      "nl": "heeft",
+      "zipf": 6.56
+    },
+    {
+      "rank": 36,
+      "nl": "of",
+      "zipf": 6.54
+    },
+    {
+      "rank": 37,
+      "nl": "over",
+      "zipf": 6.54
+    },
+    {
+      "rank": 38,
+      "nl": "nog",
+      "zipf": 6.53
+    },
+    {
+      "rank": 39,
+      "nl": "deze",
+      "zipf": 6.51
+    },
+    {
+      "rank": 40,
+      "nl": "hebben",
+      "zipf": 6.49
+    },
+    {
+      "rank": 41,
+      "nl": "kan",
+      "zipf": 6.45
+    },
+    {
+      "rank": 42,
+      "nl": "meer",
+      "zipf": 6.44
+    },
+    {
+      "rank": 43,
+      "nl": "zo",
+      "zipf": 6.43
+    },
+    {
+      "rank": 44,
+      "nl": "al",
+      "zipf": 6.42
+    },
+    {
+      "rank": 45,
+      "nl": "geen",
+      "zipf": 6.42
+    },
+    {
+      "rank": 46,
+      "nl": "mijn",
+      "zipf": 6.41
+    },
+    {
+      "rank": 47,
+      "nl": "wel",
+      "zipf": 6.4
+    },
+    {
+      "rank": 48,
+      "nl": "tot",
+      "zipf": 6.39
+    },
+    {
+      "rank": 49,
+      "nl": "u",
+      "zipf": 6.39
+    },
+    {
+      "rank": 50,
+      "nl": "wordt",
+      "zipf": 6.39
+    },
+    {
+      "rank": 51,
+      "nl": "heb",
+      "zipf": 6.38
+    },
+    {
+      "rank": 52,
+      "nl": "worden",
+      "zipf": 6.38
+    },
+    {
+      "rank": 53,
+      "nl": "nu",
+      "zipf": 6.37
+    },
+    {
+      "rank": 54,
+      "nl": "haar",
+      "zipf": 6.3
+    },
+    {
+      "rank": 55,
+      "nl": "ben",
+      "zipf": 6.29
+    },
+    {
+      "rank": 56,
+      "nl": "kunnen",
+      "zipf": 6.26
+    },
+    {
+      "rank": 57,
+      "nl": "veel",
+      "zipf": 6.26
+    },
+    {
+      "rank": 58,
+      "nl": "jaar",
+      "zipf": 6.25
+    },
+    {
+      "rank": 59,
+      "nl": "me",
+      "zipf": 6.25
+    },
+    {
+      "rank": 60,
+      "nl": "moet",
+      "zipf": 6.25
+    },
+    {
+      "rank": 61,
+      "nl": "hoe",
+      "zipf": 6.23
+    },
+    {
+      "rank": 62,
+      "nl": "mensen",
+      "zipf": 6.21
+    },
+    {
+      "rank": 63,
+      "nl": "na",
+      "zipf": 6.21
+    },
+    {
+      "rank": 64,
+      "nl": "ons",
+      "zipf": 6.21
+    },
+    {
+      "rank": 65,
+      "nl": "waar",
+      "zipf": 6.21
+    },
+    {
+      "rank": 66,
+      "nl": "werd",
+      "zipf": 6.21
+    },
+    {
+      "rank": 67,
+      "nl": "goed",
+      "zipf": 6.2
+    },
+    {
+      "rank": 68,
+      "nl": "gaan",
+      "zipf": 6.18
+    },
+    {
+      "rank": 69,
+      "nl": "gaat",
+      "zipf": 6.18
+    },
+    {
+      "rank": 70,
+      "nl": "onze",
+      "zipf": 6.18
+    },
+    {
+      "rank": 71,
+      "nl": "wil",
+      "zipf": 6.18
+    },
+    {
+      "rank": 72,
+      "nl": "zich",
+      "zipf": 6.17
+    },
+    {
+      "rank": 73,
+      "nl": "zou",
+      "zipf": 6.17
+    },
+    {
+      "rank": 74,
+      "nl": "doen",
+      "zipf": 6.13
+    },
+    {
+      "rank": 75,
+      "nl": "andere",
+      "zipf": 6.12
+    },
+    {
+      "rank": 76,
+      "nl": "hier",
+      "zipf": 6.12
+    },
+    {
+      "rank": 77,
+      "nl": "dus",
+      "zipf": 6.11
+    },
+    {
+      "rank": 78,
+      "nl": "tegen",
+      "zipf": 6.11
+    },
+    {
+      "rank": 79,
+      "nl": "maken",
+      "zipf": 6.1
+    },
+    {
+      "rank": 80,
+      "nl": "alleen",
+      "zipf": 6.09
+    },
+    {
+      "rank": 81,
+      "nl": "mij",
+      "zipf": 6.08
+    },
+    {
+      "rank": 82,
+      "nl": "onder",
+      "zipf": 6.08
+    },
+    {
+      "rank": 83,
+      "nl": "1",
+      "zipf": 6.07
+    },
+    {
+      "rank": 84,
+      "nl": "had",
+      "zipf": 6.07
+    },
+    {
+      "rank": 85,
+      "nl": "hun",
+      "zipf": 6.07
+    },
+    {
+      "rank": 86,
+      "nl": "twee",
+      "zipf": 6.06
+    },
+    {
+      "rank": 87,
+      "nl": "nieuwe",
+      "zipf": 6.05
+    },
+    {
+      "rank": 88,
+      "nl": "weer",
+      "zipf": 6.05
+    },
+    {
+      "rank": 89,
+      "nl": "zien",
+      "zipf": 6.05
+    },
+    {
+      "rank": 90,
+      "nl": "zal",
+      "zipf": 6.04
+    },
+    {
+      "rank": 91,
+      "nl": "jij",
+      "zipf": 6.03
+    },
+    {
+      "rank": 92,
+      "nl": "moeten",
+      "zipf": 6.03
+    },
+    {
+      "rank": 93,
+      "nl": "eerste",
+      "zipf": 6.02
+    },
+    {
+      "rank": 94,
+      "nl": "komt",
+      "zipf": 6.02
+    },
+    {
+      "rank": 95,
+      "nl": "wij",
+      "zipf": 6.02
+    },
+    {
+      "rank": 96,
+      "nl": "echt",
+      "zipf": 6.01
+    },
+    {
+      "rank": 97,
+      "nl": "eens",
+      "zipf": 6.01
+    },
+    {
+      "rank": 98,
+      "nl": "daar",
+      "zipf": 6.0
+    },
+    {
+      "rank": 99,
+      "nl": "heel",
+      "zipf": 6.0
+    },
+    {
+      "rank": 100,
+      "nl": "toch",
+      "zipf": 6.0
+    },
+    {
+      "rank": 101,
+      "nl": "2",
+      "zipf": 5.99
+    },
+    {
+      "rank": 102,
+      "nl": "dag",
+      "zipf": 5.99
+    },
+    {
+      "rank": 103,
+      "nl": "mee",
+      "zipf": 5.99
+    },
+    {
+      "rank": 104,
+      "nl": "staat",
+      "zipf": 5.98
+    },
+    {
+      "rank": 105,
+      "nl": "alle",
+      "zipf": 5.97
+    },
+    {
+      "rank": 106,
+      "nl": "tijd",
+      "zipf": 5.97
+    },
+    {
+      "rank": 107,
+      "nl": "zij",
+      "zipf": 5.97
+    },
+    {
+      "rank": 108,
+      "nl": "zoals",
+      "zipf": 5.97
+    },
+    {
+      "rank": 109,
+      "nl": "iets",
+      "zipf": 5.95
+    },
+    {
+      "rank": 110,
+      "nl": "komen",
+      "zipf": 5.95
+    },
+    {
+      "rank": 111,
+      "nl": "leven",
+      "zipf": 5.95
+    },
+    {
+      "rank": 112,
+      "nl": "omdat",
+      "zipf": 5.95
+    },
+    {
+      "rank": 113,
+      "nl": "toen",
+      "zipf": 5.95
+    },
+    {
+      "rank": 114,
+      "nl": "ga",
+      "zipf": 5.93
+    },
+    {
+      "rank": 115,
+      "nl": "t",
+      "zipf": 5.93
+    },
+    {
+      "rank": 116,
+      "nl": "waren",
+      "zipf": 5.92
+    },
+    {
+      "rank": 117,
+      "nl": "hem",
+      "zipf": 5.91
+    },
+    {
+      "rank": 118,
+      "nl": "jullie",
+      "zipf": 5.91
+    },
+    {
+      "rank": 119,
+      "nl": "tijdens",
+      "zipf": 5.91
+    },
+    {
+      "rank": 120,
+      "nl": "altijd",
+      "zipf": 5.9
+    },
+    {
+      "rank": 121,
+      "nl": "tussen",
+      "zipf": 5.9
+    },
+    {
+      "rank": 122,
+      "nl": "ja",
+      "zipf": 5.89
+    },
+    {
+      "rank": 123,
+      "nl": "weet",
+      "zipf": 5.89
+    },
+    {
+      "rank": 124,
+      "nl": "wie",
+      "zipf": 5.89
+    },
+    {
+      "rank": 125,
+      "nl": "laten",
+      "zipf": 5.88
+    },
+    {
+      "rank": 126,
+      "nl": "waarom",
+      "zipf": 5.88
+    },
+    {
+      "rank": 127,
+      "nl": "3",
+      "zipf": 5.86
+    },
+    {
+      "rank": 128,
+      "nl": "alles",
+      "zipf": 5.86
+    },
+    {
+      "rank": 129,
+      "nl": "net",
+      "zipf": 5.86
+    },
+    {
+      "rank": 130,
+      "nl": "via",
+      "zipf": 5.86
+    },
+    {
+      "rank": 131,
+      "nl": "even",
+      "zipf": 5.85
+    },
+    {
+      "rank": 132,
+      "nl": "gewoon",
+      "zipf": 5.85
+    },
+    {
+      "rank": 133,
+      "nl": "grote",
+      "zipf": 5.85
+    },
+    {
+      "rank": 134,
+      "nl": "man",
+      "zipf": 5.85
+    },
+    {
+      "rank": 135,
+      "nl": "terug",
+      "zipf": 5.85
+    },
+    {
+      "rank": 136,
+      "nl": "af",
+      "zipf": 5.84
+    },
+    {
+      "rank": 137,
+      "nl": "laat",
+      "zipf": 5.84
+    },
+    {
+      "rank": 138,
+      "nl": "zonder",
+      "zipf": 5.84
+    },
+    {
+      "rank": 139,
+      "nl": "uur",
+      "zipf": 5.83
+    },
+    {
+      "rank": 140,
+      "nl": "steeds",
+      "zipf": 5.82
+    },
+    {
+      "rank": 141,
+      "nl": "zie",
+      "zipf": 5.82
+    },
+    {
+      "rank": 142,
+      "nl": "bent",
+      "zipf": 5.81
+    },
+    {
+      "rank": 143,
+      "nl": "eigen",
+      "zipf": 5.81
+    },
+    {
+      "rank": 144,
+      "nl": "keer",
+      "zipf": 5.81
+    },
+    {
+      "rank": 145,
+      "nl": "maakt",
+      "zipf": 5.81
+    },
+    {
+      "rank": 146,
+      "nl": "willen",
+      "zipf": 5.81
+    },
+    {
+      "rank": 147,
+      "nl": "iedereen",
+      "zipf": 5.8
+    },
+    {
+      "rank": 148,
+      "nl": "weg",
+      "zipf": 5.8
+    },
+    {
+      "rank": 149,
+      "nl": "hele",
+      "zipf": 5.79
+    },
+    {
+      "rank": 150,
+      "nl": "iemand",
+      "zipf": 5.79
+    },
+    {
+      "rank": 151,
+      "nl": "binnen",
+      "zipf": 5.78
+    },
+    {
+      "rank": 152,
+      "nl": "uw",
+      "zipf": 5.78
+    },
+    {
+      "rank": 153,
+      "nl": "werden",
+      "zipf": 5.78
+    },
+    {
+      "rank": 154,
+      "nl": "werk",
+      "zipf": 5.78
+    },
+    {
+      "rank": 155,
+      "nl": "nooit",
+      "zipf": 5.77
+    },
+    {
+      "rank": 156,
+      "nl": "zit",
+      "zipf": 5.77
+    },
+    {
+      "rank": 157,
+      "nl": "één",
+      "zipf": 5.77
+    },
+    {
+      "rank": 158,
+      "nl": "drie",
+      "zipf": 5.76
+    },
+    {
+      "rank": 159,
+      "nl": "the",
+      "zipf": 5.76
+    },
+    {
+      "rank": 160,
+      "nl": "zelf",
+      "zipf": 5.76
+    },
+    {
+      "rank": 161,
+      "nl": "4",
+      "zipf": 5.75
+    },
+    {
+      "rank": 162,
+      "nl": "aantal",
+      "zipf": 5.75
+    },
+    {
+      "rank": 163,
+      "nl": "geven",
+      "zipf": 5.75
+    },
+    {
+      "rank": 164,
+      "nl": "hebt",
+      "zipf": 5.75
+    },
+    {
+      "rank": 165,
+      "nl": "kinderen",
+      "zipf": 5.75
+    },
+    {
+      "rank": 166,
+      "nl": "samen",
+      "zipf": 5.75
+    },
+    {
+      "rank": 167,
+      "nl": "vinden",
+      "zipf": 5.75
+    },
+    {
+      "rank": 168,
+      "nl": "kunt",
+      "zipf": 5.74
+    },
+    {
+      "rank": 169,
+      "nl": "plaats",
+      "zipf": 5.74
+    },
+    {
+      "rank": 170,
+      "nl": "snel",
+      "zipf": 5.74
+    },
+    {
+      "rank": 171,
+      "nl": "toe",
+      "zipf": 5.74
+    },
+    {
+      "rank": 172,
+      "nl": "deel",
+      "zipf": 5.73
+    },
+    {
+      "rank": 173,
+      "nl": "elkaar",
+      "zipf": 5.73
+    },
+    {
+      "rank": 174,
+      "nl": "huis",
+      "zipf": 5.73
+    },
+    {
+      "rank": 175,
+      "nl": "laatste",
+      "zipf": 5.73
+    },
+    {
+      "rank": 176,
+      "nl": "mag",
+      "zipf": 5.73
+    },
+    {
+      "rank": 177,
+      "nl": "nederland",
+      "zipf": 5.73
+    },
+    {
+      "rank": 178,
+      "nl": "nodig",
+      "zipf": 5.73
+    },
+    {
+      "rank": 179,
+      "nl": "vanaf",
+      "zipf": 5.73
+    },
+    {
+      "rank": 180,
+      "nl": "vind",
+      "zipf": 5.73
+    },
+    {
+      "rank": 181,
+      "nl": "vrouw",
+      "zipf": 5.73
+    },
+    {
+      "rank": 182,
+      "nl": "weten",
+      "zipf": 5.73
+    },
+    {
+      "rank": 183,
+      "nl": "doet",
+      "zipf": 5.72
+    },
+    {
+      "rank": 184,
+      "nl": "krijgen",
+      "zipf": 5.72
+    },
+    {
+      "rank": 185,
+      "nl": "m",
+      "zipf": 5.72
+    },
+    {
+      "rank": 186,
+      "nl": "want",
+      "zipf": 5.72
+    },
+    {
+      "rank": 187,
+      "nl": "allemaal",
+      "zipf": 5.71
+    },
+    {
+      "rank": 188,
+      "nl": "beter",
+      "zipf": 5.71
+    },
+    {
+      "rank": 189,
+      "nl": "erg",
+      "zipf": 5.71
+    },
+    {
+      "rank": 190,
+      "nl": "staan",
+      "zipf": 5.71
+    },
+    {
+      "rank": 191,
+      "nl": "zeggen",
+      "zipf": 5.71
+    },
+    {
+      "rank": 192,
+      "nl": "5",
+      "zipf": 5.7
+    },
+    {
+      "rank": 193,
+      "nl": "zegt",
+      "zipf": 5.7
+    },
+    {
+      "rank": 194,
+      "nl": "denk",
+      "zipf": 5.69
+    },
+    {
+      "rank": 195,
+      "nl": "gemaakt",
+      "zipf": 5.69
+    },
+    {
+      "rank": 196,
+      "nl": "land",
+      "zipf": 5.69
+    },
+    {
+      "rank": 197,
+      "nl": "naam",
+      "zipf": 5.69
+    },
+    {
+      "rank": 198,
+      "nl": "zeker",
+      "zipf": 5.69
+    },
+    {
+      "rank": 199,
+      "nl": "zullen",
+      "zipf": 5.69
+    },
+    {
+      "rank": 200,
+      "nl": "misschien",
+      "zipf": 5.68
+    }
+  ]
+}

@@ -1,84 +1,19 @@
 {
   "id": "s22",
   "n": 42,
-  "level": "A1",
+  "level": "A0",
   "tags": [
-    "student",
-    "work"
+    "home",
+    "out"
   ],
-  "theme": "ask help borrow",
   "frames": [
-    "kun_je",
-    "ik_zoek",
-    "ik_heb",
-    "waar_is",
-    "ik_moet_naar"
+    "ik_ga_naar",
+    "een_alsjeblieft",
+    "ik_ben",
+    "de_is_adj",
+    "het_is_adj"
   ],
   "nouns": [
-    {
-      "nl": "bak",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2446,
-      "ud_count": 5,
-      "article": "de"
-    },
-    {
-      "nl": "café",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2449,
-      "ud_count": 12,
-      "article": "het"
-    },
-    {
-      "nl": "congres",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2451,
-      "ud_count": 33,
-      "article": "het"
-    },
-    {
-      "nl": "gedachte",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2457,
-      "ud_count": 30,
-      "article": "de"
-    },
-    {
-      "nl": "heden",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2459,
-      "ud_count": 16,
-      "article": "het"
-    },
-    {
-      "nl": "klacht",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2463,
-      "ud_count": 12,
-      "article": "de"
-    },
-    {
-      "nl": "middag",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2465,
-      "ud_count": 27,
-      "article": "de"
-    },
-    {
-      "nl": "mist",
-      "pos": "noun",
-      "zipf": 4.5,
-      "freq_rank": 2466,
-      "ud_count": 4,
-      "article": "de"
-    },
     {
       "nl": "plein",
       "pos": "noun",
@@ -278,150 +213,228 @@
       "freq_rank": 2569,
       "ud_count": 3,
       "article": "de"
+    },
+    {
+      "nl": "mars",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2570,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "ondersteuning",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2574,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "pop",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2580,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "steek",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2585,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "toezicht",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2587,
+      "ud_count": 8,
+      "article": "het"
+    },
+    {
+      "nl": "uitvoering",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2589,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "vak",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2590,
+      "ud_count": 10,
+      "article": "het"
+    },
+    {
+      "nl": "villa",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2593,
+      "ud_count": 7,
+      "article": "de"
     }
   ],
   "verbs": [
     {
-      "nl": "kiezen",
+      "nl": "verkrijgen",
       "pos": "verb",
-      "zipf": 5.07,
-      "freq_rank": 774,
-      "ud_count": 97
+      "zipf": 4.23,
+      "freq_rank": 4140,
+      "ud_count": 45
     },
     {
-      "nl": "schrijven",
+      "nl": "wassen",
       "pos": "verb",
-      "zipf": 5.07,
-      "freq_rank": 776,
-      "ud_count": 143
+      "zipf": 4.23,
+      "freq_rank": 4143,
+      "ud_count": 8
     },
     {
-      "nl": "slapen",
+      "nl": "haten",
       "pos": "verb",
-      "zipf": 5.06,
-      "freq_rank": 789,
-      "ud_count": 63
+      "zipf": 4.22,
+      "freq_rank": 4179,
+      "ud_count": 3
     },
     {
-      "nl": "stemmen",
+      "nl": "kloppen",
       "pos": "verb",
-      "zipf": 5.06,
-      "freq_rank": 792,
-      "ud_count": 26
+      "zipf": 4.22,
+      "freq_rank": 4184,
+      "ud_count": 13
     },
     {
-      "nl": "sturen",
+      "nl": "schelen",
       "pos": "verb",
-      "zipf": 5.06,
-      "freq_rank": 793,
-      "ud_count": 57
+      "zipf": 4.22,
+      "freq_rank": 4207,
+      "ud_count": 5
     },
     {
-      "nl": "ontvangen",
+      "nl": "bakken",
       "pos": "verb",
-      "zipf": 5.04,
-      "freq_rank": 835,
-      "ud_count": 65
+      "zipf": 4.21,
+      "freq_rank": 4234,
+      "ud_count": 12
     },
     {
-      "nl": "spreken",
+      "nl": "lichten",
       "pos": "verb",
-      "zipf": 5.04,
-      "freq_rank": 841,
-      "ud_count": 103
+      "zipf": 4.21,
+      "freq_rank": 4262,
+      "ud_count": 3
     },
     {
-      "nl": "voelen",
+      "nl": "proeven",
       "pos": "verb",
-      "zipf": 5.04,
-      "freq_rank": 843,
-      "ud_count": 58
+      "zipf": 4.21,
+      "freq_rank": 4276,
+      "ud_count": 3
     },
     {
-      "nl": "gebeuren",
+      "nl": "stijgen",
       "pos": "verb",
-      "zipf": 5.03,
-      "freq_rank": 849,
-      "ud_count": 109
+      "zipf": 4.21,
+      "freq_rank": 4283,
+      "ud_count": 43
     },
     {
-      "nl": "dragen",
+      "nl": "verbinden",
       "pos": "verb",
-      "zipf": 5.01,
-      "freq_rank": 873,
-      "ud_count": 70
+      "zipf": 4.21,
+      "freq_rank": 4291,
+      "ud_count": 51
     },
     {
-      "nl": "leggen",
+      "nl": "waarderen",
       "pos": "verb",
-      "zipf": 5.0,
-      "freq_rank": 895,
-      "ud_count": 80
+      "zipf": 4.21,
+      "freq_rank": 4296,
+      "ud_count": 11
     },
     {
-      "nl": "winnen",
+      "nl": "arresteren",
       "pos": "verb",
-      "zipf": 5.0,
-      "freq_rank": 901,
-      "ud_count": 206
+      "zipf": 4.2,
+      "freq_rank": 4310,
+      "ud_count": 19
+    },
+    {
+      "nl": "beschrijven",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4316,
+      "ud_count": 29
+    },
+    {
+      "nl": "strijden",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4369,
+      "ud_count": 18
     }
   ],
   "adjs": [
     {
-      "nl": "bezig",
+      "nl": "slim",
       "pos": "adj",
-      "zipf": 5.31,
-      "freq_rank": 452,
-      "ud_count": 39
+      "zipf": 4.65,
+      "freq_rank": 1860,
+      "ud_count": 6
     },
     {
-      "nl": "klein",
+      "nl": "belachelijk",
       "pos": "adj",
-      "zipf": 5.3,
-      "freq_rank": 458,
-      "ud_count": 214
+      "zipf": 4.64,
+      "freq_rank": 1873,
+      "ud_count": 5
     },
     {
-      "nl": "juist",
+      "nl": "gezellig",
       "pos": "adj",
-      "zipf": 5.26,
-      "freq_rank": 497,
-      "ud_count": 68
+      "zipf": 4.64,
+      "freq_rank": 1882,
+      "ud_count": 8
     },
     {
-      "nl": "hetzelfde",
+      "nl": "jaarlijks",
       "pos": "adj",
-      "zipf": 5.24,
-      "freq_rank": 519,
-      "ud_count": 27
+      "zipf": 4.64,
+      "freq_rank": 1890,
+      "ud_count": 42
     },
     {
-      "nl": "slecht",
+      "nl": "moe",
       "pos": "adj",
-      "zipf": 5.24,
-      "freq_rank": 526,
-      "ud_count": 78
+      "zipf": 4.64,
+      "freq_rank": 1894,
+      "ud_count": 9
     },
     {
-      "nl": "waarschijnlijk",
+      "nl": "schuldig",
       "pos": "adj",
-      "zipf": 5.24,
-      "freq_rank": 530,
-      "ud_count": 81
+      "zipf": 4.64,
+      "freq_rank": 1899,
+      "ud_count": 13
     },
     {
-      "nl": "gelukkig",
+      "nl": "tijdelijk",
       "pos": "adj",
-      "zipf": 5.23,
-      "freq_rank": 534,
-      "ud_count": 21
+      "zipf": 4.64,
+      "freq_rank": 1906,
+      "ud_count": 19
     },
     {
-      "nl": "uiteindelijk",
+      "nl": "wereldwijd",
       "pos": "adj",
-      "zipf": 5.22,
-      "freq_rank": 550,
-      "ud_count": 111
+      "zipf": 4.64,
+      "freq_rank": 1913,
+      "ud_count": 15
     }
   ]
 }

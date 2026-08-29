@@ -1,6 +1,12 @@
 # 02 Frames
 
-Write `dataset/frames.json`. 40–60 patterns. These are the lego templates.
+Do **not** write `frames.json` yourself. A short handwritten template list starves the phrasers.
+
+Glue: `python3 pipeline/make_frame_packs.py` copies `frequency.json` (rank ≤ 200) to `dataset/glue.json` and writes 12 packs (level, tags, slots, `n`).
+Then `pipeline/workflow-frames.js`: 12 `framer` children, each writes `dataset/frame_shards/fXX.json`.
+Merge: `python3 pipeline/merge_frames.py` → `dataset/frames.json` (≥200). Drops rows whose literals are not in glue.
+
+Schema:
 
 ```json
 {
@@ -12,9 +18,4 @@ Write `dataset/frames.json`. 40–60 patterns. These are the lego templates.
 }
 ```
 
-Slots are `{noun}`, `{place}`, `{drink}`, `{food}`, `{time}`, `{thing}`, `{person}`, `{verb}` — only if you will fill them from `teach.json`.
-
-- A0: ik wil, ik heb, ik ga naar, waar is, dit is mijn, ik ben, ik woon in.
-- A1: ik werk tot, ik studeer, kun je …, hoe laat, ik moet naar.
-- Mix je (informal). No long subordinates.
-- `tags` = which occupations should see this frame.
+Slots only `{noun}`, `{adj}`, `{verb}` (teach.json POS). Literals only glue. Fill happens later in phrase packs.
