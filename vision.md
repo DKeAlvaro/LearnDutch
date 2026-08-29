@@ -19,9 +19,9 @@ Source criteria:
 - Already in useful pieces: dialogues, vocabulary, rules. Prose-only does not work.
 - Defensible in a store listing as “a Dutch course”, not “this PDF in a WebView”.
 
-PDF is fine if it converts to JSON the way Stukje did. “Free to look at” is not a licence.
+PDF is fine if it converts to JSON the way Stukje did. Scanned 19th-century PDFs are not. “Free to look at” is not a licence.
 
-Chosen spine: Wikibooks Dutch, beginner cycles. See `sources.md`.
+There is no modern drop-in open textbook. See `sources.md`: official NT2/CEFR map + original lessons (and Tatoeba/OpenTaal as raw material), or a licence from a living course.
 
 ## Shape
 
