@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ik_heb_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "heb", "een", "{adj}", "{noun}"],
+    "en": "I have a {adj} {noun}."
+  },
+  {
+    "id": "mijn_noun_is_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Mijn", "{noun}", "is", "{adj}"],
+    "en": "My {noun} is {adj}."
+  },
+  {
+    "id": "de_noun_is_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["De", "{noun}", "is", "{adj}"],
+    "en": "The {noun} is {adj}."
+  },
+  {
+    "id": "het_noun_is_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Het", "{noun}", "is", "{adj}"],
+    "en": "The {noun} is {adj}."
+  },
+  {
+    "id": "dit_is_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Dit", "is", "een", "{adj}", "{noun}"],
+    "en": "This is a {adj} {noun}."
+  },
+  {
+    "id": "ik_vind_noun_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "vind", "{noun}", "{adj}"],
+    "en": "I find {noun} {adj}."
+  },
+  {
+    "id": "heb_je_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Heb", "je", "een", "{adj}", "{noun}"],
+    "en": "Do you have a {adj} {noun}?"
+  },
+  {
+    "id": "is_je_noun_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Is", "je", "{noun}", "{adj}"],
+    "en": "Is your {noun} {adj}?"
+  },
+  {
+    "id": "ik_wil_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "wil", "een", "{adj}", "{noun}"],
+    "en": "I want a {adj} {noun}."
+  },
+  {
+    "id": "ik_heb_adj_noun_nodig",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "heb", "{adj}", "{noun}", "nodig"],
+    "en": "I need {adj} {noun}."
+  },
+  {
+    "id": "we_hebben_adj_noun_nodig",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["We", "hebben", "{adj}", "{noun}", "nodig"],
+    "en": "We need {adj} {noun}."
+  },
+  {
+    "id": "er_is_geen_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Er", "is", "geen", "{adj}", "{noun}"],
+    "en": "There is no {adj} {noun}."
+  },
+  {
+    "id": "ik_heb_geen_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "heb", "geen", "{adj}", "{noun}"],
+    "en": "I have no {adj} {noun}."
+  },
+  {
+    "id": "waar_is_mijn_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Waar", "is", "mijn", "{adj}", "{noun}"],
+    "en": "Where is my {adj} {noun}?"
+  },
+  {
+    "id": "kan_ik_een_adj_noun_krijgen",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Kan", "ik", "een", "{adj}", "{noun}", "krijgen"],
+    "en": "Can I get a {adj} {noun}?"
+  },
+  {
+    "id": "mag_ik_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Mag", "ik", "een", "{adj}", "{noun}"],
+    "en": "May I have a {adj} {noun}?"
+  },
+  {
+    "id": "deze_noun_is_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Deze", "{noun}", "is", "{adj}"],
+    "en": "This {noun} is {adj}."
+  },
+  {
+    "id": "onze_noun_is_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Onze", "{noun}", "is", "{adj}"],
+    "en": "Our {noun} is {adj}."
+  },
+  {
+    "id": "mijn_noun_is_te_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Mijn", "{noun}", "is", "te", "{adj}"],
+    "en": "My {noun} is too {adj}."
+  },
+  {
+    "id": "mijn_noun_is_erg_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Mijn", "{noun}", "is", "erg", "{adj}"],
+    "en": "My {noun} is very {adj}."
+  },
+  {
+    "id": "ik_moet_adj_noun_hebben",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "moet", "{adj}", "{noun}", "hebben"],
+    "en": "I must have {adj} {noun}."
+  },
+  {
+    "id": "wil_je_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Wil", "je", "een", "{adj}", "{noun}"],
+    "en": "Do you want a {adj} {noun}?"
+  },
+  {
+    "id": "hoe_adj_is_je_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Hoe", "{adj}", "is", "je", "{noun}"],
+    "en": "How {adj} is your {noun}?"
+  },
+  {
+    "id": "ik_vind_noun_niet_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "vind", "{noun}", "niet", "{adj}"],
+    "en": "I do not find {noun} {adj}."
+  },
+  {
+    "id": "de_noun_is_niet_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["De", "{noun}", "is", "niet", "{adj}"],
+    "en": "The {noun} is not {adj}."
+  },
+  {
+    "id": "het_gaat_adj_met_mijn_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Het", "gaat", "{adj}", "met", "mijn", "{noun}"],
+    "en": "It is going {adj} with my {noun}."
+  },
+  {
+    "id": "ik_ben_adj_door_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "ben", "{adj}", "door", "{noun}"],
+    "en": "I am {adj} because of {noun}."
+  },
+  {
+    "id": "mijn_noun_wordt_adj",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Mijn", "{noun}", "wordt", "{adj}"],
+    "en": "My {noun} is becoming {adj}."
+  },
+  {
+    "id": "dit_is_mijn_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Dit", "is", "mijn", "{adj}", "{noun}"],
+    "en": "This is my {adj} {noun}."
+  },
+  {
+    "id": "ik_zit_in_een_adj_noun",
+    "level": "A0",
+    "tags": ["health", "student"],
+    "parts": ["Ik", "zit", "in", "een", "{adj}", "{noun}"],
+    "en": "I am in a {adj} {noun}."
+  }
+]

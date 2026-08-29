@@ -2595,6 +2595,999 @@
     ]
   },
   {
+    "id": "dental-receptionist",
+    "label": "Dental receptionist",
+    "aliases": [
+      "dental receptionist",
+      "dental front desk",
+      "recepcionista dental",
+      "recepcionista de dentista",
+      "tandartsbalie"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "data-entry-clerk",
+    "label": "Data entry clerk",
+    "aliases": [
+      "data entry",
+      "data entry clerk",
+      "digitador",
+      "digitadora",
+      "invoermedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "dispatcher",
+    "label": "Dispatcher",
+    "aliases": [
+      "dispatcher",
+      "transport planner",
+      "despachador",
+      "planificador de transporte",
+      "planner",
+      "transportplanner"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "demolition-worker",
+    "label": "Demolition worker",
+    "aliases": [
+      "demolition worker",
+      "demolition",
+      "demoledor",
+      "demolicion",
+      "sloopwerker",
+      "sloop"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "dock-worker",
+    "label": "Dock worker",
+    "aliases": [
+      "dock worker",
+      "docker",
+      "stevedore",
+      "estibador",
+      "havenarbeider",
+      "sjouwer"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "door-to-door-seller",
+    "label": "Door-to-door salesperson",
+    "aliases": [
+      "door to door",
+      "door-to-door salesperson",
+      "vendedor a domicilio",
+      "colportor",
+      "deur-aan-deur",
+      "colporteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "dog-groomer",
+    "label": "Dog groomer",
+    "aliases": [
+      "dog groomer",
+      "pet groomer",
+      "peluquero canino",
+      "peluquera canina",
+      "hondentrimmer"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "dry-cleaning-assistant",
+    "label": "Dry-cleaning assistant",
+    "aliases": [
+      "dry cleaner",
+      "dry cleaning",
+      "tintoreria",
+      "tintorero",
+      "stomerijmedewerker",
+      "stomerij"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "drain-technician",
+    "label": "Drain technician",
+    "aliases": [
+      "drain technician",
+      "drain unblocker",
+      "desatascador",
+      "ontstopper",
+      "riooltechnicus"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "deli-counter-assistant",
+    "label": "Deli counter assistant",
+    "aliases": [
+      "deli counter",
+      "deli assistant",
+      "charcuteria",
+      "fiambreria",
+      "versmedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "day-centre-support-worker",
+    "label": "Day-centre support worker",
+    "aliases": [
+      "day centre",
+      "day-centre support worker",
+      "centro de dia",
+      "monitor de centro de dia",
+      "dagbesteding",
+      "begeleider dagbesteding"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "draughtsperson",
+    "label": "Draughtsperson",
+    "aliases": [
+      "draughtsperson",
+      "draughtsman",
+      "cad technician",
+      "delineante",
+      "dibujante tecnico",
+      "tekenaar"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "deckhand",
+    "label": "Deckhand (inland shipping)",
+    "aliases": [
+      "deckhand",
+      "barge hand",
+      "marinero fluvial",
+      "matroos",
+      "binnenvaart",
+      "deksman"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "dairy-process-worker",
+    "label": "Dairy process worker",
+    "aliases": [
+      "dairy worker",
+      "dairy plant",
+      "trabajador lacteo",
+      "operario lacteo",
+      "zuivelmedewerker",
+      "kaasfabriek"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "event-crew",
+    "label": "Event crew",
+    "aliases": [
+      "event crew",
+      "event staff",
+      "personal de eventos",
+      "evenementenmedewerker",
+      "eventmedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "excavator-operator",
+    "label": "Excavator operator",
+    "aliases": [
+      "excavator operator",
+      "digger driver",
+      "operador de excavadora",
+      "graafmachinist"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "export-clerk",
+    "label": "Export clerk",
+    "aliases": [
+      "export clerk",
+      "export documentation",
+      "empleado de exportacion",
+      "exportmedewerker",
+      "exportdocumenten"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "elevator-mechanic",
+    "label": "Elevator mechanic",
+    "aliases": [
+      "elevator mechanic",
+      "lift technician",
+      "tecnico de ascensores",
+      "liftmonteur",
+      "lifttechnicus"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "energy-coach",
+    "label": "Energy coach",
+    "aliases": [
+      "energy coach",
+      "energy advisor",
+      "asesor energetico",
+      "energiecoach",
+      "energieadviseur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "exterminator",
+    "label": "Exterminator / pest controller",
+    "aliases": [
+      "exterminator",
+      "pest control",
+      "pest controller",
+      "control de plagas",
+      "fumigador",
+      "ongediertebestrijder"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "e-bike-repairer",
+    "label": "E-bike repairer",
+    "aliases": [
+      "e-bike repairer",
+      "e-bike mechanic",
+      "mecanico de ebike",
+      "e-bikemonteur",
+      "elektrische fiets"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "english-tutor",
+    "label": "English tutor",
+    "aliases": [
+      "english tutor",
+      "english teacher",
+      "profesor de ingles",
+      "profesora de ingles",
+      "bijles engels",
+      "docent engels"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "exhibition-fitter",
+    "label": "Exhibition stand fitter",
+    "aliases": [
+      "exhibition fitter",
+      "stand builder",
+      "montador de stands",
+      "standbouwer",
+      "beursbouwer"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "extrusion-operator",
+    "label": "Extrusion operator",
+    "aliases": [
+      "extrusion operator",
+      "extrusion",
+      "operador de extrusion",
+      "extrusiemedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "elderly-companion",
+    "label": "Elderly companion",
+    "aliases": [
+      "elderly companion",
+      "companion carer",
+      "acompanante de mayores",
+      "maatje",
+      "ouderenbegeleider"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "exhaust-fitter",
+    "label": "Exhaust fitter",
+    "aliases": [
+      "exhaust fitter",
+      "exhaust mechanic",
+      "mecanico de escapes",
+      "uitlaatmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "egg-packer",
+    "label": "Egg packer",
+    "aliases": [
+      "egg packer",
+      "egg sorting",
+      "empaquetador de huevos",
+      "eierpakker",
+      "eiersorteerder"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "electronics-assembler",
+    "label": "Electronics assembler",
+    "aliases": [
+      "electronics assembler",
+      "pcb assembler",
+      "ensamblador de electronica",
+      "elektronica-assembleur",
+      "printplaatmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "florist",
+    "label": "Florist",
+    "aliases": [
+      "florist",
+      "flower shop",
+      "florista",
+      "bloemist",
+      "bloemenwinkel"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "floor-layer",
+    "label": "Floor layer",
+    "aliases": [
+      "floor layer",
+      "flooring installer",
+      "solador",
+      "instalador de suelos",
+      "vloerenlegger",
+      "parketlegger"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "fishmonger",
+    "label": "Fishmonger",
+    "aliases": [
+      "fishmonger",
+      "fish counter",
+      "pescadero",
+      "pescadera",
+      "visboer"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "facade-installer",
+    "label": "Facade installer",
+    "aliases": [
+      "facade installer",
+      "cladding installer",
+      "instalador de fachadas",
+      "gevelmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "fence-installer",
+    "label": "Fence installer",
+    "aliases": [
+      "fence installer",
+      "fence fitter",
+      "instalador de vallas",
+      "hekwerkmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "field-service-technician",
+    "label": "Field service technician",
+    "aliases": [
+      "field service technician",
+      "field technician",
+      "tecnico de campo",
+      "servicemonteur",
+      "buitendienst"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "finance-clerk",
+    "label": "Finance clerk",
+    "aliases": [
+      "finance clerk",
+      "accounts payable",
+      "empleado financiero",
+      "auxiliar financiero",
+      "financieel medewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "fish-processor",
+    "label": "Fish processor",
+    "aliases": [
+      "fish processor",
+      "fish factory",
+      "procesador de pescado",
+      "visverwerker",
+      "visfabriek"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "flower-auction-worker",
+    "label": "Flower auction worker",
+    "aliases": [
+      "flower auction",
+      "flower auction worker",
+      "subasta de flores",
+      "bloemenveiling",
+      "veilingmedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "furniture-assembler",
+    "label": "Furniture assembler",
+    "aliases": [
+      "furniture assembler",
+      "furniture fitter",
+      "montador de muebles",
+      "meubelmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "fuel-pump-attendant",
+    "label": "Fuel pump attendant",
+    "aliases": [
+      "fuel pump attendant",
+      "petrol station attendant",
+      "gasolinero",
+      "gasolinera",
+      "pompbediende",
+      "tankstation"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "fiber-optic-technician",
+    "label": "Fiber-optic technician",
+    "aliases": [
+      "fiber optic technician",
+      "fibre technician",
+      "tecnico de fibra optica",
+      "glasvezelmonteur",
+      "glasvezel"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "frozen-food-worker",
+    "label": "Frozen food worker",
+    "aliases": [
+      "frozen food worker",
+      "frozen food",
+      "trabajador de congelados",
+      "diepvriesmedewerker",
+      "vrieshuis"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "food-processing-operator",
+    "label": "Food processing operator",
+    "aliases": [
+      "food processing",
+      "food processing operator",
+      "operario de alimentos",
+      "operador de alimentos",
+      "voedselverwerker",
+      "productiemedewerker voeding"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "glazier",
+    "label": "Glazier",
+    "aliases": [
+      "glazier",
+      "glass installer",
+      "vidriero",
+      "cristalero",
+      "glaszetter"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "gas-fitter",
+    "label": "Gas fitter",
+    "aliases": [
+      "gas fitter",
+      "gas technician",
+      "instalador de gas",
+      "gasmonteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "greengrocer",
+    "label": "Greengrocer",
+    "aliases": [
+      "greengrocer",
+      "produce seller",
+      "verdulero",
+      "verdulera",
+      "groenteboer"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "greenkeeper",
+    "label": "Greenkeeper",
+    "aliases": [
+      "greenkeeper",
+      "golf greenkeeper",
+      "greenkeeper de golf",
+      "terreinmeester"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "ground-handler",
+    "label": "Ground handler (airport)",
+    "aliases": [
+      "ground handler",
+      "ramp agent",
+      "agente de rampa",
+      "groundhandling",
+      "rampmedewerker",
+      "bagageafhandeling"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "graffiti-remover",
+    "label": "Graffiti remover",
+    "aliases": [
+      "graffiti remover",
+      "graffiti cleaner",
+      "quitagraffiti",
+      "limpieza de graffiti",
+      "graffiti verwijderaar"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "gutter-cleaner",
+    "label": "Gutter cleaner",
+    "aliases": [
+      "gutter cleaner",
+      "gutter cleaning",
+      "limpiador de canalones",
+      "dakgootreiniger"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "guest-services-host",
+    "label": "Guest services host",
+    "aliases": [
+      "guest services",
+      "guest services host",
+      "atencion al huesped",
+      "guest service medewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "group-host-holiday-park",
+    "label": "Group host (holiday park)",
+    "aliases": [
+      "group host",
+      "holiday park host",
+      "animador de parque",
+      "groepsbegeleider",
+      "vakantiepark"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "gypsum-plasterer",
+    "label": "Gypsum plasterer",
+    "aliases": [
+      "gypsum plasterer",
+      "plasterer",
+      "yesero",
+      "estucador",
+      "stukadoor",
+      "gipser"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "garden-centre-assistant",
+    "label": "Garden centre assistant",
+    "aliases": [
+      "garden centre",
+      "garden center",
+      "auxiliar de garden center",
+      "tuincentrummedewerker",
+      "tuincentrum"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "garbage-collector",
+    "label": "Garbage collector",
+    "aliases": [
+      "garbage collector",
+      "waste collector",
+      "bin man",
+      "basurero",
+      "recoleccion de basura",
+      "vuilnisman",
+      "belader"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "graphic-print-operator",
+    "label": "Graphic print operator",
+    "aliases": [
+      "print operator",
+      "graphic print operator",
+      "operador de imprenta",
+      "printoperator",
+      "drukkerijmedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "glass-recycler",
+    "label": "Glass recycling sorter",
+    "aliases": [
+      "glass recycler",
+      "glass sorting",
+      "clasificador de vidrio",
+      "glassorteerder",
+      "glasrecycling"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "handyman",
+    "label": "Handyman",
+    "aliases": [
+      "handyman",
+      "odd-job man",
+      "manitas",
+      "hombre orquesta",
+      "klusjesman"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "heat-pump-installer",
+    "label": "Heat pump installer",
+    "aliases": [
+      "heat pump installer",
+      "heat pump",
+      "instalador de bomba de calor",
+      "warmtepompmonteur",
+      "warmtepomp"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "heating-installer",
+    "label": "Heating installer",
+    "aliases": [
+      "heating installer",
+      "heating engineer",
+      "instalador de calefaccion",
+      "cv-monteur",
+      "cv monteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "herring-vendor",
+    "label": "Herring stall vendor",
+    "aliases": [
+      "herring vendor",
+      "herring stall",
+      "vendedor de arenque",
+      "haringboer",
+      "haringkar"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "highway-traffic-marshal",
+    "label": "Highway traffic marshal",
+    "aliases": [
+      "traffic marshal",
+      "highway traffic marshal",
+      "traffic controller",
+      "senalista de trafico",
+      "regula trafico",
+      "verkeersregelaar"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "hotel-porter",
+    "label": "Hotel porter",
+    "aliases": [
+      "hotel porter",
+      "bellhop",
+      "botones",
+      "portero de hotel",
+      "hotelportier"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "hotel-breakfast-attendant",
+    "label": "Hotel breakfast attendant",
+    "aliases": [
+      "hotel breakfast",
+      "breakfast attendant",
+      "desayunos de hotel",
+      "ontbijtservice",
+      "breakfastmedewerker"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "hvac-technician",
+    "label": "HVAC technician",
+    "aliases": [
+      "hvac",
+      "hvac technician",
+      "tecnico de climatizacion",
+      "airco monteur",
+      "airco-monteur"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "horticulture-nursery-worker",
+    "label": "Horticulture nursery worker",
+    "aliases": [
+      "horticulture",
+      "plant nursery",
+      "viverista",
+      "trabajador de vivero",
+      "kwekerijmedewerker",
+      "plantenkwekerij"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "home-insulation-installer",
+    "label": "Home insulation installer",
+    "aliases": [
+      "insulation installer",
+      "home insulation",
+      "instalador de aislamiento",
+      "isolatiemonteur",
+      "spouwmuurisolatie"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "hardware-store-assistant",
+    "label": "Hardware store assistant",
+    "aliases": [
+      "hardware store",
+      "diy store",
+      "empleado de ferreteria",
+      "ferreteria",
+      "bouwmarktmedewerker",
+      "bouwmarkt"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "hair-salon-assistant",
+    "label": "Hair salon assistant",
+    "aliases": [
+      "salon assistant",
+      "hair assistant",
+      "ayudante de peluqueria",
+      "salonassistente",
+      "kappersassistent"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "holiday-representative",
+    "label": "Holiday representative",
+    "aliases": [
+      "holiday rep",
+      "holiday representative",
+      "rep de vacaciones",
+      "animador turistico",
+      "reisleider",
+      "animatie"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "horse-stable-hand",
+    "label": "Horse stable hand",
+    "aliases": [
+      "stable hand",
+      "groom",
+      "mozo de cuadra",
+      "cuidador de caballos",
+      "stalmedewerker",
+      "paardenverzorger"
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "id": "ict-technician",
     "label": "ICT technician",
     "aliases": [
