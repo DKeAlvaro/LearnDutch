@@ -1,0 +1,212 @@
+[
+  {
+    "id": "ik_moet_noun_hebben",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "moet", "{noun}", "hebben"],
+    "en": "I need {noun}."
+  },
+  {
+    "id": "je_moet_noun_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Je", "moet", "{noun}", "doen"],
+    "en": "You have to do {noun}."
+  },
+  {
+    "id": "ik_moet_naar_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "moet", "naar", "{noun}"],
+    "en": "I have to go to {noun}."
+  },
+  {
+    "id": "hoe_laat_gaat_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Hoe", "laat", "gaat", "{noun}"],
+    "en": "What time does {noun} go?"
+  },
+  {
+    "id": "hoe_laat_is_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Hoe", "laat", "is", "{noun}"],
+    "en": "What time is {noun}?"
+  },
+  {
+    "id": "je_kunt_noun_vinden",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Je", "kunt", "{noun}", "vinden"],
+    "en": "You can find {noun}."
+  },
+  {
+    "id": "ik_kan_noun_niet_vinden",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "kan", "{noun}", "niet", "vinden"],
+    "en": "I cannot find {noun}."
+  },
+  {
+    "id": "kunnen_we_noun_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Kunnen", "we", "{noun}", "doen"],
+    "en": "Can we do {noun}?"
+  },
+  {
+    "id": "hoe_is_het_met_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Hoe", "is", "het", "met", "{noun}"],
+    "en": "How is {noun}?"
+  },
+  {
+    "id": "ik_moet_noun_maken",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "moet", "{noun}", "maken"],
+    "en": "I have to make {noun}."
+  },
+  {
+    "id": "ik_heb_noun_nodig",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "heb", "{noun}", "nodig"],
+    "en": "I need {noun}."
+  },
+  {
+    "id": "we_moeten_noun_hebben",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["We", "moeten", "{noun}", "hebben"],
+    "en": "We need {noun}."
+  },
+  {
+    "id": "tot_hoe_laat_is_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Tot", "hoe", "laat", "is", "{noun}"],
+    "en": "Until what time is {noun}?"
+  },
+  {
+    "id": "waar_kan_ik_noun_vinden",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Waar", "kan", "ik", "{noun}", "vinden"],
+    "en": "Where can I find {noun}?"
+  },
+  {
+    "id": "ik_kan_noun_niet_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "kan", "{noun}", "niet", "doen"],
+    "en": "I cannot do {noun}."
+  },
+  {
+    "id": "je_mag_geen_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Je", "mag", "geen", "{noun}"],
+    "en": "You are not allowed {noun}."
+  },
+  {
+    "id": "moet_je_noun_hebben",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Moet", "je", "{noun}", "hebben"],
+    "en": "Do you need {noun}?"
+  },
+  {
+    "id": "kan_je_noun_geven",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Kan", "je", "{noun}", "geven"],
+    "en": "Can you give {noun}?"
+  },
+  {
+    "id": "ik_moet_tot_noun_hier_zijn",
+    "level": "A1",
+    "tags": ["work", "student"],
+    "parts": ["Ik", "moet", "tot", "{noun}", "hier", "zijn"],
+    "en": "I have to be here until {noun}."
+  },
+  {
+    "id": "hoe_laat_moet_je_naar_noun",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Hoe", "laat", "moet", "je", "naar", "{noun}"],
+    "en": "What time do you have to go to {noun}?"
+  },
+  {
+    "id": "we_kunnen_noun_samen_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["We", "kunnen", "{noun}", "samen", "doen"],
+    "en": "We can do {noun} together."
+  },
+  {
+    "id": "ik_moet_noun_nu_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "moet", "{noun}", "nu", "doen"],
+    "en": "I have to do {noun} now."
+  },
+  {
+    "id": "we_moeten_noun_snel_maken",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["We", "moeten", "{noun}", "snel", "maken"],
+    "en": "We have to make {noun} quickly."
+  },
+  {
+    "id": "kunnen_jullie_noun_geven",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Kunnen", "jullie", "{noun}", "geven"],
+    "en": "Can you give {noun}?"
+  },
+  {
+    "id": "zonder_noun_kan_ik_niet",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Zonder", "{noun}", "kan", "ik", "niet"],
+    "en": "I cannot do without {noun}."
+  },
+  {
+    "id": "je_moet_naar_noun_gaan",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Je", "moet", "naar", "{noun}", "gaan"],
+    "en": "You have to go to {noun}."
+  },
+  {
+    "id": "ik_moet_noun_terug_geven",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Ik", "moet", "{noun}", "terug", "geven"],
+    "en": "I have to give {noun} back."
+  },
+  {
+    "id": "hoe_veel_noun_moet_je_hebben",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Hoe", "veel", "{noun}", "moet", "je", "hebben"],
+    "en": "How much {noun} do you need?"
+  },
+  {
+    "id": "misschien_kan_je_noun_doen",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Misschien", "kan", "je", "{noun}", "doen"],
+    "en": "Maybe you can do {noun}."
+  },
+  {
+    "id": "waarom_moet_je_noun_hebben",
+    "level": "A1",
+    "tags": ["student", "work"],
+    "parts": ["Waarom", "moet", "je", "{noun}", "hebben"],
+    "en": "Why do you need {noun}?"
+  }
+]
