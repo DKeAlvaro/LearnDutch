@@ -9,7 +9,7 @@ The app ships a curated phrase dataset, not a curriculum. Raw material below. Th
 - **wordfreq** (Dutch): ranks from subtitles, wiki, etc. Data **CC BY-SA 4.0**. Credit in About. Do not vendor the raw SUBTLEX-NL Excel (research / NC-SA traces); wordfreq is the allowed path.
 - **OpenTaal** word list: **CC BY 3.0** / BSD. Valid lemmas, not ranks. https://github.com/OpenTaal/opentaal-wordlist
 
-Use frequency to order fills (top nouns/verbs first). Not to dump the whole lexicon.
+Local files: `data/frequency.json` (glue + everything) and `data/teach.json` (nouns/verbs/adjs with chicha). Rebuild: `pipeline/build_dicts.py`.
 
 ## Attested sentences
 

@@ -1,0 +1,10160 @@
+{
+  "source": "Intersection of wordfreq Dutch ranks with content-word UPOS (NOUN/VERB/ADJ) in Universal Dependencies UD_Dutch-Alpino + UD_Dutch-LassySmall train sets. Article from UD Gender.",
+  "license": "CC BY-SA 4.0 (UD treebanks + wordfreq data)",
+  "attribution": [
+    "Speer, Robyn. wordfreq. https://github.com/rspeer/wordfreq",
+    "Universal Dependencies: UD_Dutch-Alpino, UD_Dutch-LassySmall (CC BY-SA 4.0)"
+  ],
+  "counts": {
+    "noun": 800,
+    "verb": 335,
+    "adj": 200
+  },
+  "words": [
+    {
+      "nl": "meer",
+      "pos": "noun",
+      "zipf": 6.44,
+      "freq_rank": 42,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "jaar",
+      "pos": "noun",
+      "zipf": 6.25,
+      "freq_rank": 58,
+      "ud_count": 979,
+      "article": "het"
+    },
+    {
+      "nl": "wil",
+      "pos": "noun",
+      "zipf": 6.18,
+      "freq_rank": 71,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "dag",
+      "pos": "noun",
+      "zipf": 5.99,
+      "freq_rank": 102,
+      "ud_count": 308,
+      "article": "de"
+    },
+    {
+      "nl": "staat",
+      "pos": "noun",
+      "zipf": 5.98,
+      "freq_rank": 104,
+      "ud_count": 204,
+      "article": "de"
+    },
+    {
+      "nl": "tijd",
+      "pos": "noun",
+      "zipf": 5.97,
+      "freq_rank": 106,
+      "ud_count": 361,
+      "article": "de"
+    },
+    {
+      "nl": "leven",
+      "pos": "noun",
+      "zipf": 5.95,
+      "freq_rank": 111,
+      "ud_count": 160,
+      "article": "het"
+    },
+    {
+      "nl": "man",
+      "pos": "noun",
+      "zipf": 5.85,
+      "freq_rank": 134,
+      "ud_count": 233,
+      "article": "de"
+    },
+    {
+      "nl": "uur",
+      "pos": "noun",
+      "zipf": 5.83,
+      "freq_rank": 139,
+      "ud_count": 173,
+      "article": "het"
+    },
+    {
+      "nl": "keer",
+      "pos": "noun",
+      "zipf": 5.81,
+      "freq_rank": 144,
+      "ud_count": 109,
+      "article": "de"
+    },
+    {
+      "nl": "weg",
+      "pos": "noun",
+      "zipf": 5.8,
+      "freq_rank": 148,
+      "ud_count": 125,
+      "article": "de"
+    },
+    {
+      "nl": "werk",
+      "pos": "noun",
+      "zipf": 5.78,
+      "freq_rank": 154,
+      "ud_count": 182,
+      "article": "het"
+    },
+    {
+      "nl": "aantal",
+      "pos": "noun",
+      "zipf": 5.75,
+      "freq_rank": 162,
+      "ud_count": 239,
+      "article": "het"
+    },
+    {
+      "nl": "plaats",
+      "pos": "noun",
+      "zipf": 5.74,
+      "freq_rank": 169,
+      "ud_count": 344,
+      "article": "de"
+    },
+    {
+      "nl": "deel",
+      "pos": "noun",
+      "zipf": 5.73,
+      "freq_rank": 172,
+      "ud_count": 298,
+      "article": "het"
+    },
+    {
+      "nl": "huis",
+      "pos": "noun",
+      "zipf": 5.73,
+      "freq_rank": 174,
+      "ud_count": 157,
+      "article": "het"
+    },
+    {
+      "nl": "vrouw",
+      "pos": "noun",
+      "zipf": 5.73,
+      "freq_rank": 181,
+      "ud_count": 173,
+      "article": "de"
+    },
+    {
+      "nl": "land",
+      "pos": "noun",
+      "zipf": 5.69,
+      "freq_rank": 196,
+      "ud_count": 461,
+      "article": "het"
+    },
+    {
+      "nl": "naam",
+      "pos": "noun",
+      "zipf": 5.69,
+      "freq_rank": 197,
+      "ud_count": 313,
+      "article": "de"
+    },
+    {
+      "nl": "stad",
+      "pos": "noun",
+      "zipf": 5.68,
+      "freq_rank": 201,
+      "ud_count": 374,
+      "article": "de"
+    },
+    {
+      "nl": "vraag",
+      "pos": "noun",
+      "zipf": 5.64,
+      "freq_rank": 225,
+      "ud_count": 110,
+      "article": "de"
+    },
+    {
+      "nl": "wereld",
+      "pos": "noun",
+      "zipf": 5.63,
+      "freq_rank": 231,
+      "ud_count": 158,
+      "article": "de"
+    },
+    {
+      "nl": "paar",
+      "pos": "noun",
+      "zipf": 5.62,
+      "freq_rank": 237,
+      "ud_count": 68,
+      "article": "het"
+    },
+    {
+      "nl": "foto",
+      "pos": "noun",
+      "zipf": 5.61,
+      "freq_rank": 239,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "geld",
+      "pos": "noun",
+      "zipf": 5.61,
+      "freq_rank": 240,
+      "ud_count": 105,
+      "article": "het"
+    },
+    {
+      "nl": "week",
+      "pos": "noun",
+      "zipf": 5.58,
+      "freq_rank": 257,
+      "ud_count": 170,
+      "article": "de"
+    },
+    {
+      "nl": "dood",
+      "pos": "noun",
+      "zipf": 5.57,
+      "freq_rank": 259,
+      "ud_count": 87,
+      "article": "de"
+    },
+    {
+      "nl": "familie",
+      "pos": "noun",
+      "zipf": 5.56,
+      "freq_rank": 261,
+      "ud_count": 69,
+      "article": "de"
+    },
+    {
+      "nl": "nieuws",
+      "pos": "noun",
+      "zipf": 5.56,
+      "freq_rank": 263,
+      "ud_count": 17,
+      "article": "het"
+    },
+    {
+      "nl": "moment",
+      "pos": "noun",
+      "zipf": 5.54,
+      "freq_rank": 271,
+      "ud_count": 82,
+      "article": "het"
+    },
+    {
+      "nl": "manier",
+      "pos": "noun",
+      "zipf": 5.53,
+      "freq_rank": 276,
+      "ud_count": 69,
+      "article": "de"
+    },
+    {
+      "nl": "politie",
+      "pos": "noun",
+      "zipf": 5.53,
+      "freq_rank": 277,
+      "ud_count": 158,
+      "article": "de"
+    },
+    {
+      "nl": "water",
+      "pos": "noun",
+      "zipf": 5.52,
+      "freq_rank": 284,
+      "ud_count": 66,
+      "article": "het"
+    },
+    {
+      "nl": "gebruik",
+      "pos": "noun",
+      "zipf": 5.5,
+      "freq_rank": 297,
+      "ud_count": 74,
+      "article": "het"
+    },
+    {
+      "nl": "hoop",
+      "pos": "noun",
+      "zipf": 5.5,
+      "freq_rank": 299,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "beetje",
+      "pos": "noun",
+      "zipf": 5.49,
+      "freq_rank": 304,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "groep",
+      "pos": "noun",
+      "zipf": 5.49,
+      "freq_rank": 308,
+      "ud_count": 183,
+      "article": "de"
+    },
+    {
+      "nl": "auto",
+      "pos": "noun",
+      "zipf": 5.48,
+      "freq_rank": 313,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "school",
+      "pos": "noun",
+      "zipf": 5.48,
+      "freq_rank": 314,
+      "ud_count": 93,
+      "article": "de"
+    },
+    {
+      "nl": "film",
+      "pos": "noun",
+      "zipf": 5.47,
+      "freq_rank": 318,
+      "ud_count": 280,
+      "article": "de"
+    },
+    {
+      "nl": "onderzoek",
+      "pos": "noun",
+      "zipf": 5.46,
+      "freq_rank": 327,
+      "ud_count": 62,
+      "article": "het"
+    },
+    {
+      "nl": "informatie",
+      "pos": "noun",
+      "zipf": 5.45,
+      "freq_rank": 333,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "probleem",
+      "pos": "noun",
+      "zipf": 5.44,
+      "freq_rank": 339,
+      "ud_count": 110,
+      "article": "het"
+    },
+    {
+      "nl": "video",
+      "pos": "noun",
+      "zipf": 5.44,
+      "freq_rank": 341,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "vader",
+      "pos": "noun",
+      "zipf": 5.43,
+      "freq_rank": 348,
+      "ud_count": 75,
+      "article": "de"
+    },
+    {
+      "nl": "artikel",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 354,
+      "ud_count": 63,
+      "article": "het"
+    },
+    {
+      "nl": "begin",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 355,
+      "ud_count": 165,
+      "article": "het"
+    },
+    {
+      "nl": "gebied",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 356,
+      "ud_count": 218,
+      "article": "het"
+    },
+    {
+      "nl": "idee",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 364,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "moeder",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 366,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "regio",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 368,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "verhaal",
+      "pos": "noun",
+      "zipf": 5.4,
+      "freq_rank": 376,
+      "ud_count": 129,
+      "article": "het"
+    },
+    {
+      "nl": "kans",
+      "pos": "noun",
+      "zipf": 5.39,
+      "freq_rank": 379,
+      "ud_count": 82,
+      "article": "de"
+    },
+    {
+      "nl": "hand",
+      "pos": "noun",
+      "zipf": 5.38,
+      "freq_rank": 383,
+      "ud_count": 164,
+      "article": "de"
+    },
+    {
+      "nl": "meisje",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 391,
+      "ud_count": 45,
+      "article": "het"
+    },
+    {
+      "nl": "muziek",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 392,
+      "ud_count": 49,
+      "article": "de"
+    },
+    {
+      "nl": "zoon",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 397,
+      "ud_count": 101,
+      "article": "de"
+    },
+    {
+      "nl": "hoofd",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 400,
+      "ud_count": 45,
+      "article": "het"
+    },
+    {
+      "nl": "kind",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 401,
+      "ud_count": 198,
+      "article": "het"
+    },
+    {
+      "nl": "zorg",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 405,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "boek",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 407,
+      "ud_count": 167,
+      "article": "het"
+    },
+    {
+      "nl": "dank",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 408,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "gemeente",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 410,
+      "ud_count": 175,
+      "article": "de"
+    },
+    {
+      "nl": "team",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 417,
+      "ud_count": 31,
+      "article": "het"
+    },
+    {
+      "nl": "druk",
+      "pos": "noun",
+      "zipf": 5.34,
+      "freq_rank": 422,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "geval",
+      "pos": "noun",
+      "zipf": 5.33,
+      "freq_rank": 435,
+      "ud_count": 81,
+      "article": "het"
+    },
+    {
+      "nl": "miljoen",
+      "pos": "noun",
+      "zipf": 5.33,
+      "freq_rank": 436,
+      "ud_count": 132,
+      "article": "het"
+    },
+    {
+      "nl": "nummer",
+      "pos": "noun",
+      "zipf": 5.32,
+      "freq_rank": 446,
+      "ud_count": 108,
+      "article": "het"
+    },
+    {
+      "nl": "partij",
+      "pos": "noun",
+      "zipf": 5.32,
+      "freq_rank": 448,
+      "ud_count": 271,
+      "article": "de"
+    },
+    {
+      "nl": "top",
+      "pos": "noun",
+      "zipf": 5.32,
+      "freq_rank": 449,
+      "ud_count": 32,
+      "article": "de"
+    },
+    {
+      "nl": "hulp",
+      "pos": "noun",
+      "zipf": 5.3,
+      "freq_rank": 457,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "maand",
+      "pos": "noun",
+      "zipf": 5.29,
+      "freq_rank": 467,
+      "ud_count": 116,
+      "article": "de"
+    },
+    {
+      "nl": "oorlog",
+      "pos": "noun",
+      "zipf": 5.29,
+      "freq_rank": 469,
+      "ud_count": 283,
+      "article": "de"
+    },
+    {
+      "nl": "recht",
+      "pos": "noun",
+      "zipf": 5.29,
+      "freq_rank": 471,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "zet",
+      "pos": "noun",
+      "zipf": 5.29,
+      "freq_rank": 474,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "einde",
+      "pos": "noun",
+      "zipf": 5.28,
+      "freq_rank": 476,
+      "ud_count": 115,
+      "article": "het"
+    },
+    {
+      "nl": "kamer",
+      "pos": "noun",
+      "zipf": 5.28,
+      "freq_rank": 477,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "prijs",
+      "pos": "noun",
+      "zipf": 5.28,
+      "freq_rank": 481,
+      "ud_count": 95,
+      "article": "de"
+    },
+    {
+      "nl": "programma",
+      "pos": "noun",
+      "zipf": 5.28,
+      "freq_rank": 482,
+      "ud_count": 71,
+      "article": "het"
+    },
+    {
+      "nl": "orde",
+      "pos": "noun",
+      "zipf": 5.27,
+      "freq_rank": 492,
+      "ud_count": 62,
+      "article": "de"
+    },
+    {
+      "nl": "kant",
+      "pos": "noun",
+      "zipf": 5.26,
+      "freq_rank": 498,
+      "ud_count": 90,
+      "article": "de"
+    },
+    {
+      "nl": "reden",
+      "pos": "noun",
+      "zipf": 5.26,
+      "freq_rank": 500,
+      "ud_count": 76,
+      "article": "de"
+    },
+    {
+      "nl": "zaak",
+      "pos": "noun",
+      "zipf": 5.26,
+      "freq_rank": 503,
+      "ud_count": 166,
+      "article": "de"
+    },
+    {
+      "nl": "euro",
+      "pos": "noun",
+      "zipf": 5.25,
+      "freq_rank": 505,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "gevoel",
+      "pos": "noun",
+      "zipf": 5.25,
+      "freq_rank": 507,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "tv",
+      "pos": "noun",
+      "zipf": 5.25,
+      "freq_rank": 511,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "aandacht",
+      "pos": "noun",
+      "zipf": 5.24,
+      "freq_rank": 514,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "geschiedenis",
+      "pos": "noun",
+      "zipf": 5.24,
+      "freq_rank": 518,
+      "ud_count": 121,
+      "article": "de"
+    },
+    {
+      "nl": "midden",
+      "pos": "noun",
+      "zipf": 5.24,
+      "freq_rank": 522,
+      "ud_count": 33,
+      "article": "het"
+    },
+    {
+      "nl": "stuk",
+      "pos": "noun",
+      "zipf": 5.24,
+      "freq_rank": 527,
+      "ud_count": 122,
+      "article": "het"
+    },
+    {
+      "nl": "bedrijf",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 531,
+      "ud_count": 96,
+      "article": "het"
+    },
+    {
+      "nl": "gegeven",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 533,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "lichaam",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 538,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "onderwijs",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 539,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "plek",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 540,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "wedstrijd",
+      "pos": "noun",
+      "zipf": 5.23,
+      "freq_rank": 542,
+      "ud_count": 129,
+      "article": "de"
+    },
+    {
+      "nl": "dochter",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 545,
+      "ud_count": 49,
+      "article": "de"
+    },
+    {
+      "nl": "persoon",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 548,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "rol",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 549,
+      "ud_count": 88,
+      "article": "de"
+    },
+    {
+      "nl": "vorm",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 551,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "woord",
+      "pos": "noun",
+      "zipf": 5.22,
+      "freq_rank": 552,
+      "ud_count": 112,
+      "article": "het"
+    },
+    {
+      "nl": "buurt",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 555,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "contact",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 556,
+      "ud_count": 43,
+      "article": "het"
+    },
+    {
+      "nl": "leeftijd",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 560,
+      "ud_count": 44,
+      "article": "de"
+    },
+    {
+      "nl": "lid",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 561,
+      "ud_count": 138,
+      "article": "het"
+    },
+    {
+      "nl": "liefde",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 562,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "minister",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 563,
+      "ud_count": 203,
+      "article": "de"
+    },
+    {
+      "nl": "toekomst",
+      "pos": "noun",
+      "zipf": 5.21,
+      "freq_rank": 565,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "avond",
+      "pos": "noun",
+      "zipf": 5.2,
+      "freq_rank": 570,
+      "ud_count": 58,
+      "article": "de"
+    },
+    {
+      "nl": "doel",
+      "pos": "noun",
+      "zipf": 5.2,
+      "freq_rank": 573,
+      "ud_count": 75,
+      "article": "het"
+    },
+    {
+      "nl": "hart",
+      "pos": "noun",
+      "zipf": 5.2,
+      "freq_rank": 574,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "organisatie",
+      "pos": "noun",
+      "zipf": 5.2,
+      "freq_rank": 577,
+      "ud_count": 62,
+      "article": "de"
+    },
+    {
+      "nl": "provincie",
+      "pos": "noun",
+      "zipf": 5.2,
+      "freq_rank": 578,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "actie",
+      "pos": "noun",
+      "zipf": 5.19,
+      "freq_rank": 581,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "rest",
+      "pos": "noun",
+      "zipf": 5.19,
+      "freq_rank": 587,
+      "ud_count": 55,
+      "article": "de"
+    },
+    {
+      "nl": "centrum",
+      "pos": "noun",
+      "zipf": 5.18,
+      "freq_rank": 590,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "plan",
+      "pos": "noun",
+      "zipf": 5.18,
+      "freq_rank": 602,
+      "ud_count": 101,
+      "article": "het"
+    },
+    {
+      "nl": "president",
+      "pos": "noun",
+      "zipf": 5.18,
+      "freq_rank": 603,
+      "ud_count": 133,
+      "article": "de"
+    },
+    {
+      "nl": "basis",
+      "pos": "noun",
+      "zipf": 5.17,
+      "freq_rank": 606,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "geloof",
+      "pos": "noun",
+      "zipf": 5.17,
+      "freq_rank": 609,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "mens",
+      "pos": "noun",
+      "zipf": 5.17,
+      "freq_rank": 612,
+      "ud_count": 320,
+      "article": "de"
+    },
+    {
+      "nl": "project",
+      "pos": "noun",
+      "zipf": 5.17,
+      "freq_rank": 615,
+      "ud_count": 42,
+      "article": "het"
+    },
+    {
+      "nl": "zin",
+      "pos": "noun",
+      "zipf": 5.17,
+      "freq_rank": 621,
+      "ud_count": 46,
+      "article": "de"
+    },
+    {
+      "nl": "grond",
+      "pos": "noun",
+      "zipf": 5.16,
+      "freq_rank": 626,
+      "ud_count": 70,
+      "article": "de"
+    },
+    {
+      "nl": "seizoen",
+      "pos": "noun",
+      "zipf": 5.16,
+      "freq_rank": 631,
+      "ud_count": 46,
+      "article": "het"
+    },
+    {
+      "nl": "antwoord",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 634,
+      "ud_count": 62,
+      "article": "het"
+    },
+    {
+      "nl": "bericht",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 635,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "eind",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 638,
+      "ud_count": 127,
+      "article": "het"
+    },
+    {
+      "nl": "meter",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 643,
+      "ud_count": 76,
+      "article": "de"
+    },
+    {
+      "nl": "omgeving",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 645,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "onderdeel",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 646,
+      "ud_count": 34,
+      "article": "het"
+    },
+    {
+      "nl": "succes",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 648,
+      "ud_count": 82,
+      "article": "het"
+    },
+    {
+      "nl": "wet",
+      "pos": "noun",
+      "zipf": 5.15,
+      "freq_rank": 652,
+      "ud_count": 56,
+      "article": "de"
+    },
+    {
+      "nl": "kleur",
+      "pos": "noun",
+      "zipf": 5.14,
+      "freq_rank": 658,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "site",
+      "pos": "noun",
+      "zipf": 5.14,
+      "freq_rank": 660,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "stap",
+      "pos": "noun",
+      "zipf": 5.14,
+      "freq_rank": 661,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "telefoon",
+      "pos": "noun",
+      "zipf": 5.14,
+      "freq_rank": 662,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "bed",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 667,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "beeld",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 668,
+      "ud_count": 76,
+      "article": "het"
+    },
+    {
+      "nl": "bezoek",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 669,
+      "ud_count": 38,
+      "article": "het"
+    },
+    {
+      "nl": "dienst",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 670,
+      "ud_count": 67,
+      "article": "de"
+    },
+    {
+      "nl": "leger",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 675,
+      "ud_count": 222,
+      "article": "het"
+    },
+    {
+      "nl": "lijst",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 676,
+      "ud_count": 69,
+      "article": "de"
+    },
+    {
+      "nl": "stem",
+      "pos": "noun",
+      "zipf": 5.13,
+      "freq_rank": 680,
+      "ud_count": 58,
+      "article": "de"
+    },
+    {
+      "nl": "club",
+      "pos": "noun",
+      "zipf": 5.12,
+      "freq_rank": 685,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "ontwikkeling",
+      "pos": "noun",
+      "zipf": 5.12,
+      "freq_rank": 693,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "spel",
+      "pos": "noun",
+      "zipf": 5.12,
+      "freq_rank": 695,
+      "ud_count": 39,
+      "article": "het"
+    },
+    {
+      "nl": "vriend",
+      "pos": "noun",
+      "zipf": 5.12,
+      "freq_rank": 699,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "licht",
+      "pos": "noun",
+      "zipf": 5.11,
+      "freq_rank": 706,
+      "ud_count": 36,
+      "article": "het"
+    },
+    {
+      "nl": "eiland",
+      "pos": "noun",
+      "zipf": 5.1,
+      "freq_rank": 715,
+      "ud_count": 49,
+      "article": "het"
+    },
+    {
+      "nl": "jongen",
+      "pos": "noun",
+      "zipf": 5.1,
+      "freq_rank": 718,
+      "ud_count": 71,
+      "article": "de"
+    },
+    {
+      "nl": "link",
+      "pos": "noun",
+      "zipf": 5.1,
+      "freq_rank": 721,
+      "ud_count": 70,
+      "article": "de"
+    },
+    {
+      "nl": "pijn",
+      "pos": "noun",
+      "zipf": 5.1,
+      "freq_rank": 723,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "punt",
+      "pos": "noun",
+      "zipf": 5.1,
+      "freq_rank": 725,
+      "ud_count": 105,
+      "article": "het"
+    },
+    {
+      "nl": "koning",
+      "pos": "noun",
+      "zipf": 5.09,
+      "freq_rank": 733,
+      "ud_count": 219,
+      "article": "de"
+    },
+    {
+      "nl": "kop",
+      "pos": "noun",
+      "zipf": 5.09,
+      "freq_rank": 734,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "nacht",
+      "pos": "noun",
+      "zipf": 5.09,
+      "freq_rank": 737,
+      "ud_count": 58,
+      "article": "de"
+    },
+    {
+      "nl": "regering",
+      "pos": "noun",
+      "zipf": 5.09,
+      "freq_rank": 741,
+      "ud_count": 190,
+      "article": "de"
+    },
+    {
+      "nl": "straat",
+      "pos": "noun",
+      "zipf": 5.09,
+      "freq_rank": 742,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "belang",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 748,
+      "ud_count": 67,
+      "article": "het"
+    },
+    {
+      "nl": "broer",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 750,
+      "ud_count": 59,
+      "article": "de"
+    },
+    {
+      "nl": "periode",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 760,
+      "ud_count": 118,
+      "article": "de"
+    },
+    {
+      "nl": "richting",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 761,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "titel",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 763,
+      "ud_count": 82,
+      "article": "de"
+    },
+    {
+      "nl": "universiteit",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 764,
+      "ud_count": 47,
+      "article": "de"
+    },
+    {
+      "nl": "zee",
+      "pos": "noun",
+      "zipf": 5.08,
+      "freq_rank": 766,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "dorp",
+      "pos": "noun",
+      "zipf": 5.07,
+      "freq_rank": 770,
+      "ud_count": 74,
+      "article": "het"
+    },
+    {
+      "nl": "hoogte",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 781,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "raad",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 786,
+      "ud_count": 70,
+      "article": "de"
+    },
+    {
+      "nl": "reis",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 787,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "serie",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 788,
+      "ud_count": 115,
+      "article": "de"
+    },
+    {
+      "nl": "start",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 790,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "versie",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 796,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "vertrouwen",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 797,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "vriendin",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 798,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "ziekenhuis",
+      "pos": "noun",
+      "zipf": 5.06,
+      "freq_rank": 801,
+      "ud_count": 38,
+      "article": "het"
+    },
+    {
+      "nl": "baan",
+      "pos": "noun",
+      "zipf": 5.05,
+      "freq_rank": 803,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "overheid",
+      "pos": "noun",
+      "zipf": 5.05,
+      "freq_rank": 813,
+      "ud_count": 78,
+      "article": "de"
+    },
+    {
+      "nl": "relatie",
+      "pos": "noun",
+      "zipf": 5.05,
+      "freq_rank": 814,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "rust",
+      "pos": "noun",
+      "zipf": 5.05,
+      "freq_rank": 816,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "tekst",
+      "pos": "noun",
+      "zipf": 5.05,
+      "freq_rank": 818,
+      "ud_count": 41,
+      "article": "de"
+    },
+    {
+      "nl": "bank",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 823,
+      "ud_count": 46,
+      "article": "de"
+    },
+    {
+      "nl": "energie",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 824,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "gebouw",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 825,
+      "ud_count": 90,
+      "article": "het"
+    },
+    {
+      "nl": "helft",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 828,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "kracht",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 833,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "pagina",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 836,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "reactie",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 837,
+      "ud_count": 51,
+      "article": "de"
+    },
+    {
+      "nl": "ruimte",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 838,
+      "ud_count": 34,
+      "article": "de"
+    },
+    {
+      "nl": "situatie",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 839,
+      "ud_count": 75,
+      "article": "de"
+    },
+    {
+      "nl": "systeem",
+      "pos": "noun",
+      "zipf": 5.04,
+      "freq_rank": 842,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "kaart",
+      "pos": "noun",
+      "zipf": 5.03,
+      "freq_rank": 852,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "kerk",
+      "pos": "noun",
+      "zipf": 5.03,
+      "freq_rank": 853,
+      "ud_count": 188,
+      "article": "de"
+    },
+    {
+      "nl": "taal",
+      "pos": "noun",
+      "zipf": 5.03,
+      "freq_rank": 855,
+      "ud_count": 48,
+      "article": "de"
+    },
+    {
+      "nl": "voorbeeld",
+      "pos": "noun",
+      "zipf": 5.03,
+      "freq_rank": 856,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "bron",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 859,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "feit",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 860,
+      "ud_count": 115,
+      "article": "het"
+    },
+    {
+      "nl": "gevolg",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 861,
+      "ud_count": 120,
+      "article": "het"
+    },
+    {
+      "nl": "gezicht",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 863,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "radio",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 867,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "heer",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 878,
+      "ud_count": 219,
+      "article": "de"
+    },
+    {
+      "nl": "kennis",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 880,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "keuze",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 881,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "plezier",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 882,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "slag",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 883,
+      "ud_count": 113,
+      "article": "de"
+    },
+    {
+      "nl": "cultuur",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 886,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "economie",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 889,
+      "ud_count": 64,
+      "article": "de"
+    },
+    {
+      "nl": "hotel",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 894,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "markt",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 896,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "samenwerking",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 899,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "zomer",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 903,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "fout",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 906,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "gesprek",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 911,
+      "ud_count": 31,
+      "article": "het"
+    },
+    {
+      "nl": "lucht",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 913,
+      "ud_count": 49,
+      "article": "de"
+    },
+    {
+      "nl": "publiek",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 916,
+      "ud_count": 74,
+      "article": "het"
+    },
+    {
+      "nl": "val",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 919,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "verschil",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 921,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "voetbal",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 922,
+      "ud_count": 29,
+      "article": "het"
+    },
+    {
+      "nl": "brand",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 925,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "geslacht",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 927,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "haat",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 930,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "invloed",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 931,
+      "ud_count": 102,
+      "article": "de"
+    },
+    {
+      "nl": "kunst",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 932,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "moord",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 934,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "park",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 935,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "sport",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 936,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "strijd",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 938,
+      "ud_count": 101,
+      "article": "de"
+    },
+    {
+      "nl": "wk",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 939,
+      "ud_count": 6,
+      "article": "het"
+    },
+    {
+      "nl": "controle",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 941,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "geluk",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 944,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "koffie",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 947,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "loop",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 948,
+      "ud_count": 26,
+      "article": "de"
+    },
+    {
+      "nl": "macht",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 949,
+      "ud_count": 104,
+      "article": "de"
+    },
+    {
+      "nl": "moeite",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 950,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "procent",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 953,
+      "ud_count": 99,
+      "article": "het"
+    },
+    {
+      "nl": "aarde",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 959,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "band",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 960,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "eeuw",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 964,
+      "ud_count": 250,
+      "article": "de"
+    },
+    {
+      "nl": "feest",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 965,
+      "ud_count": 28,
+      "article": "het"
+    },
+    {
+      "nl": "hond",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 969,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "huwelijk",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 970,
+      "ud_count": 35,
+      "article": "het"
+    },
+    {
+      "nl": "vakantie",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 972,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "veiligheid",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 973,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "waarheid",
+      "pos": "noun",
+      "zipf": 4.96,
+      "freq_rank": 974,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "bevolking",
+      "pos": "noun",
+      "zipf": 4.95,
+      "freq_rank": 977,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "deur",
+      "pos": "noun",
+      "zipf": 4.95,
+      "freq_rank": 980,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "ervaring",
+      "pos": "noun",
+      "zipf": 4.95,
+      "freq_rank": 982,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "stand",
+      "pos": "noun",
+      "zipf": 4.95,
+      "freq_rank": 990,
+      "ud_count": 62,
+      "article": "de"
+    },
+    {
+      "nl": "burgemeester",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1000,
+      "ud_count": 72,
+      "article": "de"
+    },
+    {
+      "nl": "lijn",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1006,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "opdracht",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1008,
+      "ud_count": 64,
+      "article": "de"
+    },
+    {
+      "nl": "oplossing",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1009,
+      "ud_count": 41,
+      "article": "de"
+    },
+    {
+      "nl": "ronde",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1011,
+      "ud_count": 46,
+      "article": "de"
+    },
+    {
+      "nl": "schuld",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1013,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "seks",
+      "pos": "noun",
+      "zipf": 4.94,
+      "freq_rank": 1014,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "gezin",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1019,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "mening",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1022,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "niveau",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1023,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "post",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1024,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "verleden",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1026,
+      "ud_count": 30,
+      "article": "het"
+    },
+    {
+      "nl": "zon",
+      "pos": "noun",
+      "zipf": 4.93,
+      "freq_rank": 1027,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "afstand",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1028,
+      "ud_count": 42,
+      "article": "de"
+    },
+    {
+      "nl": "festival",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1034,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "functie",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1035,
+      "ud_count": 67,
+      "article": "de"
+    },
+    {
+      "nl": "jeugd",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1036,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "last",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1038,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "rechter",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1044,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "respect",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1045,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "schip",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1046,
+      "ud_count": 70,
+      "article": "het"
+    },
+    {
+      "nl": "volk",
+      "pos": "noun",
+      "zipf": 4.92,
+      "freq_rank": 1051,
+      "ud_count": 60,
+      "article": "het"
+    },
+    {
+      "nl": "kost",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1056,
+      "ud_count": 36,
+      "article": "de"
+    },
+    {
+      "nl": "oosten",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1060,
+      "ud_count": 35,
+      "article": "het"
+    },
+    {
+      "nl": "overzicht",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1061,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "rij",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1063,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "schade",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1064,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "toegang",
+      "pos": "noun",
+      "zipf": 4.91,
+      "freq_rank": 1068,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "baby",
+      "pos": "noun",
+      "zipf": 4.9,
+      "freq_rank": 1074,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "brief",
+      "pos": "noun",
+      "zipf": 4.9,
+      "freq_rank": 1077,
+      "ud_count": 77,
+      "article": "de"
+    },
+    {
+      "nl": "bus",
+      "pos": "noun",
+      "zipf": 4.9,
+      "freq_rank": 1078,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "positie",
+      "pos": "noun",
+      "zipf": 4.9,
+      "freq_rank": 1094,
+      "ud_count": 59,
+      "article": "de"
+    },
+    {
+      "nl": "gang",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1107,
+      "ud_count": 42,
+      "article": "de"
+    },
+    {
+      "nl": "generaal",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1108,
+      "ud_count": 152,
+      "article": "de"
+    },
+    {
+      "nl": "middel",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1111,
+      "ud_count": 85,
+      "article": "het"
+    },
+    {
+      "nl": "mond",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1113,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "oog",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1114,
+      "ud_count": 66,
+      "article": "het"
+    },
+    {
+      "nl": "optreden",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1115,
+      "ud_count": 44,
+      "article": "het"
+    },
+    {
+      "nl": "schrijver",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1116,
+      "ud_count": 53,
+      "article": "de"
+    },
+    {
+      "nl": "steun",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1119,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "verband",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1120,
+      "ud_count": 51,
+      "article": "het"
+    },
+    {
+      "nl": "wijk",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1121,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "winkel",
+      "pos": "noun",
+      "zipf": 4.89,
+      "freq_rank": 1122,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "beleid",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1126,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "bestuur",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1128,
+      "ud_count": 84,
+      "article": "het"
+    },
+    {
+      "nl": "beweging",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1129,
+      "ud_count": 67,
+      "article": "de"
+    },
+    {
+      "nl": "bewijs",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1130,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "bouw",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1131,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "resultaat",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1140,
+      "ud_count": 65,
+      "article": "het"
+    },
+    {
+      "nl": "weekend",
+      "pos": "noun",
+      "zipf": 4.88,
+      "freq_rank": 1144,
+      "ud_count": 6,
+      "article": "het"
+    },
+    {
+      "nl": "directeur",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1146,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "gedrag",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1148,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "gezondheid",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1149,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "kantoor",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1152,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "proces",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1157,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "stichting",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1159,
+      "ud_count": 37,
+      "article": "de"
+    },
+    {
+      "nl": "vrijheid",
+      "pos": "noun",
+      "zipf": 4.87,
+      "freq_rank": 1162,
+      "ud_count": 44,
+      "article": "de"
+    },
+    {
+      "nl": "ding",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1169,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "netwerk",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1176,
+      "ud_count": 4,
+      "article": "het"
+    },
+    {
+      "nl": "opleiding",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1177,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "rijk",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1179,
+      "ud_count": 83,
+      "article": "het"
+    },
+    {
+      "nl": "rug",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1180,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "show",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1181,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "slachtoffer",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1182,
+      "ud_count": 38,
+      "article": "het"
+    },
+    {
+      "nl": "trein",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1184,
+      "ud_count": 105,
+      "article": "de"
+    },
+    {
+      "nl": "type",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1185,
+      "ud_count": 29,
+      "article": "het"
+    },
+    {
+      "nl": "voorzitter",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1188,
+      "ud_count": 85,
+      "article": "de"
+    },
+    {
+      "nl": "waarde",
+      "pos": "noun",
+      "zipf": 4.86,
+      "freq_rank": 1189,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "advies",
+      "pos": "noun",
+      "zipf": 4.85,
+      "freq_rank": 1195,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "koop",
+      "pos": "noun",
+      "zipf": 4.85,
+      "freq_rank": 1200,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "natuur",
+      "pos": "noun",
+      "zipf": 4.85,
+      "freq_rank": 1201,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "winnaar",
+      "pos": "noun",
+      "zipf": 4.85,
+      "freq_rank": 1207,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "bos",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1210,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "gevangenis",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1216,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "grens",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1219,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "islam",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1222,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "locatie",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1224,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "rivier",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1229,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "station",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1235,
+      "ud_count": 26,
+      "article": "het"
+    },
+    {
+      "nl": "wapen",
+      "pos": "noun",
+      "zipf": 4.84,
+      "freq_rank": 1238,
+      "ud_count": 60,
+      "article": "het"
+    },
+    {
+      "nl": "aanval",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1240,
+      "ud_count": 91,
+      "article": "de"
+    },
+    {
+      "nl": "advocaat",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1241,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "angst",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1242,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "bureau",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1247,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "camera",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1248,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "goud",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1256,
+      "ud_count": 109,
+      "article": "het"
+    },
+    {
+      "nl": "hoofdstad",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1257,
+      "ud_count": 83,
+      "article": "de"
+    },
+    {
+      "nl": "interview",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1258,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "leek",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1262,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "leiding",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1263,
+      "ud_count": 105,
+      "article": "de"
+    },
+    {
+      "nl": "muur",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1265,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "tafel",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1267,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "toestemming",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1268,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "wijze",
+      "pos": "noun",
+      "zipf": 4.83,
+      "freq_rank": 1273,
+      "ud_count": 64,
+      "article": "de"
+    },
+    {
+      "nl": "achtergrond",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1274,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "finale",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1276,
+      "ud_count": 94,
+      "article": "de"
+    },
+    {
+      "nl": "gevaar",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1279,
+      "ud_count": 33,
+      "article": "het"
+    },
+    {
+      "nl": "inhoud",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1283,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "model",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1284,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "premier",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1287,
+      "ud_count": 58,
+      "article": "de"
+    },
+    {
+      "nl": "risico",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1289,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "vereniging",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1293,
+      "ud_count": 55,
+      "article": "de"
+    },
+    {
+      "nl": "westen",
+      "pos": "noun",
+      "zipf": 4.82,
+      "freq_rank": 1295,
+      "ud_count": 59,
+      "article": "het"
+    },
+    {
+      "nl": "besluit",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1297,
+      "ud_count": 29,
+      "article": "het"
+    },
+    {
+      "nl": "commissie",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1298,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "indruk",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1311,
+      "ud_count": 42,
+      "article": "de"
+    },
+    {
+      "nl": "ochtend",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1314,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "vlucht",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1315,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "vuur",
+      "pos": "noun",
+      "zipf": 4.81,
+      "freq_rank": 1316,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "afdeling",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1320,
+      "ud_count": 40,
+      "article": "de"
+    },
+    {
+      "nl": "dollar",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1325,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "maat",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1328,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "mogelijkheid",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1331,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "onderwerp",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1333,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "ongeluk",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1334,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "zuiden",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1340,
+      "ud_count": 65,
+      "article": "het"
+    },
+    {
+      "nl": "zus",
+      "pos": "noun",
+      "zipf": 4.8,
+      "freq_rank": 1341,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "aflevering",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1342,
+      "ud_count": 41,
+      "article": "de"
+    },
+    {
+      "nl": "college",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1347,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "dak",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1348,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "rekening",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1360,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "teken",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1363,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "vervoer",
+      "pos": "noun",
+      "zipf": 4.79,
+      "freq_rank": 1368,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "beroep",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1372,
+      "ud_count": 30,
+      "article": "het"
+    },
+    {
+      "nl": "betrekking",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1373,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "geweld",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1382,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "leider",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1386,
+      "ud_count": 85,
+      "article": "de"
+    },
+    {
+      "nl": "miljard",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1390,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "stijl",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1393,
+      "ud_count": 32,
+      "article": "de"
+    },
+    {
+      "nl": "wind",
+      "pos": "noun",
+      "zipf": 4.78,
+      "freq_rank": 1398,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "afspraak",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1401,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "bescherming",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1403,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "bezit",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1404,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "fiets",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1410,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "hoek",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1414,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "kleding",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1417,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "krant",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1418,
+      "ud_count": 34,
+      "article": "de"
+    },
+    {
+      "nl": "maatschappij",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1421,
+      "ud_count": 40,
+      "article": "de"
+    },
+    {
+      "nl": "overwinning",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1426,
+      "ud_count": 75,
+      "article": "de"
+    },
+    {
+      "nl": "samenleving",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1429,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "slaap",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1430,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "vlees",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1438,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "woning",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1440,
+      "ud_count": 34,
+      "article": "de"
+    },
+    {
+      "nl": "ziekte",
+      "pos": "noun",
+      "zipf": 4.77,
+      "freq_rank": 1441,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "album",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1442,
+      "ud_count": 150,
+      "article": "het"
+    },
+    {
+      "nl": "brug",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1446,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "buitenland",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1447,
+      "ud_count": 24,
+      "article": "het"
+    },
+    {
+      "nl": "eigenaar",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1451,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "geluid",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1454,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "kamp",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1460,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "ontwerp",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1468,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "strand",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1470,
+      "ud_count": 4,
+      "article": "het"
+    },
+    {
+      "nl": "tuin",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1472,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "vrede",
+      "pos": "noun",
+      "zipf": 4.76,
+      "freq_rank": 1475,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "behandeling",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1480,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "honger",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1489,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "leer",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1492,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "partner",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1498,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "productie",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1500,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "regen",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1501,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "speler",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1502,
+      "ud_count": 48,
+      "article": "de"
+    },
+    {
+      "nl": "veld",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1504,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "verlies",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1506,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "vertaling",
+      "pos": "noun",
+      "zipf": 4.75,
+      "freq_rank": 1507,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "bal",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1513,
+      "ud_count": 40,
+      "article": "de"
+    },
+    {
+      "nl": "boom",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1515,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "discussie",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1520,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "geest",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1526,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "kritiek",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1527,
+      "ud_count": 37,
+      "article": "de"
+    },
+    {
+      "nl": "pak",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1531,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "parlement",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1532,
+      "ud_count": 35,
+      "article": "het"
+    },
+    {
+      "nl": "rapport",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1533,
+      "ud_count": 27,
+      "article": "het"
+    },
+    {
+      "nl": "verklaring",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1538,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "vlag",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1540,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "voet",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1542,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "wens",
+      "pos": "noun",
+      "zipf": 4.74,
+      "freq_rank": 1545,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "arts",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1546,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "bijdrage",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1547,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "editie",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1553,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "inzet",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1559,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "kust",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1560,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "motor",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1567,
+      "ud_count": 26,
+      "article": "de"
+    },
+    {
+      "nl": "personeel",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1571,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "spijt",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1574,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "storm",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1575,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "training",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1577,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "wijn",
+      "pos": "noun",
+      "zipf": 4.73,
+      "freq_rank": 1580,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "bloed",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1586,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "boodschap",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1587,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "campagne",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1589,
+      "ud_count": 44,
+      "article": "de"
+    },
+    {
+      "nl": "collectie",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1590,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "contract",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1591,
+      "ud_count": 27,
+      "article": "het"
+    },
+    {
+      "nl": "droom",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1592,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "kwaliteit",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1597,
+      "ud_count": 25,
+      "article": "de"
+    },
+    {
+      "nl": "luister",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1598,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "ministerie",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1601,
+      "ud_count": 31,
+      "article": "het"
+    },
+    {
+      "nl": "standaard",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1606,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "studie",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1608,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "televisie",
+      "pos": "noun",
+      "zipf": 4.72,
+      "freq_rank": 1609,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "baas",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1615,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "communicatie",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1616,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "initiatief",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1624,
+      "ud_count": 35,
+      "article": "het"
+    },
+    {
+      "nl": "meneer",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1628,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "rechtbank",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1632,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "republiek",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1633,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "verkeer",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1636,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "voedsel",
+      "pos": "noun",
+      "zipf": 4.71,
+      "freq_rank": 1637,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "bad",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1645,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "beslissing",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1646,
+      "ud_count": 46,
+      "article": "de"
+    },
+    {
+      "nl": "categorie",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1647,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "combinatie",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1648,
+      "ud_count": 26,
+      "article": "de"
+    },
+    {
+      "nl": "gelegenheid",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1649,
+      "ud_count": 47,
+      "article": "de"
+    },
+    {
+      "nl": "interesse",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1652,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "klasse",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1654,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "ouder",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1660,
+      "ud_count": 42,
+      "article": "de"
+    },
+    {
+      "nl": "schat",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1663,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "selectie",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1664,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "thee",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1666,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "uitspraak",
+      "pos": "noun",
+      "zipf": 4.7,
+      "freq_rank": 1668,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "akkoord",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1677,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "bedoeling",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1680,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "boot",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1682,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "gast",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1689,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "kampioen",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1699,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "koningin",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1700,
+      "ud_count": 62,
+      "article": "de"
+    },
+    {
+      "nl": "materiaal",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1702,
+      "ud_count": 36,
+      "article": "het"
+    },
+    {
+      "nl": "merk",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1704,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "olie",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1707,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "pad",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1710,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "restaurant",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1715,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "test",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1722,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "twijfel",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1724,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "verkoop",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1726,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "verzoek",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1727,
+      "ud_count": 26,
+      "article": "het"
+    },
+    {
+      "nl": "winter",
+      "pos": "noun",
+      "zipf": 4.69,
+      "freq_rank": 1733,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "adres",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1735,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "behulp",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1737,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "berg",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1738,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "bier",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1740,
+      "ud_count": 53,
+      "article": "het"
+    },
+    {
+      "nl": "computer",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1742,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "dame",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1744,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "debat",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1745,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "district",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1746,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "effect",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1747,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "evenement",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1748,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "gedeelte",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1749,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "oma",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1755,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "ton",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1759,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "verbinding",
+      "pos": "noun",
+      "zipf": 4.68,
+      "freq_rank": 1761,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "arm",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1772,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "auteur",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1773,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "broek",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1775,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "gemeenschap",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1780,
+      "ud_count": 57,
+      "article": "de"
+    },
+    {
+      "nl": "status",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1788,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "stof",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1789,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "vergadering",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1792,
+      "ud_count": 60,
+      "article": "de"
+    },
+    {
+      "nl": "verslag",
+      "pos": "noun",
+      "zipf": 4.67,
+      "freq_rank": 1793,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "aanleiding",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1796,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "betekenis",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1798,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "eenheid",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1800,
+      "ud_count": 74,
+      "article": "de"
+    },
+    {
+      "nl": "kader",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1807,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "keuken",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1808,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "klant",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1809,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "klas",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1810,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "medewerker",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1811,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "mevrouw",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1812,
+      "ud_count": 40,
+      "article": "de"
+    },
+    {
+      "nl": "operatie",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1813,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "paard",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1814,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "pers",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1815,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "professor",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1816,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "route",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1817,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "service",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1818,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "verandering",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1825,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "vis",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1826,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "vliegtuig",
+      "pos": "noun",
+      "zipf": 4.66,
+      "freq_rank": 1827,
+      "ud_count": 44,
+      "article": "het"
+    },
+    {
+      "nl": "concert",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1835,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "generatie",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1844,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "glas",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1846,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "milieu",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1851,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "minuut",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1852,
+      "ud_count": 73,
+      "article": "de"
+    },
+    {
+      "nl": "sfeer",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1859,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "spoor",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1862,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "stadion",
+      "pos": "noun",
+      "zipf": 4.65,
+      "freq_rank": 1863,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "groei",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1885,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "handel",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1886,
+      "ud_count": 53,
+      "article": "de"
+    },
+    {
+      "nl": "industrie",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1889,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "overeenkomst",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1896,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "product",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1897,
+      "ud_count": 26,
+      "article": "het"
+    },
+    {
+      "nl": "reeks",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1898,
+      "ud_count": 82,
+      "article": "de"
+    },
+    {
+      "nl": "taak",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1902,
+      "ud_count": 51,
+      "article": "de"
+    },
+    {
+      "nl": "techniek",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1903,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "temperatuur",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1904,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "thema",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1905,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "unie",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1908,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "verantwoordelijkheid",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1909,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "voorstel",
+      "pos": "noun",
+      "zipf": 4.64,
+      "freq_rank": 1911,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "journalist",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1925,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "kwaad",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1926,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "lengte",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1928,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "mate",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1930,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "neus",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1931,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "opening",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1933,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "paus",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1935,
+      "ud_count": 140,
+      "article": "de"
+    },
+    {
+      "nl": "presentatie",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1937,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "slot",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1940,
+      "ud_count": 29,
+      "article": "het"
+    },
+    {
+      "nl": "stroom",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1941,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "trap",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1942,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "winst",
+      "pos": "noun",
+      "zipf": 4.63,
+      "freq_rank": 1945,
+      "ud_count": 53,
+      "article": "de"
+    },
+    {
+      "nl": "behoefte",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1947,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "beurt",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1948,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "coach",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1949,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "collega",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1950,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "concept",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1951,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "datum",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1952,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "hoeveelheid",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1957,
+      "ud_count": 25,
+      "article": "de"
+    },
+    {
+      "nl": "kwestie",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1961,
+      "ud_count": 34,
+      "article": "de"
+    },
+    {
+      "nl": "oorzaak",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1971,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "platform",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1972,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "studio",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1982,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "tas",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1983,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "termijn",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1985,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "tijdschrift",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1986,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "vertrek",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1991,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "wetenschap",
+      "pos": "noun",
+      "zipf": 4.62,
+      "freq_rank": 1993,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "brood",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 1998,
+      "ud_count": 17,
+      "article": "het"
+    },
+    {
+      "nl": "burger",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 1999,
+      "ud_count": 40,
+      "article": "de"
+    },
+    {
+      "nl": "prins",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 2019,
+      "ud_count": 80,
+      "article": "de"
+    },
+    {
+      "nl": "ring",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 2020,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "technologie",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 2023,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "terrein",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 2024,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "trainer",
+      "pos": "noun",
+      "zipf": 4.61,
+      "freq_rank": 2025,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "begrip",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2030,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "bijeenkomst",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2034,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "crisis",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2036,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "grap",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2045,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "held",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2046,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "kandidaat",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2051,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "karakter",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2052,
+      "ud_count": 27,
+      "article": "het"
+    },
+    {
+      "nl": "meerderheid",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2055,
+      "ud_count": 32,
+      "article": "de"
+    },
+    {
+      "nl": "poging",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2062,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "race",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2065,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "sector",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2067,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "single",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2068,
+      "ud_count": 34,
+      "article": "de"
+    },
+    {
+      "nl": "snelheid",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2070,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "zak",
+      "pos": "noun",
+      "zipf": 4.6,
+      "freq_rank": 2078,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "afbeelding",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2081,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "bar",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2084,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "democratie",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2088,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "eer",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2091,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "gebrek",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2095,
+      "ud_count": 36,
+      "article": "het"
+    },
+    {
+      "nl": "manager",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2106,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "missie",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2110,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "steen",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2118,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "uitdaging",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2120,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "uitslag",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2122,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "voordeel",
+      "pos": "noun",
+      "zipf": 4.59,
+      "freq_rank": 2123,
+      "ud_count": 39,
+      "article": "het"
+    },
+    {
+      "nl": "bibliotheek",
+      "pos": "noun",
+      "zipf": 4.58,
+      "freq_rank": 2126,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "cd",
+      "pos": "noun",
+      "zipf": 4.58,
+      "freq_rank": 2127,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "non",
+      "pos": "noun",
+      "zipf": 4.58,
+      "freq_rank": 2136,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "ruzie",
+      "pos": "noun",
+      "zipf": 4.58,
+      "freq_rank": 2141,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "aanwezigheid",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2150,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "been",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2153,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "dier",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2162,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "haven",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2167,
+      "ud_count": 25,
+      "article": "de"
+    },
+    {
+      "nl": "kabinet",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2168,
+      "ud_count": 30,
+      "article": "het"
+    },
+    {
+      "nl": "machine",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2170,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "oproep",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2173,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "term",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2182,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "theorie",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2183,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "toon",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2184,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "vergelijking",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2186,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "verzet",
+      "pos": "noun",
+      "zipf": 4.57,
+      "freq_rank": 2188,
+      "ud_count": 40,
+      "article": "het"
+    },
+    {
+      "nl": "aanbod",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2191,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "agenda",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2192,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "agent",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2193,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "carrière",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2195,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "deelname",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2196,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "dichter",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2197,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "huid",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2202,
+      "ud_count": 9,
+      "article": "de"
+    },
+    {
+      "nl": "inspiratie",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2204,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "kanaal",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2205,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "meester",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2212,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "praktijk",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2216,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "straf",
+      "pos": "noun",
+      "zipf": 4.56,
+      "freq_rank": 2219,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "cel",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2233,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "forum",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2238,
+      "ud_count": 4,
+      "article": "het"
+    },
+    {
+      "nl": "gas",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2240,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "justitie",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2248,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "ontslag",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2258,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "ploeg",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2259,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "regel",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2261,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "ster",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2266,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "stoel",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2267,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "werkelijkheid",
+      "pos": "noun",
+      "zipf": 4.55,
+      "freq_rank": 2271,
+      "ud_count": 18,
+      "article": "de"
+    },
+    {
+      "nl": "aanpak",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2275,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "afscheid",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2276,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "instantie",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2289,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "landschap",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2290,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "lot",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2291,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "melding",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2293,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "schaal",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2299,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "talent",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2302,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "toilet",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2303,
+      "ud_count": 4,
+      "article": "het"
+    },
+    {
+      "nl": "verrassing",
+      "pos": "noun",
+      "zipf": 4.54,
+      "freq_rank": 2306,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "blik",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2312,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "hout",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2321,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "humor",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2322,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "instituut",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2323,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "kilo",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2326,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "klimaat",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2327,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "optie",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2332,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "podium",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2334,
+      "ud_count": 8,
+      "article": "het"
+    },
+    {
+      "nl": "rand",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2336,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "theater",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2340,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "uitzending",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2341,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "uitzondering",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2342,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "aanslag",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2350,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "commentaar",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2359,
+      "ud_count": 20,
+      "article": "het"
+    },
+    {
+      "nl": "eigendom",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2366,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "fase",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2368,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "kast",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2378,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "maan",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2382,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "student",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2387,
+      "ud_count": 65,
+      "article": "de"
+    },
+    {
+      "nl": "tentoonstelling",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2390,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "uitleg",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2394,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "virus",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2396,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "visie",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2397,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "zwembad",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2399,
+      "ud_count": 6,
+      "article": "het"
+    },
+    {
+      "nl": "dokter",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2409,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "gevecht",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2413,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "komst",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2416,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "kunstenaar",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2417,
+      "ud_count": 37,
+      "article": "de"
+    },
+    {
+      "nl": "leraar",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2418,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "lied",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2419,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "literatuur",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2421,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "logo",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2422,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "monument",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2423,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "papier",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2430,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "patiënt",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2431,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "stilte",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2433,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "toernooi",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2435,
+      "ud_count": 27,
+      "article": "het"
+    },
+    {
+      "nl": "traditie",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2436,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "wezen",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2440,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "analyse",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2444,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "assistent",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2445,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "bak",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2446,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "café",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2449,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "congres",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2451,
+      "ud_count": 33,
+      "article": "het"
+    },
+    {
+      "nl": "gedachte",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2457,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "heden",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2459,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "klacht",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2463,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "middag",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2465,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "mist",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2466,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "plein",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2475,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "raam",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2477,
+      "ud_count": 17,
+      "article": "het"
+    },
+    {
+      "nl": "revolutie",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2478,
+      "ud_count": 57,
+      "article": "de"
+    },
+    {
+      "nl": "smaak",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2481,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "vogel",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2491,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "zicht",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2495,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "boerderij",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2497,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "gat",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2503,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "jas",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2510,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "lente",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2511,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "lunch",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2512,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "opstand",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2518,
+      "ud_count": 51,
+      "article": "de"
+    },
+    {
+      "nl": "reclame",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2519,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "schepen",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2521,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "set",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2523,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "tegenstelling",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2527,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "uiterlijk",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2530,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "vermogen",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2532,
+      "ud_count": 12,
+      "article": "het"
+    },
+    {
+      "nl": "voorkeur",
+      "pos": "noun",
+      "zipf": 4.49,
+      "freq_rank": 2534,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "bedrag",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2544,
+      "ud_count": 32,
+      "article": "het"
+    },
+    {
+      "nl": "competitie",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2546,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "gewicht",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2554,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "ha",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2556,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "huur",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2561,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "lol",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2569,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "mars",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2570,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "ondersteuning",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2574,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "pop",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2580,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "steek",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2585,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "toezicht",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2587,
+      "ud_count": 8,
+      "article": "het"
+    },
+    {
+      "nl": "uitvoering",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2589,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "vak",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2590,
+      "ud_count": 10,
+      "article": "het"
+    },
+    {
+      "nl": "villa",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2593,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "vliegveld",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2595,
+      "ud_count": 17,
+      "article": "het"
+    },
+    {
+      "nl": "zaal",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2600,
+      "ud_count": 25,
+      "article": "de"
+    },
+    {
+      "nl": "ziel",
+      "pos": "noun",
+      "zipf": 4.48,
+      "freq_rank": 2601,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "bevel",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2603,
+      "ud_count": 38,
+      "article": "het"
+    },
+    {
+      "nl": "boer",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2604,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "getuige",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2613,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "ijs",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2620,
+      "ud_count": 16,
+      "article": "het"
+    },
+    {
+      "nl": "ingang",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2622,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "marine",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2628,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "ondernemer",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2632,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "opa",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2635,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "paleis",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2637,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "prinses",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2638,
+      "ud_count": 46,
+      "article": "de"
+    },
+    {
+      "nl": "soldaat",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2643,
+      "ud_count": 98,
+      "article": "de"
+    },
+    {
+      "nl": "spanning",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2644,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "toepassing",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2648,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "wagen",
+      "pos": "noun",
+      "zipf": 4.47,
+      "freq_rank": 2654,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "bestuurder",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2660,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "conflict",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2663,
+      "ud_count": 42,
+      "article": "het"
+    },
+    {
+      "nl": "erfgoed",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2664,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "hemel",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2667,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "inkomen",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2668,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "kasteel",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2669,
+      "ud_count": 37,
+      "article": "het"
+    },
+    {
+      "nl": "landbouw",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2673,
+      "ud_count": 21,
+      "article": "de"
+    },
+    {
+      "nl": "ontmoeting",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2679,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "paniek",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2684,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "poort",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2686,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "principe",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2687,
+      "ud_count": 26,
+      "article": "het"
+    },
+    {
+      "nl": "verdieping",
+      "pos": "noun",
+      "zipf": 4.46,
+      "freq_rank": 2691,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "beschrijving",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2700,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "buik",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2703,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "cadeau",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2704,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "domein",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2709,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "geboorte",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2715,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "gouverneur",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2720,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "houding",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2722,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "identiteit",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2723,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "kapitein",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2724,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "koers",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2726,
+      "ud_count": 36,
+      "article": "de"
+    },
+    {
+      "nl": "mode",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2730,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "moed",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2731,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "nek",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2733,
+      "ud_count": 5,
+      "article": "de"
+    },
+    {
+      "nl": "religie",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2737,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "sneeuw",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2741,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "symbool",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2745,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "tekort",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2746,
+      "ud_count": 21,
+      "article": "het"
+    },
+    {
+      "nl": "verdrag",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2753,
+      "ud_count": 39,
+      "article": "het"
+    },
+    {
+      "nl": "zand",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2758,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "zone",
+      "pos": "noun",
+      "zipf": 4.45,
+      "freq_rank": 2759,
+      "ud_count": 14,
+      "article": "de"
+    },
+    {
+      "nl": "bodem",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2764,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "chauffeur",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2766,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "conclusie",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2768,
+      "ud_count": 25,
+      "article": "de"
+    },
+    {
+      "nl": "defensie",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2769,
+      "ud_count": 23,
+      "article": "de"
+    },
+    {
+      "nl": "herinnering",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2779,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "pand",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2790,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "plaat",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2792,
+      "ud_count": 79,
+      "article": "de"
+    },
+    {
+      "nl": "vet",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2800,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "werking",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2803,
+      "ud_count": 12,
+      "article": "de"
+    },
+    {
+      "nl": "zijde",
+      "pos": "noun",
+      "zipf": 4.44,
+      "freq_rank": 2805,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "alcohol",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2807,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "beheer",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2810,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "bord",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2814,
+      "ud_count": 15,
+      "article": "het"
+    },
+    {
+      "nl": "docent",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2818,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "fan",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2820,
+      "ud_count": 35,
+      "article": "de"
+    },
+    {
+      "nl": "kaas",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2833,
+      "ud_count": 11,
+      "article": "de"
+    },
+    {
+      "nl": "klok",
+      "pos": "noun",
+      "zipf": 4.43,
+      "freq_rank": 2834,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "gaan",
+      "pos": "verb",
+      "zipf": 6.18,
+      "freq_rank": 68,
+      "ud_count": 687
+    },
+    {
+      "nl": "doen",
+      "pos": "verb",
+      "zipf": 6.13,
+      "freq_rank": 74,
+      "ud_count": 419
+    },
+    {
+      "nl": "maken",
+      "pos": "verb",
+      "zipf": 6.1,
+      "freq_rank": 79,
+      "ud_count": 582
+    },
+    {
+      "nl": "zien",
+      "pos": "verb",
+      "zipf": 6.05,
+      "freq_rank": 89,
+      "ud_count": 571
+    },
+    {
+      "nl": "komen",
+      "pos": "verb",
+      "zipf": 5.95,
+      "freq_rank": 110,
+      "ud_count": 1017
+    },
+    {
+      "nl": "laten",
+      "pos": "verb",
+      "zipf": 5.88,
+      "freq_rank": 125,
+      "ud_count": 334
+    },
+    {
+      "nl": "willen",
+      "pos": "verb",
+      "zipf": 5.81,
+      "freq_rank": 146,
+      "ud_count": 539
+    },
+    {
+      "nl": "geven",
+      "pos": "verb",
+      "zipf": 5.75,
+      "freq_rank": 163,
+      "ud_count": 348
+    },
+    {
+      "nl": "vinden",
+      "pos": "verb",
+      "zipf": 5.75,
+      "freq_rank": 167,
+      "ud_count": 314
+    },
+    {
+      "nl": "weten",
+      "pos": "verb",
+      "zipf": 5.73,
+      "freq_rank": 182,
+      "ud_count": 255
+    },
+    {
+      "nl": "krijgen",
+      "pos": "verb",
+      "zipf": 5.72,
+      "freq_rank": 184,
+      "ud_count": 429
+    },
+    {
+      "nl": "staan",
+      "pos": "verb",
+      "zipf": 5.71,
+      "freq_rank": 190,
+      "ud_count": 393
+    },
+    {
+      "nl": "zeggen",
+      "pos": "verb",
+      "zipf": 5.71,
+      "freq_rank": 191,
+      "ud_count": 419
+    },
+    {
+      "nl": "houden",
+      "pos": "verb",
+      "zipf": 5.67,
+      "freq_rank": 206,
+      "ud_count": 288
+    },
+    {
+      "nl": "blijven",
+      "pos": "verb",
+      "zipf": 5.66,
+      "freq_rank": 208,
+      "ud_count": 346
+    },
+    {
+      "nl": "vragen",
+      "pos": "verb",
+      "zipf": 5.65,
+      "freq_rank": 219,
+      "ud_count": 156
+    },
+    {
+      "nl": "werken",
+      "pos": "verb",
+      "zipf": 5.65,
+      "freq_rank": 220,
+      "ud_count": 147
+    },
+    {
+      "nl": "nemen",
+      "pos": "verb",
+      "zipf": 5.6,
+      "freq_rank": 244,
+      "ud_count": 254
+    },
+    {
+      "nl": "kijken",
+      "pos": "verb",
+      "zipf": 5.58,
+      "freq_rank": 254,
+      "ud_count": 59
+    },
+    {
+      "nl": "zitten",
+      "pos": "verb",
+      "zipf": 5.56,
+      "freq_rank": 267,
+      "ud_count": 159
+    },
+    {
+      "nl": "eten",
+      "pos": "verb",
+      "zipf": 5.51,
+      "freq_rank": 287,
+      "ud_count": 48
+    },
+    {
+      "nl": "denken",
+      "pos": "verb",
+      "zipf": 5.5,
+      "freq_rank": 294,
+      "ud_count": 151
+    },
+    {
+      "nl": "helpen",
+      "pos": "verb",
+      "zipf": 5.5,
+      "freq_rank": 298,
+      "ud_count": 44
+    },
+    {
+      "nl": "gebruiken",
+      "pos": "verb",
+      "zipf": 5.47,
+      "freq_rank": 319,
+      "ud_count": 150
+    },
+    {
+      "nl": "spelen",
+      "pos": "verb",
+      "zipf": 5.47,
+      "freq_rank": 323,
+      "ud_count": 200
+    },
+    {
+      "nl": "zorgen",
+      "pos": "verb",
+      "zipf": 5.46,
+      "freq_rank": 331,
+      "ud_count": 87
+    },
+    {
+      "nl": "leren",
+      "pos": "verb",
+      "zipf": 5.41,
+      "freq_rank": 365,
+      "ud_count": 43
+    },
+    {
+      "nl": "brengen",
+      "pos": "verb",
+      "zipf": 5.39,
+      "freq_rank": 377,
+      "ud_count": 228
+    },
+    {
+      "nl": "horen",
+      "pos": "verb",
+      "zipf": 5.38,
+      "freq_rank": 384,
+      "ud_count": 110
+    },
+    {
+      "nl": "zetten",
+      "pos": "verb",
+      "zipf": 5.37,
+      "freq_rank": 396,
+      "ud_count": 79
+    },
+    {
+      "nl": "wachten",
+      "pos": "verb",
+      "zipf": 5.36,
+      "freq_rank": 404,
+      "ud_count": 49
+    },
+    {
+      "nl": "lopen",
+      "pos": "verb",
+      "zipf": 5.34,
+      "freq_rank": 425,
+      "ud_count": 147
+    },
+    {
+      "nl": "beginnen",
+      "pos": "verb",
+      "zipf": 5.33,
+      "freq_rank": 431,
+      "ud_count": 292
+    },
+    {
+      "nl": "zoeken",
+      "pos": "verb",
+      "zipf": 5.33,
+      "freq_rank": 439,
+      "ud_count": 68
+    },
+    {
+      "nl": "halen",
+      "pos": "verb",
+      "zipf": 5.32,
+      "freq_rank": 441,
+      "ud_count": 98
+    },
+    {
+      "nl": "lezen",
+      "pos": "verb",
+      "zipf": 5.32,
+      "freq_rank": 443,
+      "ud_count": 76
+    },
+    {
+      "nl": "delen",
+      "pos": "verb",
+      "zipf": 5.29,
+      "freq_rank": 465,
+      "ud_count": 26
+    },
+    {
+      "nl": "praten",
+      "pos": "verb",
+      "zipf": 5.29,
+      "freq_rank": 470,
+      "ud_count": 50
+    },
+    {
+      "nl": "plaatsen",
+      "pos": "verb",
+      "zipf": 5.28,
+      "freq_rank": 480,
+      "ud_count": 66
+    },
+    {
+      "nl": "liggen",
+      "pos": "verb",
+      "zipf": 5.27,
+      "freq_rank": 489,
+      "ud_count": 327
+    },
+    {
+      "nl": "volgen",
+      "pos": "verb",
+      "zipf": 5.27,
+      "freq_rank": 493,
+      "ud_count": 273
+    },
+    {
+      "nl": "landen",
+      "pos": "verb",
+      "zipf": 5.26,
+      "freq_rank": 499,
+      "ud_count": 15
+    },
+    {
+      "nl": "ogen",
+      "pos": "verb",
+      "zipf": 5.24,
+      "freq_rank": 524,
+      "ud_count": 4
+    },
+    {
+      "nl": "proberen",
+      "pos": "verb",
+      "zipf": 5.24,
+      "freq_rank": 525,
+      "ud_count": 122
+    },
+    {
+      "nl": "stellen",
+      "pos": "verb",
+      "zipf": 5.23,
+      "freq_rank": 541,
+      "ud_count": 179
+    },
+    {
+      "nl": "kopen",
+      "pos": "verb",
+      "zipf": 5.21,
+      "freq_rank": 559,
+      "ud_count": 48
+    },
+    {
+      "nl": "betalen",
+      "pos": "verb",
+      "zipf": 5.2,
+      "freq_rank": 571,
+      "ud_count": 75
+    },
+    {
+      "nl": "vergeten",
+      "pos": "verb",
+      "zipf": 5.2,
+      "freq_rank": 580,
+      "ud_count": 40
+    },
+    {
+      "nl": "vertellen",
+      "pos": "verb",
+      "zipf": 5.17,
+      "freq_rank": 617,
+      "ud_count": 78
+    },
+    {
+      "nl": "leiden",
+      "pos": "verb",
+      "zipf": 5.16,
+      "freq_rank": 630,
+      "ud_count": 177
+    },
+    {
+      "nl": "vallen",
+      "pos": "verb",
+      "zipf": 5.16,
+      "freq_rank": 632,
+      "ud_count": 162
+    },
+    {
+      "nl": "doden",
+      "pos": "verb",
+      "zipf": 5.15,
+      "freq_rank": 637,
+      "ud_count": 21
+    },
+    {
+      "nl": "boeken",
+      "pos": "verb",
+      "zipf": 5.14,
+      "freq_rank": 653,
+      "ud_count": 16
+    },
+    {
+      "nl": "wonen",
+      "pos": "verb",
+      "zipf": 5.14,
+      "freq_rank": 666,
+      "ud_count": 96
+    },
+    {
+      "nl": "rijden",
+      "pos": "verb",
+      "zipf": 5.13,
+      "freq_rank": 679,
+      "ud_count": 61
+    },
+    {
+      "nl": "geboren",
+      "pos": "verb",
+      "zipf": 5.12,
+      "freq_rank": 688,
+      "ud_count": 75
+    },
+    {
+      "nl": "bedrijven",
+      "pos": "verb",
+      "zipf": 5.11,
+      "freq_rank": 701,
+      "ud_count": 9
+    },
+    {
+      "nl": "veranderen",
+      "pos": "verb",
+      "zipf": 5.11,
+      "freq_rank": 709,
+      "ud_count": 73
+    },
+    {
+      "nl": "voorkomen",
+      "pos": "verb",
+      "zipf": 5.11,
+      "freq_rank": 711,
+      "ud_count": 43
+    },
+    {
+      "nl": "vormen",
+      "pos": "verb",
+      "zipf": 5.11,
+      "freq_rank": 712,
+      "ud_count": 169
+    },
+    {
+      "nl": "stoppen",
+      "pos": "verb",
+      "zipf": 5.1,
+      "freq_rank": 726,
+      "ud_count": 33
+    },
+    {
+      "nl": "kennen",
+      "pos": "verb",
+      "zipf": 5.08,
+      "freq_rank": 753,
+      "ud_count": 107
+    },
+    {
+      "nl": "noemen",
+      "pos": "verb",
+      "zipf": 5.08,
+      "freq_rank": 757,
+      "ud_count": 424
+    },
+    {
+      "nl": "kiezen",
+      "pos": "verb",
+      "zipf": 5.07,
+      "freq_rank": 774,
+      "ud_count": 97
+    },
+    {
+      "nl": "schrijven",
+      "pos": "verb",
+      "zipf": 5.07,
+      "freq_rank": 776,
+      "ud_count": 143
+    },
+    {
+      "nl": "slapen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 789,
+      "ud_count": 63
+    },
+    {
+      "nl": "stemmen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 792,
+      "ud_count": 26
+    },
+    {
+      "nl": "sturen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 793,
+      "ud_count": 57
+    },
+    {
+      "nl": "ontvangen",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 835,
+      "ud_count": 65
+    },
+    {
+      "nl": "spreken",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 841,
+      "ud_count": 103
+    },
+    {
+      "nl": "voelen",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 843,
+      "ud_count": 58
+    },
+    {
+      "nl": "gebeuren",
+      "pos": "verb",
+      "zipf": 5.03,
+      "freq_rank": 849,
+      "ud_count": 109
+    },
+    {
+      "nl": "dragen",
+      "pos": "verb",
+      "zipf": 5.01,
+      "freq_rank": 873,
+      "ud_count": 70
+    },
+    {
+      "nl": "leggen",
+      "pos": "verb",
+      "zipf": 5.0,
+      "freq_rank": 895,
+      "ud_count": 80
+    },
+    {
+      "nl": "winnen",
+      "pos": "verb",
+      "zipf": 5.0,
+      "freq_rank": 901,
+      "ud_count": 206
+    },
+    {
+      "nl": "geloven",
+      "pos": "verb",
+      "zipf": 4.99,
+      "freq_rank": 909,
+      "ud_count": 65
+    },
+    {
+      "nl": "genieten",
+      "pos": "verb",
+      "zipf": 4.99,
+      "freq_rank": 910,
+      "ud_count": 22
+    },
+    {
+      "nl": "pakken",
+      "pos": "verb",
+      "zipf": 4.99,
+      "freq_rank": 915,
+      "ud_count": 13
+    },
+    {
+      "nl": "verhalen",
+      "pos": "verb",
+      "zipf": 4.99,
+      "freq_rank": 920,
+      "ud_count": 8
+    },
+    {
+      "nl": "bereiken",
+      "pos": "verb",
+      "zipf": 4.98,
+      "freq_rank": 924,
+      "ud_count": 116
+    },
+    {
+      "nl": "trekken",
+      "pos": "verb",
+      "zipf": 4.97,
+      "freq_rank": 956,
+      "ud_count": 97
+    },
+    {
+      "nl": "begrijpen",
+      "pos": "verb",
+      "zipf": 4.96,
+      "freq_rank": 961,
+      "ud_count": 31
+    },
+    {
+      "nl": "bieden",
+      "pos": "verb",
+      "zipf": 4.95,
+      "freq_rank": 978,
+      "ud_count": 57
+    },
+    {
+      "nl": "bouwen",
+      "pos": "verb",
+      "zipf": 4.95,
+      "freq_rank": 979,
+      "ud_count": 102
+    },
+    {
+      "nl": "kosten",
+      "pos": "verb",
+      "zipf": 4.94,
+      "freq_rank": 1004,
+      "ud_count": 56
+    },
+    {
+      "nl": "verlaten",
+      "pos": "verb",
+      "zipf": 4.94,
+      "freq_rank": 1015,
+      "ud_count": 54
+    },
+    {
+      "nl": "drinken",
+      "pos": "verb",
+      "zipf": 4.93,
+      "freq_rank": 1018,
+      "ud_count": 25
+    },
+    {
+      "nl": "beschermen",
+      "pos": "verb",
+      "zipf": 4.92,
+      "freq_rank": 1030,
+      "ud_count": 41
+    },
+    {
+      "nl": "plannen",
+      "pos": "verb",
+      "zipf": 4.92,
+      "freq_rank": 1043,
+      "ud_count": 23
+    },
+    {
+      "nl": "lijken",
+      "pos": "verb",
+      "zipf": 4.91,
+      "freq_rank": 1057,
+      "ud_count": 132
+    },
+    {
+      "nl": "hopen",
+      "pos": "verb",
+      "zipf": 4.9,
+      "freq_rank": 1089,
+      "ud_count": 40
+    },
+    {
+      "nl": "luisteren",
+      "pos": "verb",
+      "zipf": 4.9,
+      "freq_rank": 1090,
+      "ud_count": 14
+    },
+    {
+      "nl": "sluiten",
+      "pos": "verb",
+      "zipf": 4.9,
+      "freq_rank": 1097,
+      "ud_count": 80
+    },
+    {
+      "nl": "bellen",
+      "pos": "verb",
+      "zipf": 4.89,
+      "freq_rank": 1104,
+      "ud_count": 16
+    },
+    {
+      "nl": "prijzen",
+      "pos": "verb",
+      "zipf": 4.88,
+      "freq_rank": 1138,
+      "ud_count": 11
+    },
+    {
+      "nl": "verkopen",
+      "pos": "verb",
+      "zipf": 4.88,
+      "freq_rank": 1143,
+      "ud_count": 89
+    },
+    {
+      "nl": "slaan",
+      "pos": "verb",
+      "zipf": 4.87,
+      "freq_rank": 1158,
+      "ud_count": 57
+    },
+    {
+      "nl": "vervangen",
+      "pos": "verb",
+      "zipf": 4.87,
+      "freq_rank": 1160,
+      "ud_count": 49
+    },
+    {
+      "nl": "voeren",
+      "pos": "verb",
+      "zipf": 4.87,
+      "freq_rank": 1161,
+      "ud_count": 76
+    },
+    {
+      "nl": "stappen",
+      "pos": "verb",
+      "zipf": 4.86,
+      "freq_rank": 1183,
+      "ud_count": 22
+    },
+    {
+      "nl": "verdienen",
+      "pos": "verb",
+      "zipf": 4.85,
+      "freq_rank": 1205,
+      "ud_count": 31
+    },
+    {
+      "nl": "bekijken",
+      "pos": "verb",
+      "zipf": 4.84,
+      "freq_rank": 1209,
+      "ud_count": 32
+    },
+    {
+      "nl": "scholen",
+      "pos": "verb",
+      "zipf": 4.84,
+      "freq_rank": 1233,
+      "ud_count": 3
+    },
+    {
+      "nl": "verliezen",
+      "pos": "verb",
+      "zipf": 4.83,
+      "freq_rank": 1270,
+      "ud_count": 153
+    },
+    {
+      "nl": "voorzien",
+      "pos": "verb",
+      "zipf": 4.83,
+      "freq_rank": 1272,
+      "ud_count": 62
+    },
+    {
+      "nl": "reizen",
+      "pos": "verb",
+      "zipf": 4.82,
+      "freq_rank": 1288,
+      "ud_count": 27
+    },
+    {
+      "nl": "keren",
+      "pos": "verb",
+      "zipf": 4.8,
+      "freq_rank": 1327,
+      "ud_count": 16
+    },
+    {
+      "nl": "redden",
+      "pos": "verb",
+      "zipf": 4.8,
+      "freq_rank": 1335,
+      "ud_count": 29
+    },
+    {
+      "nl": "eisen",
+      "pos": "verb",
+      "zipf": 4.77,
+      "freq_rank": 1408,
+      "ud_count": 42
+    },
+    {
+      "nl": "onderzoeken",
+      "pos": "verb",
+      "zipf": 4.77,
+      "freq_rank": 1423,
+      "ud_count": 14
+    },
+    {
+      "nl": "vieren",
+      "pos": "verb",
+      "zipf": 4.77,
+      "freq_rank": 1437,
+      "ud_count": 28
+    },
+    {
+      "nl": "bezoeken",
+      "pos": "verb",
+      "zipf": 4.76,
+      "freq_rank": 1445,
+      "ud_count": 41
+    },
+    {
+      "nl": "lachen",
+      "pos": "verb",
+      "zipf": 4.76,
+      "freq_rank": 1462,
+      "ud_count": 18
+    },
+    {
+      "nl": "reageren",
+      "pos": "verb",
+      "zipf": 4.76,
+      "freq_rank": 1469,
+      "ud_count": 32
+    },
+    {
+      "nl": "zingen",
+      "pos": "verb",
+      "zipf": 4.76,
+      "freq_rank": 1477,
+      "ud_count": 41
+    },
+    {
+      "nl": "verbeteren",
+      "pos": "verb",
+      "zipf": 4.74,
+      "freq_rank": 1537,
+      "ud_count": 28
+    },
+    {
+      "nl": "verwachten",
+      "pos": "verb",
+      "zipf": 4.74,
+      "freq_rank": 1539,
+      "ud_count": 67
+    },
+    {
+      "nl": "vliegen",
+      "pos": "verb",
+      "zipf": 4.74,
+      "freq_rank": 1541,
+      "ud_count": 32
+    },
+    {
+      "nl": "dromen",
+      "pos": "verb",
+      "zipf": 4.73,
+      "freq_rank": 1552,
+      "ud_count": 5
+    },
+    {
+      "nl": "melden",
+      "pos": "verb",
+      "zipf": 4.73,
+      "freq_rank": 1565,
+      "ud_count": 35
+    },
+    {
+      "nl": "raken",
+      "pos": "verb",
+      "zipf": 4.73,
+      "freq_rank": 1572,
+      "ud_count": 94
+    },
+    {
+      "nl": "tonen",
+      "pos": "verb",
+      "zipf": 4.73,
+      "freq_rank": 1576,
+      "ud_count": 63
+    },
+    {
+      "nl": "ervaren",
+      "pos": "verb",
+      "zipf": 4.71,
+      "freq_rank": 1619,
+      "ud_count": 8
+    },
+    {
+      "nl": "kleuren",
+      "pos": "verb",
+      "zipf": 4.71,
+      "freq_rank": 1626,
+      "ud_count": 6
+    },
+    {
+      "nl": "missen",
+      "pos": "verb",
+      "zipf": 4.71,
+      "freq_rank": 1629,
+      "ud_count": 104
+    },
+    {
+      "nl": "hoeven",
+      "pos": "verb",
+      "zipf": 4.7,
+      "freq_rank": 1651,
+      "ud_count": 44
+    },
+    {
+      "nl": "organiseren",
+      "pos": "verb",
+      "zipf": 4.7,
+      "freq_rank": 1659,
+      "ud_count": 74
+    },
+    {
+      "nl": "vechten",
+      "pos": "verb",
+      "zipf": 4.7,
+      "freq_rank": 1669,
+      "ud_count": 44
+    },
+    {
+      "nl": "wensen",
+      "pos": "verb",
+      "zipf": 4.7,
+      "freq_rank": 1672,
+      "ud_count": 21
+    },
+    {
+      "nl": "dansen",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1683,
+      "ud_count": 12
+    },
+    {
+      "nl": "dienen",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1684,
+      "ud_count": 68
+    },
+    {
+      "nl": "draaien",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1685,
+      "ud_count": 28
+    },
+    {
+      "nl": "hangen",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1696,
+      "ud_count": 37
+    },
+    {
+      "nl": "ontwikkelen",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1708,
+      "ud_count": 59
+    },
+    {
+      "nl": "passen",
+      "pos": "verb",
+      "zipf": 4.69,
+      "freq_rank": 1711,
+      "ud_count": 18
+    },
+    {
+      "nl": "leveren",
+      "pos": "verb",
+      "zipf": 4.68,
+      "freq_rank": 1753,
+      "ud_count": 51
+    },
+    {
+      "nl": "steken",
+      "pos": "verb",
+      "zipf": 4.68,
+      "freq_rank": 1758,
+      "ud_count": 35
+    },
+    {
+      "nl": "verschillen",
+      "pos": "verb",
+      "zipf": 4.68,
+      "freq_rank": 1764,
+      "ud_count": 10
+    },
+    {
+      "nl": "verwijderen",
+      "pos": "verb",
+      "zipf": 4.68,
+      "freq_rank": 1766,
+      "ud_count": 17
+    },
+    {
+      "nl": "begraven",
+      "pos": "verb",
+      "zipf": 4.65,
+      "freq_rank": 1830,
+      "ud_count": 18
+    },
+    {
+      "nl": "bepalen",
+      "pos": "verb",
+      "zipf": 4.65,
+      "freq_rank": 1831,
+      "ud_count": 112
+    },
+    {
+      "nl": "bewijzen",
+      "pos": "verb",
+      "zipf": 4.65,
+      "freq_rank": 1832,
+      "ud_count": 24
+    },
+    {
+      "nl": "wegen",
+      "pos": "verb",
+      "zipf": 4.65,
+      "freq_rank": 1869,
+      "ud_count": 10
+    },
+    {
+      "nl": "antwoorden",
+      "pos": "verb",
+      "zipf": 4.64,
+      "freq_rank": 1872,
+      "ud_count": 27
+    },
+    {
+      "nl": "betekenen",
+      "pos": "verb",
+      "zipf": 4.64,
+      "freq_rank": 1874,
+      "ud_count": 93
+    },
+    {
+      "nl": "grenzen",
+      "pos": "verb",
+      "zipf": 4.64,
+      "freq_rank": 1884,
+      "ud_count": 11
+    },
+    {
+      "nl": "herinneren",
+      "pos": "verb",
+      "zipf": 4.64,
+      "freq_rank": 1888,
+      "ud_count": 25
+    },
+    {
+      "nl": "groeien",
+      "pos": "verb",
+      "zipf": 4.63,
+      "freq_rank": 1922,
+      "ud_count": 59
+    },
+    {
+      "nl": "richten",
+      "pos": "verb",
+      "zipf": 4.63,
+      "freq_rank": 1938,
+      "ud_count": 52
+    },
+    {
+      "nl": "duren",
+      "pos": "verb",
+      "zipf": 4.62,
+      "freq_rank": 1954,
+      "ud_count": 76
+    },
+    {
+      "nl": "roepen",
+      "pos": "verb",
+      "zipf": 4.62,
+      "freq_rank": 1976,
+      "ud_count": 37
+    },
+    {
+      "nl": "sterven",
+      "pos": "verb",
+      "zipf": 4.62,
+      "freq_rank": 1980,
+      "ud_count": 68
+    },
+    {
+      "nl": "bespreken",
+      "pos": "verb",
+      "zipf": 4.61,
+      "freq_rank": 1996,
+      "ud_count": 18
+    },
+    {
+      "nl": "controleren",
+      "pos": "verb",
+      "zipf": 4.61,
+      "freq_rank": 2001,
+      "ud_count": 13
+    },
+    {
+      "nl": "gooien",
+      "pos": "verb",
+      "zipf": 4.61,
+      "freq_rank": 2008,
+      "ud_count": 21
+    },
+    {
+      "nl": "trouwen",
+      "pos": "verb",
+      "zipf": 4.61,
+      "freq_rank": 2026,
+      "ud_count": 34
+    },
+    {
+      "nl": "verdwijnen",
+      "pos": "verb",
+      "zipf": 4.61,
+      "freq_rank": 2027,
+      "ud_count": 78
+    },
+    {
+      "nl": "fietsen",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2042,
+      "ud_count": 23
+    },
+    {
+      "nl": "koken",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2053,
+      "ud_count": 12
+    },
+    {
+      "nl": "ontmoeten",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2058,
+      "ud_count": 41
+    },
+    {
+      "nl": "openen",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2059,
+      "ud_count": 67
+    },
+    {
+      "nl": "starten",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2071,
+      "ud_count": 41
+    },
+    {
+      "nl": "tekenen",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2073,
+      "ud_count": 48
+    },
+    {
+      "nl": "zwemmen",
+      "pos": "verb",
+      "zipf": 4.6,
+      "freq_rank": 2079,
+      "ud_count": 13
+    },
+    {
+      "nl": "onderwerpen",
+      "pos": "verb",
+      "zipf": 4.59,
+      "freq_rank": 2112,
+      "ud_count": 11
+    },
+    {
+      "nl": "creëren",
+      "pos": "verb",
+      "zipf": 4.58,
+      "freq_rank": 2128,
+      "ud_count": 15
+    },
+    {
+      "nl": "vissen",
+      "pos": "verb",
+      "zipf": 4.58,
+      "freq_rank": 2146,
+      "ud_count": 12
+    },
+    {
+      "nl": "behouden",
+      "pos": "verb",
+      "zipf": 4.57,
+      "freq_rank": 2156,
+      "ud_count": 31
+    },
+    {
+      "nl": "bewegen",
+      "pos": "verb",
+      "zipf": 4.57,
+      "freq_rank": 2161,
+      "ud_count": 21
+    },
+    {
+      "nl": "vertrekken",
+      "pos": "verb",
+      "zipf": 4.57,
+      "freq_rank": 2187,
+      "ud_count": 120
+    },
+    {
+      "nl": "bestellen",
+      "pos": "verb",
+      "zipf": 4.56,
+      "freq_rank": 2194,
+      "ud_count": 15
+    },
+    {
+      "nl": "gedragen",
+      "pos": "verb",
+      "zipf": 4.56,
+      "freq_rank": 2201,
+      "ud_count": 6
+    },
+    {
+      "nl": "testen",
+      "pos": "verb",
+      "zipf": 4.56,
+      "freq_rank": 2220,
+      "ud_count": 6
+    },
+    {
+      "nl": "lossen",
+      "pos": "verb",
+      "zipf": 4.55,
+      "freq_rank": 2251,
+      "ud_count": 8
+    },
+    {
+      "nl": "regelen",
+      "pos": "verb",
+      "zipf": 4.55,
+      "freq_rank": 2262,
+      "ud_count": 21
+    },
+    {
+      "nl": "vluchten",
+      "pos": "verb",
+      "zipf": 4.55,
+      "freq_rank": 2269,
+      "ud_count": 32
+    },
+    {
+      "nl": "wijzen",
+      "pos": "verb",
+      "zipf": 4.55,
+      "freq_rank": 2272,
+      "ud_count": 45
+    },
+    {
+      "nl": "behandelen",
+      "pos": "verb",
+      "zipf": 4.53,
+      "freq_rank": 2310,
+      "ud_count": 36
+    },
+    {
+      "nl": "kanten",
+      "pos": "verb",
+      "zipf": 4.53,
+      "freq_rank": 2325,
+      "ud_count": 3
+    },
+    {
+      "nl": "verzamelen",
+      "pos": "verb",
+      "zipf": 4.53,
+      "freq_rank": 2344,
+      "ud_count": 17
+    },
+    {
+      "nl": "bevatten",
+      "pos": "verb",
+      "zipf": 4.52,
+      "freq_rank": 2355,
+      "ud_count": 51
+    },
+    {
+      "nl": "zakken",
+      "pos": "verb",
+      "zipf": 4.52,
+      "freq_rank": 2398,
+      "ud_count": 11
+    },
+    {
+      "nl": "behoren",
+      "pos": "verb",
+      "zipf": 4.51,
+      "freq_rank": 2405,
+      "ud_count": 76
+    },
+    {
+      "nl": "kampen",
+      "pos": "verb",
+      "zipf": 4.51,
+      "freq_rank": 2415,
+      "ud_count": 12
+    },
+    {
+      "nl": "lijden",
+      "pos": "verb",
+      "zipf": 4.51,
+      "freq_rank": 2420,
+      "ud_count": 54
+    },
+    {
+      "nl": "overleven",
+      "pos": "verb",
+      "zipf": 4.51,
+      "freq_rank": 2429,
+      "ud_count": 12
+    },
+    {
+      "nl": "bevinden",
+      "pos": "verb",
+      "zipf": 4.5,
+      "freq_rank": 2448,
+      "ud_count": 69
+    },
+    {
+      "nl": "herstellen",
+      "pos": "verb",
+      "zipf": 4.5,
+      "freq_rank": 2461,
+      "ud_count": 48
+    },
+    {
+      "nl": "ontdekken",
+      "pos": "verb",
+      "zipf": 4.5,
+      "freq_rank": 2468,
+      "ud_count": 39
+    },
+    {
+      "nl": "schieten",
+      "pos": "verb",
+      "zipf": 4.5,
+      "freq_rank": 2479,
+      "ud_count": 60
+    },
+    {
+      "nl": "studeren",
+      "pos": "verb",
+      "zipf": 4.5,
+      "freq_rank": 2483,
+      "ud_count": 13
+    },
+    {
+      "nl": "getuigen",
+      "pos": "verb",
+      "zipf": 4.49,
+      "freq_rank": 2504,
+      "ud_count": 5
+    },
+    {
+      "nl": "steunen",
+      "pos": "verb",
+      "zipf": 4.49,
+      "freq_rank": 2525,
+      "ud_count": 57
+    },
+    {
+      "nl": "accepteren",
+      "pos": "verb",
+      "zipf": 4.48,
+      "freq_rank": 2540,
+      "ud_count": 18
+    },
+    {
+      "nl": "huilen",
+      "pos": "verb",
+      "zipf": 4.48,
+      "freq_rank": 2560,
+      "ud_count": 8
+    },
+    {
+      "nl": "oefenen",
+      "pos": "verb",
+      "zipf": 4.48,
+      "freq_rank": 2573,
+      "ud_count": 7
+    },
+    {
+      "nl": "overlijden",
+      "pos": "verb",
+      "zipf": 4.48,
+      "freq_rank": 2577,
+      "ud_count": 58
+    },
+    {
+      "nl": "rekenen",
+      "pos": "verb",
+      "zipf": 4.48,
+      "freq_rank": 2581,
+      "ud_count": 32
+    },
+    {
+      "nl": "ondernemen",
+      "pos": "verb",
+      "zipf": 4.47,
+      "freq_rank": 2631,
+      "ud_count": 21
+    },
+    {
+      "nl": "ondersteunen",
+      "pos": "verb",
+      "zipf": 4.47,
+      "freq_rank": 2633,
+      "ud_count": 18
+    },
+    {
+      "nl": "roken",
+      "pos": "verb",
+      "zipf": 4.47,
+      "freq_rank": 2642,
+      "ud_count": 17
+    },
+    {
+      "nl": "vangen",
+      "pos": "verb",
+      "zipf": 4.47,
+      "freq_rank": 2649,
+      "ud_count": 33
+    },
+    {
+      "nl": "klagen",
+      "pos": "verb",
+      "zipf": 4.46,
+      "freq_rank": 2671,
+      "ud_count": 6
+    },
+    {
+      "nl": "bedenken",
+      "pos": "verb",
+      "zipf": 4.45,
+      "freq_rank": 2698,
+      "ud_count": 27
+    },
+    {
+      "nl": "breken",
+      "pos": "verb",
+      "zipf": 4.45,
+      "freq_rank": 2702,
+      "ud_count": 22
+    },
+    {
+      "nl": "merken",
+      "pos": "verb",
+      "zipf": 4.45,
+      "freq_rank": 2729,
+      "ud_count": 9
+    },
+    {
+      "nl": "springen",
+      "pos": "verb",
+      "zipf": 4.45,
+      "freq_rank": 2742,
+      "ud_count": 17
+    },
+    {
+      "nl": "kenmerken",
+      "pos": "verb",
+      "zipf": 4.44,
+      "freq_rank": 2780,
+      "ud_count": 26
+    },
+    {
+      "nl": "realiseren",
+      "pos": "verb",
+      "zipf": 4.44,
+      "freq_rank": 2793,
+      "ud_count": 27
+    },
+    {
+      "nl": "treden",
+      "pos": "verb",
+      "zipf": 4.44,
+      "freq_rank": 2797,
+      "ud_count": 13
+    },
+    {
+      "nl": "verdedigen",
+      "pos": "verb",
+      "zipf": 4.44,
+      "freq_rank": 2799,
+      "ud_count": 44
+    },
+    {
+      "nl": "ontsnappen",
+      "pos": "verb",
+      "zipf": 4.43,
+      "freq_rank": 2841,
+      "ud_count": 21
+    },
+    {
+      "nl": "vergelijken",
+      "pos": "verb",
+      "zipf": 4.43,
+      "freq_rank": 2856,
+      "ud_count": 23
+    },
+    {
+      "nl": "wandelen",
+      "pos": "verb",
+      "zipf": 4.43,
+      "freq_rank": 2865,
+      "ud_count": 3
+    },
+    {
+      "nl": "investeren",
+      "pos": "verb",
+      "zipf": 4.42,
+      "freq_rank": 2891,
+      "ud_count": 6
+    },
+    {
+      "nl": "moorden",
+      "pos": "verb",
+      "zipf": 4.42,
+      "freq_rank": 2901,
+      "ud_count": 4
+    },
+    {
+      "nl": "raden",
+      "pos": "verb",
+      "zipf": 4.42,
+      "freq_rank": 2906,
+      "ud_count": 5
+    },
+    {
+      "nl": "verhuizen",
+      "pos": "verb",
+      "zipf": 4.42,
+      "freq_rank": 2919,
+      "ud_count": 16
+    },
+    {
+      "nl": "verschijnen",
+      "pos": "verb",
+      "zipf": 4.41,
+      "freq_rank": 2968,
+      "ud_count": 110
+    },
+    {
+      "nl": "negeren",
+      "pos": "verb",
+      "zipf": 4.4,
+      "freq_rank": 2998,
+      "ud_count": 9
+    },
+    {
+      "nl": "veroorzaken",
+      "pos": "verb",
+      "zipf": 4.4,
+      "freq_rank": 3012,
+      "ud_count": 58
+    },
+    {
+      "nl": "blijken",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3032,
+      "ud_count": 182
+    },
+    {
+      "nl": "drukken",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3038,
+      "ud_count": 19
+    },
+    {
+      "nl": "onderhouden",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3055,
+      "ud_count": 10
+    },
+    {
+      "nl": "rollen",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3064,
+      "ud_count": 6
+    },
+    {
+      "nl": "tellen",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3065,
+      "ud_count": 75
+    },
+    {
+      "nl": "trainen",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3067,
+      "ud_count": 20
+    },
+    {
+      "nl": "verbergen",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3069,
+      "ud_count": 12
+    },
+    {
+      "nl": "verklaren",
+      "pos": "verb",
+      "zipf": 4.39,
+      "freq_rank": 3070,
+      "ud_count": 96
+    },
+    {
+      "nl": "bezorgen",
+      "pos": "verb",
+      "zipf": 4.38,
+      "freq_rank": 3079,
+      "ud_count": 17
+    },
+    {
+      "nl": "vullen",
+      "pos": "verb",
+      "zipf": 4.38,
+      "freq_rank": 3123,
+      "ud_count": 4
+    },
+    {
+      "nl": "rennen",
+      "pos": "verb",
+      "zipf": 4.37,
+      "freq_rank": 3167,
+      "ud_count": 9
+    },
+    {
+      "nl": "bedanken",
+      "pos": "verb",
+      "zipf": 4.36,
+      "freq_rank": 3182,
+      "ud_count": 8
+    },
+    {
+      "nl": "overtuigen",
+      "pos": "verb",
+      "zipf": 4.36,
+      "freq_rank": 3223,
+      "ud_count": 40
+    },
+    {
+      "nl": "voegen",
+      "pos": "verb",
+      "zipf": 4.36,
+      "freq_rank": 3236,
+      "ud_count": 19
+    },
+    {
+      "nl": "letten",
+      "pos": "verb",
+      "zipf": 4.35,
+      "freq_rank": 3277,
+      "ud_count": 9
+    },
+    {
+      "nl": "lukken",
+      "pos": "verb",
+      "zipf": 4.35,
+      "freq_rank": 3279,
+      "ud_count": 37
+    },
+    {
+      "nl": "verwijzen",
+      "pos": "verb",
+      "zipf": 4.35,
+      "freq_rank": 3294,
+      "ud_count": 23
+    },
+    {
+      "nl": "zwijgen",
+      "pos": "verb",
+      "zipf": 4.35,
+      "freq_rank": 3301,
+      "ud_count": 13
+    },
+    {
+      "nl": "schreeuwen",
+      "pos": "verb",
+      "zipf": 4.34,
+      "freq_rank": 3356,
+      "ud_count": 4
+    },
+    {
+      "nl": "verhogen",
+      "pos": "verb",
+      "zipf": 4.34,
+      "freq_rank": 3364,
+      "ud_count": 25
+    },
+    {
+      "nl": "beantwoorden",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3374,
+      "ud_count": 8
+    },
+    {
+      "nl": "bidden",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3375,
+      "ud_count": 5
+    },
+    {
+      "nl": "ontwerpen",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3410,
+      "ud_count": 18
+    },
+    {
+      "nl": "verlopen",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3423,
+      "ud_count": 17
+    },
+    {
+      "nl": "vermoorden",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3424,
+      "ud_count": 53
+    },
+    {
+      "nl": "versterken",
+      "pos": "verb",
+      "zipf": 4.33,
+      "freq_rank": 3425,
+      "ud_count": 36
+    },
+    {
+      "nl": "besteden",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3440,
+      "ud_count": 19
+    },
+    {
+      "nl": "branden",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3444,
+      "ud_count": 14
+    },
+    {
+      "nl": "durven",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3453,
+      "ud_count": 15
+    },
+    {
+      "nl": "handelen",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3467,
+      "ud_count": 9
+    },
+    {
+      "nl": "lenen",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3476,
+      "ud_count": 14
+    },
+    {
+      "nl": "stimuleren",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3494,
+      "ud_count": 15
+    },
+    {
+      "nl": "vergroten",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3502,
+      "ud_count": 16
+    },
+    {
+      "nl": "vernietigen",
+      "pos": "verb",
+      "zipf": 4.32,
+      "freq_rank": 3503,
+      "ud_count": 38
+    },
+    {
+      "nl": "informeren",
+      "pos": "verb",
+      "zipf": 4.31,
+      "freq_rank": 3535,
+      "ud_count": 5
+    },
+    {
+      "nl": "malen",
+      "pos": "verb",
+      "zipf": 4.31,
+      "freq_rank": 3543,
+      "ud_count": 4
+    },
+    {
+      "nl": "besluiten",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3578,
+      "ud_count": 127
+    },
+    {
+      "nl": "bevestigen",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3581,
+      "ud_count": 31
+    },
+    {
+      "nl": "bewaren",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3582,
+      "ud_count": 34
+    },
+    {
+      "nl": "onthouden",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3619,
+      "ud_count": 5
+    },
+    {
+      "nl": "produceren",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3625,
+      "ud_count": 43
+    },
+    {
+      "nl": "vermoeden",
+      "pos": "verb",
+      "zipf": 4.3,
+      "freq_rank": 3641,
+      "ud_count": 12
+    },
+    {
+      "nl": "gelden",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3661,
+      "ud_count": 49
+    },
+    {
+      "nl": "graven",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3666,
+      "ud_count": 6
+    },
+    {
+      "nl": "herkennen",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3668,
+      "ud_count": 14
+    },
+    {
+      "nl": "laden",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3672,
+      "ud_count": 12
+    },
+    {
+      "nl": "varen",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3696,
+      "ud_count": 14
+    },
+    {
+      "nl": "vermijden",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3702,
+      "ud_count": 8
+    },
+    {
+      "nl": "verspreiden",
+      "pos": "verb",
+      "zipf": 4.29,
+      "freq_rank": 3703,
+      "ud_count": 21
+    },
+    {
+      "nl": "onderscheiden",
+      "pos": "verb",
+      "zipf": 4.28,
+      "freq_rank": 3753,
+      "ud_count": 14
+    },
+    {
+      "nl": "slagen",
+      "pos": "verb",
+      "zipf": 4.28,
+      "freq_rank": 3764,
+      "ud_count": 68
+    },
+    {
+      "nl": "beperken",
+      "pos": "verb",
+      "zipf": 4.27,
+      "freq_rank": 3788,
+      "ud_count": 44
+    },
+    {
+      "nl": "communiceren",
+      "pos": "verb",
+      "zipf": 4.27,
+      "freq_rank": 3797,
+      "ud_count": 3
+    },
+    {
+      "nl": "kussen",
+      "pos": "verb",
+      "zipf": 4.27,
+      "freq_rank": 3819,
+      "ud_count": 8
+    },
+    {
+      "nl": "verplaatsen",
+      "pos": "verb",
+      "zipf": 4.27,
+      "freq_rank": 3848,
+      "ud_count": 15
+    },
+    {
+      "nl": "weigeren",
+      "pos": "verb",
+      "zipf": 4.27,
+      "freq_rank": 3852,
+      "ud_count": 57
+    },
+    {
+      "nl": "danken",
+      "pos": "verb",
+      "zipf": 4.26,
+      "freq_rank": 3869,
+      "ud_count": 23
+    },
+    {
+      "nl": "plegen",
+      "pos": "verb",
+      "zipf": 4.26,
+      "freq_rank": 3896,
+      "ud_count": 41
+    },
+    {
+      "nl": "wisselen",
+      "pos": "verb",
+      "zipf": 4.26,
+      "freq_rank": 3922,
+      "ud_count": 10
+    },
+    {
+      "nl": "beslissen",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3932,
+      "ud_count": 45
+    },
+    {
+      "nl": "heten",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3958,
+      "ud_count": 296
+    },
+    {
+      "nl": "ontbreken",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3973,
+      "ud_count": 29
+    },
+    {
+      "nl": "rusten",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3977,
+      "ud_count": 7
+    },
+    {
+      "nl": "streven",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3981,
+      "ud_count": 31
+    },
+    {
+      "nl": "verminderen",
+      "pos": "verb",
+      "zipf": 4.25,
+      "freq_rank": 3993,
+      "ud_count": 22
+    },
+    {
+      "nl": "ontspannen",
+      "pos": "verb",
+      "zipf": 4.24,
+      "freq_rank": 4037,
+      "ud_count": 3
+    },
+    {
+      "nl": "scoren",
+      "pos": "verb",
+      "zipf": 4.24,
+      "freq_rank": 4046,
+      "ud_count": 18
+    },
+    {
+      "nl": "verblijven",
+      "pos": "verb",
+      "zipf": 4.24,
+      "freq_rank": 4060,
+      "ud_count": 32
+    },
+    {
+      "nl": "verwerken",
+      "pos": "verb",
+      "zipf": 4.24,
+      "freq_rank": 4062,
+      "ud_count": 21
+    },
+    {
+      "nl": "wennen",
+      "pos": "verb",
+      "zipf": 4.24,
+      "freq_rank": 4064,
+      "ud_count": 9
+    },
+    {
+      "nl": "bestrijden",
+      "pos": "verb",
+      "zipf": 4.23,
+      "freq_rank": 4075,
+      "ud_count": 17
+    },
+    {
+      "nl": "bevorderen",
+      "pos": "verb",
+      "zipf": 4.23,
+      "freq_rank": 4076,
+      "ud_count": 11
+    },
+    {
+      "nl": "filmen",
+      "pos": "verb",
+      "zipf": 4.23,
+      "freq_rank": 4089,
+      "ud_count": 18
+    },
+    {
+      "nl": "verkrijgen",
+      "pos": "verb",
+      "zipf": 4.23,
+      "freq_rank": 4140,
+      "ud_count": 45
+    },
+    {
+      "nl": "wassen",
+      "pos": "verb",
+      "zipf": 4.23,
+      "freq_rank": 4143,
+      "ud_count": 8
+    },
+    {
+      "nl": "haten",
+      "pos": "verb",
+      "zipf": 4.22,
+      "freq_rank": 4179,
+      "ud_count": 3
+    },
+    {
+      "nl": "kloppen",
+      "pos": "verb",
+      "zipf": 4.22,
+      "freq_rank": 4184,
+      "ud_count": 13
+    },
+    {
+      "nl": "schelen",
+      "pos": "verb",
+      "zipf": 4.22,
+      "freq_rank": 4207,
+      "ud_count": 5
+    },
+    {
+      "nl": "bakken",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4234,
+      "ud_count": 12
+    },
+    {
+      "nl": "lichten",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4262,
+      "ud_count": 3
+    },
+    {
+      "nl": "proeven",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4276,
+      "ud_count": 3
+    },
+    {
+      "nl": "stijgen",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4283,
+      "ud_count": 43
+    },
+    {
+      "nl": "verbinden",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4291,
+      "ud_count": 51
+    },
+    {
+      "nl": "waarderen",
+      "pos": "verb",
+      "zipf": 4.21,
+      "freq_rank": 4296,
+      "ud_count": 11
+    },
+    {
+      "nl": "arresteren",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4310,
+      "ud_count": 19
+    },
+    {
+      "nl": "beschrijven",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4316,
+      "ud_count": 29
+    },
+    {
+      "nl": "strijden",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4369,
+      "ud_count": 18
+    },
+    {
+      "nl": "voldoen",
+      "pos": "verb",
+      "zipf": 4.2,
+      "freq_rank": 4384,
+      "ud_count": 19
+    },
+    {
+      "nl": "eindigen",
+      "pos": "verb",
+      "zipf": 4.19,
+      "freq_rank": 4404,
+      "ud_count": 37
+    },
+    {
+      "nl": "huren",
+      "pos": "verb",
+      "zipf": 4.19,
+      "freq_rank": 4420,
+      "ud_count": 5
+    },
+    {
+      "nl": "sparen",
+      "pos": "verb",
+      "zipf": 4.19,
+      "freq_rank": 4452,
+      "ud_count": 8
+    },
+    {
+      "nl": "behalen",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4475,
+      "ud_count": 39
+    },
+    {
+      "nl": "beleven",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4476,
+      "ud_count": 14
+    },
+    {
+      "nl": "beseffen",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4477,
+      "ud_count": 15
+    },
+    {
+      "nl": "dwingen",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4486,
+      "ud_count": 49
+    },
+    {
+      "nl": "profiteren",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4512,
+      "ud_count": 5
+    },
+    {
+      "nl": "promoten",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4513,
+      "ud_count": 6
+    },
+    {
+      "nl": "scheiden",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4517,
+      "ud_count": 16
+    },
+    {
+      "nl": "waarschuwen",
+      "pos": "verb",
+      "zipf": 4.18,
+      "freq_rank": 4536,
+      "ud_count": 26
+    },
+    {
+      "nl": "garanderen",
+      "pos": "verb",
+      "zipf": 4.17,
+      "freq_rank": 4558,
+      "ud_count": 14
+    },
+    {
+      "nl": "ontkennen",
+      "pos": "verb",
+      "zipf": 4.17,
+      "freq_rank": 4591,
+      "ud_count": 12
+    },
+    {
+      "nl": "snijden",
+      "pos": "verb",
+      "zipf": 4.17,
+      "freq_rank": 4602,
+      "ud_count": 11
+    },
+    {
+      "nl": "verzorgen",
+      "pos": "verb",
+      "zipf": 4.17,
+      "freq_rank": 4613,
+      "ud_count": 24
+    },
+    {
+      "nl": "beoordelen",
+      "pos": "verb",
+      "zipf": 4.16,
+      "freq_rank": 4631,
+      "ud_count": 12
+    },
+    {
+      "nl": "jagen",
+      "pos": "verb",
+      "zipf": 4.16,
+      "freq_rank": 4657,
+      "ud_count": 8
+    },
+    {
+      "nl": "stelen",
+      "pos": "verb",
+      "zipf": 4.16,
+      "freq_rank": 4692,
+      "ud_count": 16
+    },
+    {
+      "nl": "beschikken",
+      "pos": "verb",
+      "zipf": 4.15,
+      "freq_rank": 4727,
+      "ud_count": 44
+    },
+    {
+      "nl": "grijpen",
+      "pos": "verb",
+      "zipf": 4.15,
+      "freq_rank": 4745,
+      "ud_count": 14
+    },
+    {
+      "nl": "presenteren",
+      "pos": "verb",
+      "zipf": 4.15,
+      "freq_rank": 4771,
+      "ud_count": 17
+    },
+    {
+      "nl": "schilderen",
+      "pos": "verb",
+      "zipf": 4.15,
+      "freq_rank": 4775,
+      "ud_count": 27
+    },
+    {
+      "nl": "typen",
+      "pos": "verb",
+      "zipf": 4.14,
+      "freq_rank": 4853,
+      "ud_count": 3
+    },
+    {
+      "nl": "beëindigen",
+      "pos": "verb",
+      "zipf": 4.13,
+      "freq_rank": 4877,
+      "ud_count": 19
+    },
+    {
+      "nl": "functioneren",
+      "pos": "verb",
+      "zipf": 4.13,
+      "freq_rank": 4900,
+      "ud_count": 10
+    },
+    {
+      "nl": "overwegen",
+      "pos": "verb",
+      "zipf": 4.13,
+      "freq_rank": 4931,
+      "ud_count": 16
+    },
+    {
+      "nl": "goed",
+      "pos": "adj",
+      "zipf": 6.2,
+      "freq_rank": 67,
+      "ud_count": 562
+    },
+    {
+      "nl": "echt",
+      "pos": "adj",
+      "zipf": 6.01,
+      "freq_rank": 96,
+      "ud_count": 88
+    },
+    {
+      "nl": "heel",
+      "pos": "adj",
+      "zipf": 6.0,
+      "freq_rank": 99,
+      "ud_count": 312
+    },
+    {
+      "nl": "gewoon",
+      "pos": "adj",
+      "zipf": 5.85,
+      "freq_rank": 132,
+      "ud_count": 76
+    },
+    {
+      "nl": "laat",
+      "pos": "adj",
+      "zipf": 5.84,
+      "freq_rank": 137,
+      "ud_count": 617
+    },
+    {
+      "nl": "eigen",
+      "pos": "adj",
+      "zipf": 5.81,
+      "freq_rank": 143,
+      "ud_count": 222
+    },
+    {
+      "nl": "één",
+      "pos": "adj",
+      "zipf": 5.77,
+      "freq_rank": 157,
+      "ud_count": 712
+    },
+    {
+      "nl": "snel",
+      "pos": "adj",
+      "zipf": 5.74,
+      "freq_rank": 170,
+      "ud_count": 198
+    },
+    {
+      "nl": "nodig",
+      "pos": "adj",
+      "zipf": 5.73,
+      "freq_rank": 178,
+      "ud_count": 82
+    },
+    {
+      "nl": "erg",
+      "pos": "adj",
+      "zipf": 5.71,
+      "freq_rank": 189,
+      "ud_count": 125
+    },
+    {
+      "nl": "zeker",
+      "pos": "adj",
+      "zipf": 5.69,
+      "freq_rank": 198,
+      "ud_count": 134
+    },
+    {
+      "nl": "lang",
+      "pos": "adj",
+      "zipf": 5.65,
+      "freq_rank": 215,
+      "ud_count": 284
+    },
+    {
+      "nl": "leuk",
+      "pos": "adj",
+      "zipf": 5.6,
+      "freq_rank": 243,
+      "ud_count": 31
+    },
+    {
+      "nl": "vaak",
+      "pos": "adj",
+      "zipf": 5.6,
+      "freq_rank": 245,
+      "ud_count": 145
+    },
+    {
+      "nl": "groot",
+      "pos": "adj",
+      "zipf": 5.59,
+      "freq_rank": 248,
+      "ud_count": 900
+    },
+    {
+      "nl": "natuurlijk",
+      "pos": "adj",
+      "zipf": 5.59,
+      "freq_rank": 249,
+      "ud_count": 84
+    },
+    {
+      "nl": "mooi",
+      "pos": "adj",
+      "zipf": 5.58,
+      "freq_rank": 255,
+      "ud_count": 70
+    },
+    {
+      "nl": "online",
+      "pos": "adj",
+      "zipf": 5.55,
+      "freq_rank": 270,
+      "ud_count": 7
+    },
+    {
+      "nl": "klaar",
+      "pos": "adj",
+      "zipf": 5.51,
+      "freq_rank": 288,
+      "ud_count": 28
+    },
+    {
+      "nl": "nieuw",
+      "pos": "adj",
+      "zipf": 5.51,
+      "freq_rank": 290,
+      "ud_count": 494
+    },
+    {
+      "nl": "open",
+      "pos": "adj",
+      "zipf": 5.5,
+      "freq_rank": 303,
+      "ud_count": 48
+    },
+    {
+      "nl": "bekend",
+      "pos": "adj",
+      "zipf": 5.49,
+      "freq_rank": 305,
+      "ud_count": 214
+    },
+    {
+      "nl": "mogelijk",
+      "pos": "adj",
+      "zipf": 5.49,
+      "freq_rank": 311,
+      "ud_count": 146
+    },
+    {
+      "nl": "zoek",
+      "pos": "adj",
+      "zipf": 5.47,
+      "freq_rank": 324,
+      "ud_count": 19
+    },
+    {
+      "nl": "eigenlijk",
+      "pos": "adj",
+      "zipf": 5.45,
+      "freq_rank": 332,
+      "ud_count": 88
+    },
+    {
+      "nl": "vast",
+      "pos": "adj",
+      "zipf": 5.43,
+      "freq_rank": 349,
+      "ud_count": 96
+    },
+    {
+      "nl": "zuid",
+      "pos": "adj",
+      "zipf": 5.43,
+      "freq_rank": 352,
+      "ud_count": 7
+    },
+    {
+      "nl": "vrij",
+      "pos": "adj",
+      "zipf": 5.42,
+      "freq_rank": 358,
+      "ud_count": 102
+    },
+    {
+      "nl": "best",
+      "pos": "adj",
+      "zipf": 5.41,
+      "freq_rank": 362,
+      "ud_count": 14
+    },
+    {
+      "nl": "eerder",
+      "pos": "adj",
+      "zipf": 5.39,
+      "freq_rank": 378,
+      "ud_count": 108
+    },
+    {
+      "nl": "ander",
+      "pos": "adj",
+      "zipf": 5.37,
+      "freq_rank": 387,
+      "ud_count": 655
+    },
+    {
+      "nl": "duidelijk",
+      "pos": "adj",
+      "zipf": 5.36,
+      "freq_rank": 399,
+      "ud_count": 147
+    },
+    {
+      "nl": "gratis",
+      "pos": "adj",
+      "zipf": 5.35,
+      "freq_rank": 411,
+      "ud_count": 12
+    },
+    {
+      "nl": "lekker",
+      "pos": "adj",
+      "zipf": 5.35,
+      "freq_rank": 414,
+      "ud_count": 24
+    },
+    {
+      "nl": "vroeg",
+      "pos": "adj",
+      "zipf": 5.35,
+      "freq_rank": 418,
+      "ud_count": 137
+    },
+    {
+      "nl": "belangrijk",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 420,
+      "ud_count": 244
+    },
+    {
+      "nl": "blij",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 421,
+      "ud_count": 22
+    },
+    {
+      "nl": "gelijk",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 423,
+      "ud_count": 32
+    },
+    {
+      "nl": "oud",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 427,
+      "ud_count": 256
+    },
+    {
+      "nl": "precies",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 428,
+      "ud_count": 54
+    },
+    {
+      "nl": "vol",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 429,
+      "ud_count": 41
+    },
+    {
+      "nl": "moeilijk",
+      "pos": "adj",
+      "zipf": 5.32,
+      "freq_rank": 445,
+      "ud_count": 71
+    },
+    {
+      "nl": "bezig",
+      "pos": "adj",
+      "zipf": 5.31,
+      "freq_rank": 452,
+      "ud_count": 39
+    },
+    {
+      "nl": "klein",
+      "pos": "adj",
+      "zipf": 5.3,
+      "freq_rank": 458,
+      "ud_count": 214
+    },
+    {
+      "nl": "juist",
+      "pos": "adj",
+      "zipf": 5.26,
+      "freq_rank": 497,
+      "ud_count": 68
+    },
+    {
+      "nl": "hetzelfde",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 519,
+      "ud_count": 27
+    },
+    {
+      "nl": "slecht",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 526,
+      "ud_count": 78
+    },
+    {
+      "nl": "waarschijnlijk",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 530,
+      "ud_count": 81
+    },
+    {
+      "nl": "gelukkig",
+      "pos": "adj",
+      "zipf": 5.23,
+      "freq_rank": 534,
+      "ud_count": 21
+    },
+    {
+      "nl": "uiteindelijk",
+      "pos": "adj",
+      "zipf": 5.22,
+      "freq_rank": 550,
+      "ud_count": 111
+    },
+    {
+      "nl": "zat",
+      "pos": "adj",
+      "zipf": 5.21,
+      "freq_rank": 567,
+      "ud_count": 4
+    },
+    {
+      "nl": "bang",
+      "pos": "adj",
+      "zipf": 5.18,
+      "freq_rank": 588,
+      "ud_count": 38
+    },
+    {
+      "nl": "direct",
+      "pos": "adj",
+      "zipf": 5.18,
+      "freq_rank": 591,
+      "ud_count": 67
+    },
+    {
+      "nl": "politiek",
+      "pos": "adj",
+      "zipf": 5.17,
+      "freq_rank": 614,
+      "ud_count": 169
+    },
+    {
+      "nl": "extra",
+      "pos": "adj",
+      "zipf": 5.16,
+      "freq_rank": 625,
+      "ud_count": 53
+    },
+    {
+      "nl": "kort",
+      "pos": "adj",
+      "zipf": 5.16,
+      "freq_rank": 629,
+      "ud_count": 159
+    },
+    {
+      "nl": "algemeen",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 633,
+      "ud_count": 130
+    },
+    {
+      "nl": "geweldig",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 639,
+      "ud_count": 17
+    },
+    {
+      "nl": "hard",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 640,
+      "ud_count": 68
+    },
+    {
+      "nl": "links",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 642,
+      "ud_count": 50
+    },
+    {
+      "nl": "ver",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 650,
+      "ud_count": 261
+    },
+    {
+      "nl": "welkom",
+      "pos": "adj",
+      "zipf": 5.15,
+      "freq_rank": 651,
+      "ud_count": 6
+    },
+    {
+      "nl": "gek",
+      "pos": "adj",
+      "zipf": 5.13,
+      "freq_rank": 671,
+      "ud_count": 19
+    },
+    {
+      "nl": "los",
+      "pos": "adj",
+      "zipf": 5.13,
+      "freq_rank": 677,
+      "ud_count": 35
+    },
+    {
+      "nl": "mis",
+      "pos": "adj",
+      "zipf": 5.12,
+      "freq_rank": 692,
+      "ud_count": 9
+    },
+    {
+      "nl": "sterk",
+      "pos": "adj",
+      "zipf": 5.12,
+      "freq_rank": 696,
+      "ud_count": 197
+    },
+    {
+      "nl": "totaal",
+      "pos": "adj",
+      "zipf": 5.12,
+      "freq_rank": 697,
+      "ud_count": 65
+    },
+    {
+      "nl": "veilig",
+      "pos": "adj",
+      "zipf": 5.12,
+      "freq_rank": 698,
+      "ud_count": 12
+    },
+    {
+      "nl": "voorbij",
+      "pos": "adj",
+      "zipf": 5.11,
+      "freq_rank": 710,
+      "ud_count": 21
+    },
+    {
+      "nl": "aanwezig",
+      "pos": "adj",
+      "zipf": 5.1,
+      "freq_rank": 713,
+      "ud_count": 66
+    },
+    {
+      "nl": "prima",
+      "pos": "adj",
+      "zipf": 5.1,
+      "freq_rank": 724,
+      "ud_count": 3
+    },
+    {
+      "nl": "actief",
+      "pos": "adj",
+      "zipf": 5.09,
+      "freq_rank": 729,
+      "ud_count": 37
+    },
+    {
+      "nl": "fijn",
+      "pos": "adj",
+      "zipf": 5.09,
+      "freq_rank": 730,
+      "ud_count": 10
+    },
+    {
+      "nl": "normaal",
+      "pos": "adj",
+      "zipf": 5.09,
+      "freq_rank": 738,
+      "ud_count": 35
+    },
+    {
+      "nl": "prachtig",
+      "pos": "adj",
+      "zipf": 5.09,
+      "freq_rank": 740,
+      "ud_count": 36
+    },
+    {
+      "nl": "trots",
+      "pos": "adj",
+      "zipf": 5.09,
+      "freq_rank": 743,
+      "ud_count": 15
+    },
+    {
+      "nl": "eindelijk",
+      "pos": "adj",
+      "zipf": 5.08,
+      "freq_rank": 751,
+      "ud_count": 22
+    },
+    {
+      "nl": "live",
+      "pos": "adj",
+      "zipf": 5.08,
+      "freq_rank": 754,
+      "ud_count": 7
+    },
+    {
+      "nl": "nederlands",
+      "pos": "adj",
+      "zipf": 5.08,
+      "freq_rank": 756,
+      "ud_count": 256
+    },
+    {
+      "nl": "volledig",
+      "pos": "adj",
+      "zipf": 5.08,
+      "freq_rank": 765,
+      "ud_count": 114
+    },
+    {
+      "nl": "heerlijk",
+      "pos": "adj",
+      "zipf": 5.06,
+      "freq_rank": 780,
+      "ud_count": 3
+    },
+    {
+      "nl": "tegenwoordig",
+      "pos": "adj",
+      "zipf": 5.06,
+      "freq_rank": 794,
+      "ud_count": 49
+    },
+    {
+      "nl": "wakker",
+      "pos": "adj",
+      "zipf": 5.06,
+      "freq_rank": 799,
+      "ud_count": 6
+    },
+    {
+      "nl": "centraal",
+      "pos": "adj",
+      "zipf": 5.05,
+      "freq_rank": 804,
+      "ud_count": 75
+    },
+    {
+      "nl": "dicht",
+      "pos": "adj",
+      "zipf": 5.05,
+      "freq_rank": 805,
+      "ud_count": 35
+    },
+    {
+      "nl": "half",
+      "pos": "adj",
+      "zipf": 5.05,
+      "freq_rank": 810,
+      "ud_count": 93
+    },
+    {
+      "nl": "ruim",
+      "pos": "adj",
+      "zipf": 5.05,
+      "freq_rank": 815,
+      "ud_count": 92
+    },
+    {
+      "nl": "hoog",
+      "pos": "adj",
+      "zipf": 5.04,
+      "freq_rank": 830,
+      "ud_count": 226
+    },
+    {
+      "nl": "geheel",
+      "pos": "adj",
+      "zipf": 5.03,
+      "freq_rank": 850,
+      "ud_count": 117
+    },
+    {
+      "nl": "heet",
+      "pos": "adj",
+      "zipf": 5.02,
+      "freq_rank": 864,
+      "ud_count": 4
+    },
+    {
+      "nl": "beschikbaar",
+      "pos": "adj",
+      "zipf": 5.01,
+      "freq_rank": 870,
+      "ud_count": 41
+    },
+    {
+      "nl": "jong",
+      "pos": "adj",
+      "zipf": 5.01,
+      "freq_rank": 879,
+      "ud_count": 149
+    },
+    {
+      "nl": "eerlijk",
+      "pos": "adj",
+      "zipf": 5.0,
+      "freq_rank": 890,
+      "ud_count": 8
+    },
+    {
+      "nl": "rustig",
+      "pos": "adj",
+      "zipf": 5.0,
+      "freq_rank": 898,
+      "ud_count": 33
+    },
+    {
+      "nl": "wit",
+      "pos": "adj",
+      "zipf": 5.0,
+      "freq_rank": 902,
+      "ud_count": 42
+    },
+    {
+      "nl": "zwart",
+      "pos": "adj",
+      "zipf": 5.0,
+      "freq_rank": 904,
+      "ud_count": 49
+    },
+    {
+      "nl": "bijzonder",
+      "pos": "adj",
+      "zipf": 4.99,
+      "freq_rank": 905,
+      "ud_count": 101
+    },
+    {
+      "nl": "makkelijk",
+      "pos": "adj",
+      "zipf": 4.99,
+      "freq_rank": 914,
+      "ud_count": 22
+    },
+    {
+      "nl": "engels",
+      "pos": "adj",
+      "zipf": 4.97,
+      "freq_rank": 943,
+      "ud_count": 39
+    },
+    {
+      "nl": "waard",
+      "pos": "adj",
+      "zipf": 4.97,
+      "freq_rank": 958,
+      "ud_count": 24
+    },
+    {
+      "nl": "terecht",
+      "pos": "adj",
+      "zipf": 4.95,
+      "freq_rank": 992,
+      "ud_count": 33
+    },
+    {
+      "nl": "vorig",
+      "pos": "adj",
+      "zipf": 4.95,
+      "freq_rank": 996,
+      "ud_count": 117
+    },
+    {
+      "nl": "kwijt",
+      "pos": "adj",
+      "zipf": 4.93,
+      "freq_rank": 1021,
+      "ud_count": 8
+    },
+    {
+      "nl": "blijkbaar",
+      "pos": "adj",
+      "zipf": 4.92,
+      "freq_rank": 1033,
+      "ud_count": 14
+    },
+    {
+      "nl": "perfect",
+      "pos": "adj",
+      "zipf": 4.92,
+      "freq_rank": 1042,
+      "ud_count": 9
+    },
+    {
+      "nl": "speciaal",
+      "pos": "adj",
+      "zipf": 4.92,
+      "freq_rank": 1048,
+      "ud_count": 47
+    },
+    {
+      "nl": "vlak",
+      "pos": "adj",
+      "zipf": 4.92,
+      "freq_rank": 1050,
+      "ud_count": 35
+    },
+    {
+      "nl": "boos",
+      "pos": "adj",
+      "zipf": 4.91,
+      "freq_rank": 1052,
+      "ud_count": 8
+    },
+    {
+      "nl": "enorm",
+      "pos": "adj",
+      "zipf": 4.91,
+      "freq_rank": 1053,
+      "ud_count": 59
+    },
+    {
+      "nl": "stil",
+      "pos": "adj",
+      "zipf": 4.91,
+      "freq_rank": 1067,
+      "ud_count": 17
+    },
+    {
+      "nl": "zwaar",
+      "pos": "adj",
+      "zipf": 4.91,
+      "freq_rank": 1071,
+      "ud_count": 148
+    },
+    {
+      "nl": "frans",
+      "pos": "adj",
+      "zipf": 4.9,
+      "freq_rank": 1082,
+      "ud_count": 206
+    },
+    {
+      "nl": "persoonlijk",
+      "pos": "adj",
+      "zipf": 4.9,
+      "freq_rank": 1093,
+      "ud_count": 38
+    },
+    {
+      "nl": "dagelijks",
+      "pos": "adj",
+      "zipf": 4.89,
+      "freq_rank": 1105,
+      "ud_count": 32
+    },
+    {
+      "nl": "serieus",
+      "pos": "adj",
+      "zipf": 4.89,
+      "freq_rank": 1117,
+      "ud_count": 8
+    },
+    {
+      "nl": "interessant",
+      "pos": "adj",
+      "zipf": 4.88,
+      "freq_rank": 1135,
+      "ud_count": 15
+    },
+    {
+      "nl": "regelmatig",
+      "pos": "adj",
+      "zipf": 4.88,
+      "freq_rank": 1139,
+      "ud_count": 26
+    },
+    {
+      "nl": "verantwoordelijk",
+      "pos": "adj",
+      "zipf": 4.88,
+      "freq_rank": 1142,
+      "ud_count": 29
+    },
+    {
+      "nl": "warm",
+      "pos": "adj",
+      "zipf": 4.86,
+      "freq_rank": 1190,
+      "ud_count": 22
+    },
+    {
+      "nl": "ziek",
+      "pos": "adj",
+      "zipf": 4.86,
+      "freq_rank": 1193,
+      "ud_count": 13
+    },
+    {
+      "nl": "jammer",
+      "pos": "adj",
+      "zipf": 4.85,
+      "freq_rank": 1199,
+      "ud_count": 12
+    },
+    {
+      "nl": "officieel",
+      "pos": "adj",
+      "zipf": 4.85,
+      "freq_rank": 1202,
+      "ud_count": 118
+    },
+    {
+      "nl": "oost",
+      "pos": "adj",
+      "zipf": 4.85,
+      "freq_rank": 1203,
+      "ud_count": 6
+    },
+    {
+      "nl": "openbaar",
+      "pos": "adj",
+      "zipf": 4.85,
+      "freq_rank": 1204,
+      "ud_count": 65
+    },
+    {
+      "nl": "rechts",
+      "pos": "adj",
+      "zipf": 4.84,
+      "freq_rank": 1228,
+      "ud_count": 36
+    },
+    {
+      "nl": "rood",
+      "pos": "adj",
+      "zipf": 4.84,
+      "freq_rank": 1230,
+      "ud_count": 36
+    },
+    {
+      "nl": "verkeerd",
+      "pos": "adj",
+      "zipf": 4.84,
+      "freq_rank": 1237,
+      "ud_count": 22
+    },
+    {
+      "nl": "momenteel",
+      "pos": "adj",
+      "zipf": 4.83,
+      "freq_rank": 1264,
+      "ud_count": 21
+    },
+    {
+      "nl": "groen",
+      "pos": "adj",
+      "zipf": 4.82,
+      "freq_rank": 1280,
+      "ud_count": 70
+    },
+    {
+      "nl": "gouden",
+      "pos": "adj",
+      "zipf": 4.81,
+      "freq_rank": 1307,
+      "ud_count": 48
+    },
+    {
+      "nl": "lastig",
+      "pos": "adj",
+      "zipf": 4.81,
+      "freq_rank": 1312,
+      "ud_count": 5
+    },
+    {
+      "nl": "absoluut",
+      "pos": "adj",
+      "zipf": 4.8,
+      "freq_rank": 1319,
+      "ud_count": 24
+    },
+    {
+      "nl": "afkomstig",
+      "pos": "adj",
+      "zipf": 4.8,
+      "freq_rank": 1321,
+      "ud_count": 23
+    },
+    {
+      "nl": "sociaal",
+      "pos": "adj",
+      "zipf": 4.8,
+      "freq_rank": 1336,
+      "ud_count": 120
+    },
+    {
+      "nl": "inclusief",
+      "pos": "adj",
+      "zipf": 4.79,
+      "freq_rank": 1352,
+      "ud_count": 16
+    },
+    {
+      "nl": "voormalig",
+      "pos": "adj",
+      "zipf": 4.79,
+      "freq_rank": 1369,
+      "ud_count": 61
+    },
+    {
+      "nl": "aardig",
+      "pos": "adj",
+      "zipf": 4.77,
+      "freq_rank": 1400,
+      "ud_count": 37
+    },
+    {
+      "nl": "fantastisch",
+      "pos": "adj",
+      "zipf": 4.77,
+      "freq_rank": 1409,
+      "ud_count": 9
+    },
+    {
+      "nl": "internationaal",
+      "pos": "adj",
+      "zipf": 4.77,
+      "freq_rank": 1415,
+      "ud_count": 128
+    },
+    {
+      "nl": "laag",
+      "pos": "adj",
+      "zipf": 4.77,
+      "freq_rank": 1419,
+      "ud_count": 66
+    },
+    {
+      "nl": "diep",
+      "pos": "adj",
+      "zipf": 4.76,
+      "freq_rank": 1450,
+      "ud_count": 42
+    },
+    {
+      "nl": "lief",
+      "pos": "adj",
+      "zipf": 4.76,
+      "freq_rank": 1465,
+      "ud_count": 20
+    },
+    {
+      "nl": "vreemd",
+      "pos": "adj",
+      "zipf": 4.76,
+      "freq_rank": 1476,
+      "ud_count": 36
+    },
+    {
+      "nl": "afhankelijk",
+      "pos": "adj",
+      "zipf": 4.74,
+      "freq_rank": 1512,
+      "ud_count": 12
+    },
+    {
+      "nl": "voldoende",
+      "pos": "adj",
+      "zipf": 4.74,
+      "freq_rank": 1543,
+      "ud_count": 30
+    },
+    {
+      "nl": "blauw",
+      "pos": "adj",
+      "zipf": 4.73,
+      "freq_rank": 1549,
+      "ud_count": 14
+    },
+    {
+      "nl": "genaamd",
+      "pos": "adj",
+      "zipf": 4.73,
+      "freq_rank": 1555,
+      "ud_count": 22
+    },
+    {
+      "nl": "hopelijk",
+      "pos": "adj",
+      "zipf": 4.73,
+      "freq_rank": 1558,
+      "ud_count": 3
+    },
+    {
+      "nl": "langzaam",
+      "pos": "adj",
+      "zipf": 4.73,
+      "freq_rank": 1561,
+      "ud_count": 19
+    },
+    {
+      "nl": "nationaal",
+      "pos": "adj",
+      "zipf": 4.73,
+      "freq_rank": 1568,
+      "ud_count": 62
+    },
+    {
+      "nl": "bewust",
+      "pos": "adj",
+      "zipf": 4.72,
+      "freq_rank": 1585,
+      "ud_count": 26
+    },
+    {
+      "nl": "koud",
+      "pos": "adj",
+      "zipf": 4.72,
+      "freq_rank": 1596,
+      "ud_count": 30
+    },
+    {
+      "nl": "verliefd",
+      "pos": "adj",
+      "zipf": 4.72,
+      "freq_rank": 1612,
+      "ud_count": 3
+    },
+    {
+      "nl": "duur",
+      "pos": "adj",
+      "zipf": 4.71,
+      "freq_rank": 1617,
+      "ud_count": 16
+    },
+    {
+      "nl": "gezond",
+      "pos": "adj",
+      "zipf": 4.71,
+      "freq_rank": 1621,
+      "ud_count": 6
+    },
+    {
+      "nl": "werkelijk",
+      "pos": "adj",
+      "zipf": 4.71,
+      "freq_rank": 1640,
+      "ud_count": 24
+    },
+    {
+      "nl": "kapot",
+      "pos": "adj",
+      "zipf": 4.7,
+      "freq_rank": 1653,
+      "ud_count": 9
+    },
+    {
+      "nl": "bereid",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1681,
+      "ud_count": 32
+    },
+    {
+      "nl": "gemakkelijk",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1691,
+      "ud_count": 36
+    },
+    {
+      "nl": "gewond",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1694,
+      "ud_count": 38
+    },
+    {
+      "nl": "positief",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1713,
+      "ud_count": 18
+    },
+    {
+      "nl": "schoon",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1716,
+      "ud_count": 18
+    },
+    {
+      "nl": "simpel",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1717,
+      "ud_count": 12
+    },
+    {
+      "nl": "voornamelijk",
+      "pos": "adj",
+      "zipf": 4.69,
+      "freq_rank": 1730,
+      "ud_count": 45
+    },
+    {
+      "nl": "compleet",
+      "pos": "adj",
+      "zipf": 4.68,
+      "freq_rank": 1741,
+      "ud_count": 26
+    },
+    {
+      "nl": "ontzettend",
+      "pos": "adj",
+      "zipf": 4.68,
+      "freq_rank": 1756,
+      "ud_count": 8
+    },
+    {
+      "nl": "raar",
+      "pos": "adj",
+      "zipf": 4.68,
+      "freq_rank": 1757,
+      "ud_count": 10
+    },
+    {
+      "nl": "dichtbij",
+      "pos": "adj",
+      "zipf": 4.67,
+      "freq_rank": 1776,
+      "ud_count": 9
+    },
+    {
+      "nl": "dom",
+      "pos": "adj",
+      "zipf": 4.67,
+      "freq_rank": 1778,
+      "ud_count": 10
+    },
+    {
+      "nl": "flink",
+      "pos": "adj",
+      "zipf": 4.67,
+      "freq_rank": 1779,
+      "ud_count": 22
+    },
+    {
+      "nl": "leeg",
+      "pos": "adj",
+      "zipf": 4.67,
+      "freq_rank": 1785,
+      "ud_count": 15
+    },
+    {
+      "nl": "tevreden",
+      "pos": "adj",
+      "zipf": 4.66,
+      "freq_rank": 1823,
+      "ud_count": 22
+    },
+    {
+      "nl": "duits",
+      "pos": "adj",
+      "zipf": 4.65,
+      "freq_rank": 1839,
+      "ud_count": 288
+    },
+    {
+      "nl": "eenvoudig",
+      "pos": "adj",
+      "zipf": 4.65,
+      "freq_rank": 1840,
+      "ud_count": 29
+    },
+    {
+      "nl": "onmogelijk",
+      "pos": "adj",
+      "zipf": 4.65,
+      "freq_rank": 1854,
+      "ud_count": 29
+    },
+    {
+      "nl": "populair",
+      "pos": "adj",
+      "zipf": 4.65,
+      "freq_rank": 1855,
+      "ud_count": 33
+    },
+    {
+      "nl": "slim",
+      "pos": "adj",
+      "zipf": 4.65,
+      "freq_rank": 1860,
+      "ud_count": 6
+    },
+    {
+      "nl": "belachelijk",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1873,
+      "ud_count": 5
+    },
+    {
+      "nl": "gezellig",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1882,
+      "ud_count": 8
+    },
+    {
+      "nl": "jaarlijks",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1890,
+      "ud_count": 42
+    },
+    {
+      "nl": "moe",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1894,
+      "ud_count": 9
+    },
+    {
+      "nl": "schuldig",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1899,
+      "ud_count": 13
+    },
+    {
+      "nl": "tijdelijk",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1906,
+      "ud_count": 19
+    },
+    {
+      "nl": "wereldwijd",
+      "pos": "adj",
+      "zipf": 4.64,
+      "freq_rank": 1913,
+      "ud_count": 15
+    },
+    {
+      "nl": "gevaarlijk",
+      "pos": "adj",
+      "zipf": 4.63,
+      "freq_rank": 1921,
+      "ud_count": 20
+    },
+    {
+      "nl": "oorspronkelijk",
+      "pos": "adj",
+      "zipf": 4.63,
+      "freq_rank": 1932,
+      "ud_count": 67
+    },
+    {
+      "nl": "relatief",
+      "pos": "adj",
+      "zipf": 4.62,
+      "freq_rank": 1975,
+      "ud_count": 26
+    },
+    {
+      "nl": "volwassen",
+      "pos": "adj",
+      "zipf": 4.62,
+      "freq_rank": 1992,
+      "ud_count": 7
+    },
+    {
+      "nl": "onmiddellijk",
+      "pos": "adj",
+      "zipf": 4.61,
+      "freq_rank": 2015,
+      "ud_count": 54
+    },
+    {
+      "nl": "europees",
+      "pos": "adj",
+      "zipf": 4.6,
+      "freq_rank": 2040,
+      "ud_count": 105
+    },
+    {
+      "nl": "vreselijk",
+      "pos": "adj",
+      "zipf": 4.6,
+      "freq_rank": 2076,
+      "ud_count": 10
+    },
+    {
+      "nl": "behoorlijk",
+      "pos": "adj",
+      "zipf": 4.59,
+      "freq_rank": 2085,
+      "ud_count": 15
+    },
+    {
+      "nl": "dik",
+      "pos": "adj",
+      "zipf": 4.59,
+      "freq_rank": 2089,
+      "ud_count": 16
+    },
+    {
+      "nl": "houten",
+      "pos": "adj",
+      "zipf": 4.59,
+      "freq_rank": 2099,
+      "ud_count": 16
+    },
+    {
+      "nl": "letterlijk",
+      "pos": "adj",
+      "zipf": 4.59,
+      "freq_rank": 2105,
+      "ud_count": 10
+    },
+    {
+      "nl": "spaans",
+      "pos": "adj",
+      "zipf": 4.59,
+      "freq_rank": 2117,
+      "ud_count": 51
+    },
+    {
+      "nl": "handig",
+      "pos": "adj",
+      "zipf": 4.58,
+      "freq_rank": 2130,
+      "ud_count": 3
+    },
+    {
+      "nl": "ernstig",
+      "pos": "adj",
+      "zipf": 4.57,
+      "freq_rank": 2165,
+      "ud_count": 50
+    },
+    {
+      "nl": "stenen",
+      "pos": "adj",
+      "zipf": 4.56,
+      "freq_rank": 2218,
+      "ud_count": 4
+    },
+    {
+      "nl": "toevallig",
+      "pos": "adj",
+      "zipf": 4.56,
+      "freq_rank": 2221,
+      "ud_count": 8
+    }
+  ]
+}
