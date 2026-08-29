@@ -1,0 +1,22 @@
+[
+  {"id": "ik_wil", "level": "A0", "tags": ["home", "out", "work", "student"], "parts": ["Ik", "wil", "{noun}"], "en": "I want {noun}."},
+  {"id": "ik_heb", "level": "A0", "tags": ["home", "work", "student"], "parts": ["Ik", "heb", "{noun}"], "en": "I have {noun}."},
+  {"id": "ik_zie", "level": "A0", "tags": ["out", "home", "work"], "parts": ["Ik", "zie", "{noun}"], "en": "I see {noun}."},
+  {"id": "waar_is", "level": "A0", "tags": ["out", "work", "student", "home"], "parts": ["Waar", "is", "{noun}"], "en": "Where is {noun}?"},
+  {"id": "dit_is_mijn", "level": "A0", "tags": ["home", "work", "student"], "parts": ["Dit", "is", "mijn", "{noun}"], "en": "This is my {noun}."},
+  {"id": "ik_ga_naar", "level": "A0", "tags": ["out", "work", "student", "home"], "parts": ["Ik", "ga", "naar", "{noun}"], "en": "I am going to {noun}."},
+  {"id": "een_alsjeblieft", "level": "A0", "tags": ["out", "home"], "parts": ["Een", "{noun}", "alsjeblieft"], "en": "A {noun}, please."},
+  {"id": "ik_ben", "level": "A0", "tags": ["work", "student", "home"], "parts": ["Ik", "ben", "{noun}"], "en": "I am {noun}."},
+  {"id": "de_is_adj", "level": "A0", "tags": ["home", "out", "work"], "parts": ["De", "{noun}", "is", "{adj}"], "en": "The {noun} is {adj}."},
+  {"id": "het_is_adj", "level": "A0", "tags": ["home", "out", "work"], "parts": ["Het", "{noun}", "is", "{adj}"], "en": "The {noun} is {adj}."},
+  {"id": "ik_woon_in", "level": "A0", "tags": ["home", "out"], "parts": ["Ik", "woon", "in", "{noun}"], "en": "I live in {noun}."},
+  {"id": "ik_werk_tot", "level": "A1", "tags": ["work"], "parts": ["Ik", "werk", "tot", "{noun}"], "en": "I work until {noun}."},
+  {"id": "ik_studeer", "level": "A1", "tags": ["student"], "parts": ["Ik", "studeer", "{noun}"], "en": "I study {noun}."},
+  {"id": "kun_je", "level": "A1", "tags": ["student", "work", "out"], "parts": ["Kun", "je", "{noun}", "lenen"], "en": "Can you lend {noun}?"},
+  {"id": "ik_moet_naar", "level": "A1", "tags": ["out", "work", "health", "student"], "parts": ["Ik", "moet", "naar", "{noun}"], "en": "I have to go to {noun}."},
+  {"id": "hoe_laat", "level": "A1", "tags": ["out", "work", "student"], "parts": ["Hoe", "laat", "gaat", "de", "{noun}"], "en": "What time does the {noun} leave?"},
+  {"id": "ik_zoek", "level": "A0", "tags": ["out", "work", "home"], "parts": ["Ik", "zoek", "{noun}"], "en": "I am looking for {noun}."},
+  {"id": "ik_koop", "level": "A0", "tags": ["out", "home"], "parts": ["Ik", "koop", "{noun}"], "en": "I am buying {noun}."},
+  {"id": "ik_neem", "level": "A0", "tags": ["out", "work", "student"], "parts": ["Ik", "neem", "{noun}"], "en": "I take {noun}."},
+  {"id": "er_is", "level": "A0", "tags": ["home", "out", "work"], "parts": ["Er", "is", "{noun}"], "en": "There is {noun}."}
+]

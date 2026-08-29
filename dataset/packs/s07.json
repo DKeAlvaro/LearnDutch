@@ -1,0 +1,426 @@
+{
+  "id": "s07",
+  "n": 42,
+  "level": "A0",
+  "tags": [
+    "health"
+  ],
+  "theme": "health: body doctor",
+  "frames": [
+    "ik_heb",
+    "ik_zoek",
+    "waar_is",
+    "ik_ga_naar",
+    "er_is"
+  ],
+  "nouns": [
+    {
+      "nl": "gezicht",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 863,
+      "ud_count": 25,
+      "article": "het"
+    },
+    {
+      "nl": "radio",
+      "pos": "noun",
+      "zipf": 5.02,
+      "freq_rank": 867,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "heer",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 878,
+      "ud_count": 219,
+      "article": "de"
+    },
+    {
+      "nl": "kennis",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 880,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "keuze",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 881,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "plezier",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 882,
+      "ud_count": 7,
+      "article": "het"
+    },
+    {
+      "nl": "slag",
+      "pos": "noun",
+      "zipf": 5.01,
+      "freq_rank": 883,
+      "ud_count": 113,
+      "article": "de"
+    },
+    {
+      "nl": "cultuur",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 886,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "economie",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 889,
+      "ud_count": 64,
+      "article": "de"
+    },
+    {
+      "nl": "hotel",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 894,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "markt",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 896,
+      "ud_count": 52,
+      "article": "de"
+    },
+    {
+      "nl": "samenwerking",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 899,
+      "ud_count": 50,
+      "article": "de"
+    },
+    {
+      "nl": "zomer",
+      "pos": "noun",
+      "zipf": 5.0,
+      "freq_rank": 903,
+      "ud_count": 39,
+      "article": "de"
+    },
+    {
+      "nl": "fout",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 906,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "gesprek",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 911,
+      "ud_count": 31,
+      "article": "het"
+    },
+    {
+      "nl": "lucht",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 913,
+      "ud_count": 49,
+      "article": "de"
+    },
+    {
+      "nl": "publiek",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 916,
+      "ud_count": 74,
+      "article": "het"
+    },
+    {
+      "nl": "val",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 919,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "verschil",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 921,
+      "ud_count": 23,
+      "article": "het"
+    },
+    {
+      "nl": "voetbal",
+      "pos": "noun",
+      "zipf": 4.99,
+      "freq_rank": 922,
+      "ud_count": 29,
+      "article": "het"
+    },
+    {
+      "nl": "brand",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 925,
+      "ud_count": 38,
+      "article": "de"
+    },
+    {
+      "nl": "geslacht",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 927,
+      "ud_count": 5,
+      "article": "het"
+    },
+    {
+      "nl": "haat",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 930,
+      "ud_count": 3,
+      "article": "de"
+    },
+    {
+      "nl": "invloed",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 931,
+      "ud_count": 102,
+      "article": "de"
+    },
+    {
+      "nl": "kunst",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 932,
+      "ud_count": 45,
+      "article": "de"
+    },
+    {
+      "nl": "moord",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 934,
+      "ud_count": 30,
+      "article": "de"
+    },
+    {
+      "nl": "park",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 935,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "sport",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 936,
+      "ud_count": 27,
+      "article": "de"
+    },
+    {
+      "nl": "strijd",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 938,
+      "ud_count": 101,
+      "article": "de"
+    },
+    {
+      "nl": "wk",
+      "pos": "noun",
+      "zipf": 4.98,
+      "freq_rank": 939,
+      "ud_count": 6,
+      "article": "het"
+    },
+    {
+      "nl": "controle",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 941,
+      "ud_count": 16,
+      "article": "de"
+    },
+    {
+      "nl": "geluk",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 944,
+      "ud_count": 14,
+      "article": "het"
+    },
+    {
+      "nl": "koffie",
+      "pos": "noun",
+      "zipf": 4.97,
+      "freq_rank": 947,
+      "ud_count": 16,
+      "article": "de"
+    }
+  ],
+  "verbs": [
+    {
+      "nl": "kijken",
+      "pos": "verb",
+      "zipf": 5.58,
+      "freq_rank": 254,
+      "ud_count": 59
+    },
+    {
+      "nl": "zitten",
+      "pos": "verb",
+      "zipf": 5.56,
+      "freq_rank": 267,
+      "ud_count": 159
+    },
+    {
+      "nl": "eten",
+      "pos": "verb",
+      "zipf": 5.51,
+      "freq_rank": 287,
+      "ud_count": 48
+    },
+    {
+      "nl": "denken",
+      "pos": "verb",
+      "zipf": 5.5,
+      "freq_rank": 294,
+      "ud_count": 151
+    },
+    {
+      "nl": "helpen",
+      "pos": "verb",
+      "zipf": 5.5,
+      "freq_rank": 298,
+      "ud_count": 44
+    },
+    {
+      "nl": "gebruiken",
+      "pos": "verb",
+      "zipf": 5.47,
+      "freq_rank": 319,
+      "ud_count": 150
+    },
+    {
+      "nl": "spelen",
+      "pos": "verb",
+      "zipf": 5.47,
+      "freq_rank": 323,
+      "ud_count": 200
+    },
+    {
+      "nl": "zorgen",
+      "pos": "verb",
+      "zipf": 5.46,
+      "freq_rank": 331,
+      "ud_count": 87
+    },
+    {
+      "nl": "leren",
+      "pos": "verb",
+      "zipf": 5.41,
+      "freq_rank": 365,
+      "ud_count": 43
+    },
+    {
+      "nl": "brengen",
+      "pos": "verb",
+      "zipf": 5.39,
+      "freq_rank": 377,
+      "ud_count": 228
+    },
+    {
+      "nl": "horen",
+      "pos": "verb",
+      "zipf": 5.38,
+      "freq_rank": 384,
+      "ud_count": 110
+    },
+    {
+      "nl": "zetten",
+      "pos": "verb",
+      "zipf": 5.37,
+      "freq_rank": 396,
+      "ud_count": 79
+    }
+  ],
+  "adjs": [
+    {
+      "nl": "leuk",
+      "pos": "adj",
+      "zipf": 5.6,
+      "freq_rank": 243,
+      "ud_count": 31
+    },
+    {
+      "nl": "vaak",
+      "pos": "adj",
+      "zipf": 5.6,
+      "freq_rank": 245,
+      "ud_count": 145
+    },
+    {
+      "nl": "groot",
+      "pos": "adj",
+      "zipf": 5.59,
+      "freq_rank": 248,
+      "ud_count": 900
+    },
+    {
+      "nl": "natuurlijk",
+      "pos": "adj",
+      "zipf": 5.59,
+      "freq_rank": 249,
+      "ud_count": 84
+    },
+    {
+      "nl": "mooi",
+      "pos": "adj",
+      "zipf": 5.58,
+      "freq_rank": 255,
+      "ud_count": 70
+    },
+    {
+      "nl": "online",
+      "pos": "adj",
+      "zipf": 5.55,
+      "freq_rank": 270,
+      "ud_count": 7
+    },
+    {
+      "nl": "klaar",
+      "pos": "adj",
+      "zipf": 5.51,
+      "freq_rank": 288,
+      "ud_count": 28
+    },
+    {
+      "nl": "nieuw",
+      "pos": "adj",
+      "zipf": 5.51,
+      "freq_rank": 290,
+      "ud_count": 494
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "id": "s02",
+  "n": 42,
+  "level": "A0",
+  "tags": [
+    "home"
+  ],
+  "theme": "home: house rooms family",
+  "frames": [
+    "dit_is_mijn",
+    "waar_is",
+    "de_is_adj",
+    "het_is_adj",
+    "ik_zoek"
+  ],
+  "nouns": [
+    {
+      "nl": "gebruik",
+      "pos": "noun",
+      "zipf": 5.5,
+      "freq_rank": 297,
+      "ud_count": 74,
+      "article": "het"
+    },
+    {
+      "nl": "hoop",
+      "pos": "noun",
+      "zipf": 5.5,
+      "freq_rank": 299,
+      "ud_count": 33,
+      "article": "de"
+    },
+    {
+      "nl": "beetje",
+      "pos": "noun",
+      "zipf": 5.49,
+      "freq_rank": 304,
+      "ud_count": 41,
+      "article": "het"
+    },
+    {
+      "nl": "groep",
+      "pos": "noun",
+      "zipf": 5.49,
+      "freq_rank": 308,
+      "ud_count": 183,
+      "article": "de"
+    },
+    {
+      "nl": "auto",
+      "pos": "noun",
+      "zipf": 5.48,
+      "freq_rank": 313,
+      "ud_count": 61,
+      "article": "de"
+    },
+    {
+      "nl": "school",
+      "pos": "noun",
+      "zipf": 5.48,
+      "freq_rank": 314,
+      "ud_count": 93,
+      "article": "de"
+    },
+    {
+      "nl": "film",
+      "pos": "noun",
+      "zipf": 5.47,
+      "freq_rank": 318,
+      "ud_count": 280,
+      "article": "de"
+    },
+    {
+      "nl": "onderzoek",
+      "pos": "noun",
+      "zipf": 5.46,
+      "freq_rank": 327,
+      "ud_count": 62,
+      "article": "het"
+    },
+    {
+      "nl": "informatie",
+      "pos": "noun",
+      "zipf": 5.45,
+      "freq_rank": 333,
+      "ud_count": 29,
+      "article": "de"
+    },
+    {
+      "nl": "probleem",
+      "pos": "noun",
+      "zipf": 5.44,
+      "freq_rank": 339,
+      "ud_count": 110,
+      "article": "het"
+    },
+    {
+      "nl": "video",
+      "pos": "noun",
+      "zipf": 5.44,
+      "freq_rank": 341,
+      "ud_count": 4,
+      "article": "de"
+    },
+    {
+      "nl": "vader",
+      "pos": "noun",
+      "zipf": 5.43,
+      "freq_rank": 348,
+      "ud_count": 75,
+      "article": "de"
+    },
+    {
+      "nl": "artikel",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 354,
+      "ud_count": 63,
+      "article": "het"
+    },
+    {
+      "nl": "begin",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 355,
+      "ud_count": 165,
+      "article": "het"
+    },
+    {
+      "nl": "gebied",
+      "pos": "noun",
+      "zipf": 5.42,
+      "freq_rank": 356,
+      "ud_count": 218,
+      "article": "het"
+    },
+    {
+      "nl": "idee",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 364,
+      "ud_count": 56,
+      "article": "het"
+    },
+    {
+      "nl": "moeder",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 366,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "regio",
+      "pos": "noun",
+      "zipf": 5.41,
+      "freq_rank": 368,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "verhaal",
+      "pos": "noun",
+      "zipf": 5.4,
+      "freq_rank": 376,
+      "ud_count": 129,
+      "article": "het"
+    },
+    {
+      "nl": "kans",
+      "pos": "noun",
+      "zipf": 5.39,
+      "freq_rank": 379,
+      "ud_count": 82,
+      "article": "de"
+    },
+    {
+      "nl": "hand",
+      "pos": "noun",
+      "zipf": 5.38,
+      "freq_rank": 383,
+      "ud_count": 164,
+      "article": "de"
+    },
+    {
+      "nl": "meisje",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 391,
+      "ud_count": 45,
+      "article": "het"
+    },
+    {
+      "nl": "muziek",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 392,
+      "ud_count": 49,
+      "article": "de"
+    },
+    {
+      "nl": "zoon",
+      "pos": "noun",
+      "zipf": 5.37,
+      "freq_rank": 397,
+      "ud_count": 101,
+      "article": "de"
+    },
+    {
+      "nl": "hoofd",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 400,
+      "ud_count": 45,
+      "article": "het"
+    },
+    {
+      "nl": "kind",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 401,
+      "ud_count": 198,
+      "article": "het"
+    },
+    {
+      "nl": "zorg",
+      "pos": "noun",
+      "zipf": 5.36,
+      "freq_rank": 405,
+      "ud_count": 31,
+      "article": "de"
+    },
+    {
+      "nl": "boek",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 407,
+      "ud_count": 167,
+      "article": "het"
+    },
+    {
+      "nl": "dank",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 408,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "gemeente",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 410,
+      "ud_count": 175,
+      "article": "de"
+    },
+    {
+      "nl": "team",
+      "pos": "noun",
+      "zipf": 5.35,
+      "freq_rank": 417,
+      "ud_count": 31,
+      "article": "het"
+    },
+    {
+      "nl": "druk",
+      "pos": "noun",
+      "zipf": 5.34,
+      "freq_rank": 422,
+      "ud_count": 63,
+      "article": "de"
+    },
+    {
+      "nl": "geval",
+      "pos": "noun",
+      "zipf": 5.33,
+      "freq_rank": 435,
+      "ud_count": 81,
+      "article": "het"
+    }
+  ],
+  "verbs": [
+    {
+      "nl": "zien",
+      "pos": "verb",
+      "zipf": 6.05,
+      "freq_rank": 89,
+      "ud_count": 571
+    },
+    {
+      "nl": "komen",
+      "pos": "verb",
+      "zipf": 5.95,
+      "freq_rank": 110,
+      "ud_count": 1017
+    },
+    {
+      "nl": "laten",
+      "pos": "verb",
+      "zipf": 5.88,
+      "freq_rank": 125,
+      "ud_count": 334
+    },
+    {
+      "nl": "willen",
+      "pos": "verb",
+      "zipf": 5.81,
+      "freq_rank": 146,
+      "ud_count": 539
+    },
+    {
+      "nl": "geven",
+      "pos": "verb",
+      "zipf": 5.75,
+      "freq_rank": 163,
+      "ud_count": 348
+    },
+    {
+      "nl": "vinden",
+      "pos": "verb",
+      "zipf": 5.75,
+      "freq_rank": 167,
+      "ud_count": 314
+    },
+    {
+      "nl": "weten",
+      "pos": "verb",
+      "zipf": 5.73,
+      "freq_rank": 182,
+      "ud_count": 255
+    },
+    {
+      "nl": "krijgen",
+      "pos": "verb",
+      "zipf": 5.72,
+      "freq_rank": 184,
+      "ud_count": 429
+    },
+    {
+      "nl": "staan",
+      "pos": "verb",
+      "zipf": 5.71,
+      "freq_rank": 190,
+      "ud_count": 393
+    },
+    {
+      "nl": "zeggen",
+      "pos": "verb",
+      "zipf": 5.71,
+      "freq_rank": 191,
+      "ud_count": 419
+    },
+    {
+      "nl": "houden",
+      "pos": "verb",
+      "zipf": 5.67,
+      "freq_rank": 206,
+      "ud_count": 288
+    },
+    {
+      "nl": "blijven",
+      "pos": "verb",
+      "zipf": 5.66,
+      "freq_rank": 208,
+      "ud_count": 346
+    }
+  ],
+  "adjs": [
+    {
+      "nl": "heel",
+      "pos": "adj",
+      "zipf": 6.0,
+      "freq_rank": 99,
+      "ud_count": 312
+    },
+    {
+      "nl": "gewoon",
+      "pos": "adj",
+      "zipf": 5.85,
+      "freq_rank": 132,
+      "ud_count": 76
+    },
+    {
+      "nl": "laat",
+      "pos": "adj",
+      "zipf": 5.84,
+      "freq_rank": 137,
+      "ud_count": 617
+    },
+    {
+      "nl": "eigen",
+      "pos": "adj",
+      "zipf": 5.81,
+      "freq_rank": 143,
+      "ud_count": 222
+    },
+    {
+      "nl": "één",
+      "pos": "adj",
+      "zipf": 5.77,
+      "freq_rank": 157,
+      "ud_count": 712
+    },
+    {
+      "nl": "snel",
+      "pos": "adj",
+      "zipf": 5.74,
+      "freq_rank": 170,
+      "ud_count": 198
+    },
+    {
+      "nl": "nodig",
+      "pos": "adj",
+      "zipf": 5.73,
+      "freq_rank": 178,
+      "ud_count": 82
+    },
+    {
+      "nl": "erg",
+      "pos": "adj",
+      "zipf": 5.71,
+      "freq_rank": 189,
+      "ud_count": 125
+    }
+  ]
+}

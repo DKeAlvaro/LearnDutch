@@ -1,0 +1,426 @@
+{
+  "id": "s21",
+  "n": 42,
+  "level": "A0",
+  "tags": [
+    "home"
+  ],
+  "theme": "home: live city",
+  "frames": [
+    "ik_woon_in",
+    "ik_ga_naar",
+    "waar_is",
+    "er_is",
+    "dit_is_mijn"
+  ],
+  "nouns": [
+    {
+      "nl": "rand",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2336,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "theater",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2340,
+      "ud_count": 19,
+      "article": "het"
+    },
+    {
+      "nl": "uitzending",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2341,
+      "ud_count": 19,
+      "article": "de"
+    },
+    {
+      "nl": "uitzondering",
+      "pos": "noun",
+      "zipf": 4.53,
+      "freq_rank": 2342,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "aanslag",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2350,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "commentaar",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2359,
+      "ud_count": 20,
+      "article": "het"
+    },
+    {
+      "nl": "eigendom",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2366,
+      "ud_count": 11,
+      "article": "het"
+    },
+    {
+      "nl": "fase",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2368,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "kast",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2378,
+      "ud_count": 8,
+      "article": "de"
+    },
+    {
+      "nl": "maan",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2382,
+      "ud_count": 15,
+      "article": "de"
+    },
+    {
+      "nl": "student",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2387,
+      "ud_count": 65,
+      "article": "de"
+    },
+    {
+      "nl": "tentoonstelling",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2390,
+      "ud_count": 24,
+      "article": "de"
+    },
+    {
+      "nl": "uitleg",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2394,
+      "ud_count": 6,
+      "article": "de"
+    },
+    {
+      "nl": "virus",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2396,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "visie",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2397,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "zwembad",
+      "pos": "noun",
+      "zipf": 4.52,
+      "freq_rank": 2399,
+      "ud_count": 6,
+      "article": "het"
+    },
+    {
+      "nl": "dokter",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2409,
+      "ud_count": 20,
+      "article": "de"
+    },
+    {
+      "nl": "gevecht",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2413,
+      "ud_count": 22,
+      "article": "het"
+    },
+    {
+      "nl": "komst",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2416,
+      "ud_count": 17,
+      "article": "de"
+    },
+    {
+      "nl": "kunstenaar",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2417,
+      "ud_count": 37,
+      "article": "de"
+    },
+    {
+      "nl": "leraar",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2418,
+      "ud_count": 28,
+      "article": "de"
+    },
+    {
+      "nl": "lied",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2419,
+      "ud_count": 48,
+      "article": "het"
+    },
+    {
+      "nl": "literatuur",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2421,
+      "ud_count": 22,
+      "article": "de"
+    },
+    {
+      "nl": "logo",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2422,
+      "ud_count": 3,
+      "article": "het"
+    },
+    {
+      "nl": "monument",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2423,
+      "ud_count": 18,
+      "article": "het"
+    },
+    {
+      "nl": "papier",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2430,
+      "ud_count": 13,
+      "article": "het"
+    },
+    {
+      "nl": "patiënt",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2431,
+      "ud_count": 13,
+      "article": "de"
+    },
+    {
+      "nl": "stilte",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2433,
+      "ud_count": 7,
+      "article": "de"
+    },
+    {
+      "nl": "toernooi",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2435,
+      "ud_count": 27,
+      "article": "het"
+    },
+    {
+      "nl": "traditie",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2436,
+      "ud_count": 43,
+      "article": "de"
+    },
+    {
+      "nl": "wezen",
+      "pos": "noun",
+      "zipf": 4.51,
+      "freq_rank": 2440,
+      "ud_count": 9,
+      "article": "het"
+    },
+    {
+      "nl": "analyse",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2444,
+      "ud_count": 10,
+      "article": "de"
+    },
+    {
+      "nl": "assistent",
+      "pos": "noun",
+      "zipf": 4.5,
+      "freq_rank": 2445,
+      "ud_count": 6,
+      "article": "de"
+    }
+  ],
+  "verbs": [
+    {
+      "nl": "stoppen",
+      "pos": "verb",
+      "zipf": 5.1,
+      "freq_rank": 726,
+      "ud_count": 33
+    },
+    {
+      "nl": "kennen",
+      "pos": "verb",
+      "zipf": 5.08,
+      "freq_rank": 753,
+      "ud_count": 107
+    },
+    {
+      "nl": "noemen",
+      "pos": "verb",
+      "zipf": 5.08,
+      "freq_rank": 757,
+      "ud_count": 424
+    },
+    {
+      "nl": "kiezen",
+      "pos": "verb",
+      "zipf": 5.07,
+      "freq_rank": 774,
+      "ud_count": 97
+    },
+    {
+      "nl": "schrijven",
+      "pos": "verb",
+      "zipf": 5.07,
+      "freq_rank": 776,
+      "ud_count": 143
+    },
+    {
+      "nl": "slapen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 789,
+      "ud_count": 63
+    },
+    {
+      "nl": "stemmen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 792,
+      "ud_count": 26
+    },
+    {
+      "nl": "sturen",
+      "pos": "verb",
+      "zipf": 5.06,
+      "freq_rank": 793,
+      "ud_count": 57
+    },
+    {
+      "nl": "ontvangen",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 835,
+      "ud_count": 65
+    },
+    {
+      "nl": "spreken",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 841,
+      "ud_count": 103
+    },
+    {
+      "nl": "voelen",
+      "pos": "verb",
+      "zipf": 5.04,
+      "freq_rank": 843,
+      "ud_count": 58
+    },
+    {
+      "nl": "gebeuren",
+      "pos": "verb",
+      "zipf": 5.03,
+      "freq_rank": 849,
+      "ud_count": 109
+    }
+  ],
+  "adjs": [
+    {
+      "nl": "vol",
+      "pos": "adj",
+      "zipf": 5.34,
+      "freq_rank": 429,
+      "ud_count": 41
+    },
+    {
+      "nl": "moeilijk",
+      "pos": "adj",
+      "zipf": 5.32,
+      "freq_rank": 445,
+      "ud_count": 71
+    },
+    {
+      "nl": "bezig",
+      "pos": "adj",
+      "zipf": 5.31,
+      "freq_rank": 452,
+      "ud_count": 39
+    },
+    {
+      "nl": "klein",
+      "pos": "adj",
+      "zipf": 5.3,
+      "freq_rank": 458,
+      "ud_count": 214
+    },
+    {
+      "nl": "juist",
+      "pos": "adj",
+      "zipf": 5.26,
+      "freq_rank": 497,
+      "ud_count": 68
+    },
+    {
+      "nl": "hetzelfde",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 519,
+      "ud_count": 27
+    },
+    {
+      "nl": "slecht",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 526,
+      "ud_count": 78
+    },
+    {
+      "nl": "waarschijnlijk",
+      "pos": "adj",
+      "zipf": 5.24,
+      "freq_rank": 530,
+      "ud_count": 81
+    }
+  ]
+}
