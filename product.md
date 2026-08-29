@@ -25,11 +25,13 @@ That is a weight on tags, not an account. Changeable later from a tiny gear. Ski
 
 ### Every other time
 
-1. Open the app. A Dutch sentence is already there. English under it. No grading, no “did you know it?”.
-2. One word is a chip (the slot). Tap it → 4–6 swaps, same frame, still Dutch. The line updates. If they paid, it plays.
-3. Play (speaker). Locked until IAP; then it just plays.
-4. Next. Next sentence, same band, biased to their tags.
-5. Close whenever. Progress is “which sentences you’ve seen”, on device.
+1. English is the prompt. Dutch has a hole. Four chips. That is the answer.
+2. Wrong chip: it dies, stay. Right chip: the word drops in. Next unlocks.
+3. After a hit, the other chips still swap (same frame, hear variants). Optional. The work was picking the right one.
+4. Speaker plays the filled line (IAP). Silent until they answered — no spoiler.
+5. Next. Close whenever.
+
+Tap-tap without a hole is browsing, not practice. Same screen, one extra rule.
 
 Every ~20 Next: one optional chip row — **More of this?** / **Something else**. Yes bumps the current tag. Something else shows the four chips again. Skip = ignore. This is the only “thinking” after day one.
 
@@ -37,7 +39,7 @@ Frequency bands, not chapters. Band 1 = most common fills. They do not pick a le
 
 ### What they never do
 
-Rate cards. Build a deck. Read a grammar note. Make a profile. Speak into a mic.
+Rate Again/Good/Easy. Type. Speak into a mic. Read a grammar note. Make a profile.
 
 ## How it looks
 

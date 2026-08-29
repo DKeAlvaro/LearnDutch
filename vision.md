@@ -10,7 +10,7 @@ Stukje was a book cut into pieces. This is not a book.
 
 The product is the dataset. The app is a dumb player.
 
-One phrase on screen. Hear it (audio shipped in the app). Swap a slot — usually a noun — and the sentence is still Dutch. Next. Frequency order, not chapters: common words first.
+One phrase on screen. English is the prompt, Dutch has a hole, chips are the answer. After a hit, swap the slot to hear variants. Next. Frequency order, not chapters.
 
 No restaurant scene. No “this is the accusative”. No can-do list. If it needs an explanation, it is not in the dataset.
 

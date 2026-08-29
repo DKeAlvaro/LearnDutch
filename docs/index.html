@@ -53,11 +53,14 @@
       font-weight: 400;
     }
     .nl .slot {
-      display: inline;
+      display: inline-block;
+      min-width: 4.5ch;
       border-bottom: 3px solid var(--accent);
-      cursor: pointer;
       font-style: italic;
+      line-height: 1;
     }
+    .nl .slot.empty { color: transparent; min-width: 6ch; }
+    .alts button.no { background: transparent; color: var(--muted); border-style: dashed; }
     .en { font-family: system-ui, sans-serif; font-size: 16px; color: var(--muted); }
     .alts {
       display: flex;
@@ -122,7 +125,7 @@
           <button data-who="home">Home</button>
           <button data-who="out">Out</button>
         </div>
-        <p class="hint">Three taps. Then you just drill. Change it later.</p>
+        <p class="hint">Then you fill the hole. That’s the whole app.</p>
       </div>
     </div>
 
@@ -188,27 +191,62 @@
     const countEl = document.getElementById("count");
     const whoBtn = document.getElementById("whoBtn");
     const playBtn = document.getElementById("play");
+    const nextBtn = document.getElementById("next");
     let who = "student";
     let i = 0;
     let seen = 0;
     let paid = false;
+    let answered = false;
+    let picked = null;
+    let order = [];
 
     function card() {
       const pack = DECK[who];
       return pack[i % pack.length];
     }
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let k = a.length - 1; k > 0; k--) {
+        const j = Math.floor(Math.random() * (k + 1));
+        [a[k], a[j]] = [a[j], a[k]];
+      }
+      return a;
+    }
+    function deal() {
+      answered = false;
+      picked = null;
+      order = shuffle(card().alts);
+      nextBtn.disabled = true;
+      nextBtn.style.opacity = ".35";
+    }
     function render() {
       const c = card();
       const pack = DECK[who];
-      nlEl.innerHTML = c.nl.replace("{slot}", `<span class="slot" id="slot">${c.slot}</span>`);
+      const show = answered ? (picked || c.slot) : "";
+      const slotClass = show ? "slot" : "slot empty";
+      nlEl.innerHTML = c.nl.replace("{slot}", `<span class="${slotClass}">${show || "xx"}</span>`);
       enEl.textContent = c.en.replace("{slot}", c.slot);
       altsEl.innerHTML = "";
-      c.alts.forEach((w) => {
+      order.forEach((w) => {
         const b = document.createElement("button");
         b.textContent = w;
-        if (w === c.slot) b.className = "on";
+        if (answered && w === picked) b.className = "on";
+        if (answered && w !== c.slot && w !== picked) b.className = "no";
         b.onclick = () => {
-          c.slot = w;
+          if (!answered) {
+            picked = w;
+            answered = w === c.slot;
+            if (!answered) {
+              b.className = "no";
+              picked = null;
+              return;
+            }
+            nextBtn.disabled = false;
+            nextBtn.style.opacity = "1";
+            render();
+            return;
+          }
+          picked = w;
           render();
         };
         altsEl.appendChild(b);
@@ -220,16 +258,18 @@
       whoEl.classList.remove("on");
       adaptEl.classList.remove("on");
       drillEl.classList.add("on");
+      deal();
       render();
     }
     document.querySelectorAll("[data-who]").forEach((b) => {
-      b.onclick = () => { who = b.dataset.who; i = 0; showDrill(); };
+      b.onclick = () => { who = b.dataset.who; i = 0; seen = 0; showDrill(); };
     });
     whoBtn.onclick = () => {
       drillEl.classList.remove("on");
       whoEl.classList.add("on");
     };
-    document.getElementById("next").onclick = () => {
+    nextBtn.onclick = () => {
+      if (!answered) return;
       i += 1;
       seen += 1;
       if (seen > 0 && seen % 4 === 0) {
@@ -237,15 +277,15 @@
         adaptEl.classList.add("on");
         return;
       }
+      deal();
       render();
     };
     playBtn.onclick = () => {
+      if (!answered) return;
       if (!paid) {
         paid = true;
         playBtn.classList.remove("locked");
-        playBtn.textContent = "▶";
         playBtn.title = "Unlocked (mock)";
-        return;
       }
     };
     document.getElementById("moreYes").onclick = showDrill;
