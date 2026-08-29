@@ -2,42 +2,46 @@
 
 updated: 2026-08-29
 
-App nativa para aprender holandés desde 0. Una ficha, un uso: holandés. No web, no catálogo, no “plataforma de libros”.
+Native app to learn Dutch from zero. One listing, one job: Dutch. Not a website, not a book catalogue, not a “content platform”.
 
-Stukje fue el prototipo del formato (trozos, progreso, diálogos/vocab/reglas como bloques). El contenido era *Dutch For Dummies*: no se publica. Learn Dutch es el producto.
+Stukje was the format prototype (bite-size pieces, progress, dialogues / vocab / rules as blocks). Its content was *Dutch For Dummies* and cannot ship. Learn Dutch is the product.
 
-## Contenido
+## Content
 
-Coger de internet una fuente ya estructurada — libro abierto u otro material con licencia clara — que sea un **currículum desde 0**, y convertirla en la app.
+Take a structured source on the internet — an open book or other material with a clear licence — that is a **from-zero curriculum**, and turn it into the app.
 
-No un dump de frases. No un PDF partido por páginas. Una secuencia de lecciones.
+Not a phrase dump. Not a PDF sliced by page. A sequence of lessons.
 
-Criterios para elegir fuente (aún no está elegida; es el primer paso):
+Source criteria:
 
-- Empieza en cero (A0 → A1/A2).
-- Licencia que permita app en Play y uso en la UE. Gutenberg USA no basta (aquí es vida del autor + 70).
-- Ya viene en piezas útiles: diálogos, vocabulario, reglas. Si solo hay prosa, no sirve.
-- Se puede defender en un listing: “curso de holandés”, no “este PDF en un WebView”.
+- Starts at zero (A0 → A1/A2).
+- Licence that allows a Play app and use in the EU. US Gutenberg is not enough (here it is life of the author + 70).
+- Already in useful pieces: dialogues, vocabulary, rules. Prose-only does not work.
+- Defensible in a store listing as “a Dutch course”, not “this PDF in a WebView”.
 
-## Forma
+PDF is fine if it converts to JSON the way Stukje did. “Free to look at” is not a licence.
 
-Lo que Stukje ya demostró y se queda: leer de uno en uno, marcar, volver mañana. UI pequeña, con carácter.
+Chosen spine: Wikibooks Dutch, beginner cycles. See `sources.md`.
 
-Lo que se añade, y poco más:
+## Shape
 
-- Audio de frases y diálogos **metido en la app**, generado en el build (TTS de calidad, una vez). El teléfono no llama a ninguna API al pulsar play.
-- Se lee gratis. Oír se paga una vez (IAP, Play Billing). No suscripción.
+What Stukje already proved, and stays: one piece at a time, tick it off, come back tomorrow. Small UI, with character.
 
-Nada de cuentas, rachas, SRS, notas, buscador, chat, “escribe y óyela”. Si no cabe en ese párrafo, no va en esta versión.
+What gets added, and little else:
 
-## No es
+- Audio for phrases and dialogues **shipped in the app**, generated at build time (quality TTS, once). The phone does not call an API on play.
+- Reading is free. Hearing is a one-time IAP (Play Billing). No subscription.
 
-- Stukje con otro nombre y el Dummies dentro.
-- Una app por cada libro o idioma clonado con el mismo shell.
-- Duolingo. El valor es el currículum bien cortado + oír holandés de verdad, offline.
+No accounts, streaks, SRS, notes, search, chat, or “type a sentence and hear it”. If it does not fit in this paragraph, it is not in this version.
 
-Si más adelante hay recetas u otro idioma, es otro producto, otro nombre, otra UX.
+## Not
 
-## Dónde vive
+- Stukje renamed with Dummies still inside.
+- One app per book, or cloned shells per language.
+- Duolingo. The value is a well-cut curriculum plus real Dutch audio, offline.
 
-`/root/LearnDutch` — este archivo es la brújula. Stukje (`/root/stukje`, repo `DKeAlvaro/stukje`) se queda como prototipo del formato, no como producto.
+If there is a recipes app or another language later, that is another product, another name, another UX.
+
+## Where
+
+`/root/LearnDutch` — this file is the compass. Stukje (`/root/stukje`, `DKeAlvaro/stukje`) stays as the format prototype, not the product.

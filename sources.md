@@ -1,58 +1,58 @@
-# Fuentes de currículum
+# Curriculum sources
 
 updated: 2026-08-29
 
-PDF vale: se convierte a JSON como Stukje. “Gratis de mirar” no vale. Hace falta licencia que permita app con IAP en la UE.
+A PDF is usable: convert to JSON like Stukje. “Free to browse” is not enough. The licence has to allow an IAP app in the EU.
 
-## Recomendada: Wikibooks Dutch
+## Recommended: Wikibooks Dutch
 
 https://en.wikibooks.org/wiki/Dutch
 
-Currículum de verdad, desde 0, en inglés para angloparlantes. Tres tipos de lección: conversación+gramática, práctica, cultural. Beginner = 8 lecciones principales + 8 de práctica + ejemplos + quizzes (~1000 palabras). Intermediate y advanced encima. Marcado “completed”.
+A real from-zero curriculum for English speakers. Three lesson types: conversation + grammar, practice, cultural. Beginner = 8 main lessons + 8 practice + examples + quizzes (~1000 words). Intermediate and advanced on top. Marked “completed”.
 
-Licencia: **CC BY-SA 4.0**. Comercial sí. Hay que atribuir (enlace al libro) y el **contenido** adaptado sale también CC BY-SA. El código de la app no. IAP no choca con eso.
+Licence: **CC BY-SA 4.0**. Commercial use is allowed. Attribution required (link the book). Adapted **content** must also be CC BY-SA. App code does not. IAP does not conflict with that.
 
-Formato: HTML, no PDF. Más limpio de parsear que un escaneo. Audio wiki (ogg) irregular; mejor TTS propio sobre las frases, como estaba previsto.
+Format: HTML, not PDF. Cleaner to parse than a scan. Wiki audio (ogg) is uneven; generate our own TTS on the Dutch strings, as planned.
 
-Huecos: calidad de wiki (algunas lecciones avanzadas más flacas). La lección 1 se enrolla con pedagogía antes del holandés. Trucos de hover no sirven en app.
+Gaps: wiki quality (some later lessons are thinner). Lesson 1 talks pedagogy before Dutch. Hover tricks do not belong in the app.
 
-Para v1 basta **Cycle 1–2** (les 1–8 + 1A–8A + vocabulario + alfabeto). Eso es A0→A1.
+For v1, **Cycle 1–2** is enough (lessons 1–8 + 1A–8A + vocabulary + alphabet). That is A0→A1.
 
-## Alternativa PD: DLI Dutch (~1961)
+## Public-domain alternative: DLI Dutch (~1961)
 
 https://fsi-languages.yojik.eu/languages/DLI/DLI-Dutch.html  
-También: https://archive.org/details/BookITape2325SideA (Public Domain Mark 1.0)
+Also: https://archive.org/details/BookITape2325SideA (Public Domain Mark 1.0)
 
-Curso del Defense Language Institute: 4 libros PDF + decenas de cintas. Diálogos, drills, desde 0. Obra del gobierno de EE.UU. → sin copyright en EE.UU.; en NL suele caer por el plazo más corto. La más limpia legalmente. Audio **nativo** ya existe (calidad cassette).
+Defense Language Institute course: 4 PDF books + dozens of tapes. Dialogues, drills, from zero. US government work → no copyright in the US; in the Netherlands it usually falls under the shorter term. Cleanest legally. **Native** audio already exists (cassette quality).
 
-Formato: PDF (el pipeline de Stukje). Corpus grande.
+Format: PDF (Stukje pipeline). Large corpus.
 
-Huecos: holandés de los 60 (florines, registro de diplomáticos/militares). No es el holandés de 2026. OCR de escaneos. Si se usa el audio original, hay que recortarlo por lección; si no, TTS sobre el texto.
+Gaps: 1960s Dutch (guilders, diplomatic/military register). Not 2026 Dutch. OCR of scans. Original audio has to be cut per lesson; otherwise TTS the text.
 
-Usar si se prefiere dominio público puro y no share-alike. No mezclar el texto DLI *dentro* de un derivado de Wikibooks si se quiere un producto 100 % PD; al revés (PD dentro de CC-BY-SA) sí se puede.
+Use this if pure public domain (no share-alike) is the goal. Do not fold DLI **text** into a Wikibooks derivative if the product should stay 100% PD. The other way (PD inside CC BY-SA) is fine.
 
-## Solo como extra, no como curso
+## Extra only, not a course
 
-Gramáticas del XIX, PDF, dominio público si el autor murió antes de 1956:
+19th-century grammars, PDF, public domain if the author died before 1956:
 
 - J. B. van Hasendonck, *A grammar of the Dutch language*, 1823  
   https://archive.org/details/grammarofdutchla00hase
 - Van der Pyl, *A Practical Grammar of the Dutch Language*, 1819
 
-Sirven de ejercicios/reglas viejas, no de currículum desde 0. El holandés no es el de ahora.
+Useful as old drills/rules, not as a from-zero curriculum. The Dutch is not current.
 
-Elffers, *Commercial Dutch Grammar*, 1896: nacido 1858; sin fecha de muerte clara → **no usar** en la UE hasta comprobarla.
+Elffers, *Commercial Dutch Grammar*, 1896: born 1858; death date unclear → **do not use** in the EU until that is checked.
 
-## No usar (aunque estén en Internet Archive)
+## Do not use (even if they sit on Internet Archive)
 
-Teach Yourself, Colloquial, *Dutch for Dummies*, CODE+, Delftse Methode, LINK+, Boom. Copyright vigente. Que alguien haya subido el PDF no da licencia.
+Teach Yourself, Colloquial, *Dutch for Dummies*, CODE+, Delftse Methode, LINK+, Boom. Still in copyright. A leaked PDF is not a licence.
 
-Tampoco: Naar Nederland (gratis para el alumno, no para republicar), MOOC de Groningen/FutureLearn, learndutch.org, dutchfromzero.com, dutchgrammar.com, *A Practical Dutch Grammar* de Yolande Spaans (el inglés se vende; “PDF gratis” ≠ meterlo en una app de pago). NT2 TaalMenu: ejercicios útiles, sin licencia abierta.
+Also not: Naar Nederland (free for the learner, not for republishing), Groningen/FutureLearn MOOC, learndutch.org, dutchfromzero.com, dutchgrammar.com, Yolande Spaans *A Practical Dutch Grammar* (English edition is sold; a free translation PDF is not a right to ship it in a paid app). NT2 TaalMenu: useful exercises, no open licence.
 
-Taalunie [NT2-leerdoelen](https://nt2-leerdoelen.org/) es un mapa de objetivos, no lecciones.
+Taalunie [NT2-leerdoelen](https://nt2-leerdoelen.org/) is a map of goals, not lessons.
 
-## Decisión
+## Decision
 
-**Espina: Wikibooks Dutch, beginner (les 1–8 + práctica).** Audio TTS en build. Créditos CC BY-SA en el About.
+**Spine: Wikibooks Dutch, beginner (lessons 1–8 + practice).** TTS audio at build. CC BY-SA credit in About.
 
-DLI queda como plan B (PD + cintas) o como pack de listening extra, sin fusionar textos.
+DLI is plan B (PD + tapes) or a later listening pack, without merging texts.
